@@ -424,4 +424,42 @@
 		height: 100%;
 		object-fit: cover;
 	}
+
+	.home__prose-highlight {
+		padding-left: 1.15rem;
+		border-left: 3px solid var(--accent-orange, var(--magenta));
+	}
+
+	.home__prose-highlight h1 {
+		margin: 0 0 1rem;
+		font-family: var(--font-display);
+		font-size: clamp(1.15rem, 2.4vw, 1.45rem);
+		font-weight: 700;
+		line-height: 1.3;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: var(--accent-orange, var(--magenta));
+	}
+
+	.home__prose-highlight p {
+		margin: 0 0 0.85rem;
+		max-width: 52rem;
+		font-size: 0.9375rem;
+		line-height: 1.65;
+		color: var(--ink-muted);
+	}
+
+	.home__prose-highlight p:last-child {
+		margin-bottom: 0;
+	}
+
+	.home__prose-highlight a {
+		color: var(--accent-orange, var(--magenta-soft));
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.home__prose-highlight a:hover {
+		color: var(--accent-hover, var(--magenta-soft));
+	}
 }
