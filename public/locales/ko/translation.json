@@ -1,15 +1,15 @@
 {
   "nav": {
-    "home": "Inicio",
+    "home": "홈",
     "hacks": "Hacks",
     "aimbot": "Aimbot",
     "esp": "ESP",
-    "features": "Funciones",
-    "pricing": "Precios",
-    "setup": "Instalación",
-    "updates": "Actualizaciones",
+    "features": "기능",
+    "pricing": "가격",
+    "setup": "설치",
+    "updates": "업데이트",
     "faq": "FAQ",
-    "buyNow": "Comprar",
+    "buyNow": "구매하기",
     "preview": "Cheats",
     "store": "Store",
     "status": "Status",
@@ -20,12 +20,12 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Trucos Arc Raiders indetectables",
+    "accent": "Undetected Arc Raiders 치트",
     "accentShort": "Arc Raiders Cheats",
-    "subtitle": "ESP wallhack, radar hack y Aimbot para Arc Raiders en PC Windows — mantenimiento Easy Anti-Cheat incluido.",
-    "subtitleShort": "ESP, radar y Aimbot para Arc Raiders PC",
-    "buyNow": "Comprar ahora",
-    "seeFeatures": "Ver funciones",
+    "subtitle": "Arc Raiders Windows PC용 ESP wallhack, radar hack, Aimbot — Easy Anti-Cheat 유지보수 포함.",
+    "subtitleShort": "Arc Raiders PC용 ESP, radar, Aimbot",
+    "buyNow": "지금 구매",
+    "seeFeatures": "기능 보기",
     "title": "Arc Raiders Cheats",
     "priceFrom": "from",
     "imageAlt": "{{brand}} — ARC Raiders ESP and aimbot overlay",
@@ -35,27 +35,27 @@
     "chipUpdates": "Patch updates"
   },
   "cta": {
-    "buy": "Comprar ahora",
+    "buy": "지금 구매",
     "buyShort": "Buy"
   },
   "trust": {
-    "status": "En línea",
-    "statusNote": "El paquete Arc Raiders Cheats está activo para Arc Raiders en PC Windows.",
-    "statusShort": "Activo",
-    "delivery": "Entrega digital instantánea",
-    "platform": "Windows 10 y 11",
-    "antiCheat": "Mantenimiento Easy Anti-Cheat incluido",
-    "antiCheatShort": "Easy Anti-Cheat incluido"
+    "status": "온라인",
+    "statusNote": "Arc Raiders Cheats 패키지는 Arc Raiders Windows PC에서 이용 가능합니다.",
+    "statusShort": "가동 중",
+    "delivery": "즉시 디지털 배송",
+    "platform": "Windows 10 & 11",
+    "antiCheat": "Easy Anti-Cheat 유지보수 지원",
+    "antiCheatShort": "Easy Anti-Cheat 지원"
   },
   "product": {
     "title": "Arc Raiders Cheats",
-    "addToCart": "Añadir al carrito",
-    "monthly": "Mensual",
-    "lifetime": "De por vida",
-    "available": "Disponible ahora",
+    "addToCart": "장바구니에 추가",
+    "monthly": "월간",
+    "lifetime": "평생",
+    "available": "지금 이용 가능",
     "gameBadge": "Arc Raiders",
-    "platformBadge": "PC Windows",
-    "statusBadge": "Paquete indetectable",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Undetected 패키지",
     "days30": "30 days",
     "oneTime": "One-time",
     "plans": "Plans",
@@ -65,10 +65,10 @@
     "buyLifetime": "Buy lifetime"
   },
   "reviews": {
-    "title": "Lo que dicen los jugadores",
-    "subtitle": "Comentarios recientes de compradores de Arc Raiders Cheats",
-    "outOf": "de 5",
-    "countLabel": "reseñas",
+    "title": "플레이어 후기",
+    "subtitle": "Arc Raiders Cheats 구매자 최근 피드백",
+    "outOf": "/5",
+    "countLabel": "리뷰",
     "eyebrow": "Reviews",
     "homeTitle": "Arc Raiders Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
@@ -77,11 +77,11 @@
     "readAll": "Read all reviews →"
   },
   "common": {
-    "buyNow": "Comprar ahora",
-    "readGuide": "Leer guía",
-    "language": "Idioma",
-    "officialLanguageNote": "El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.",
-    "relatedPages": "Páginas relacionadas",
+    "buyNow": "지금 구매",
+    "readGuide": "가이드 읽기",
+    "language": "언어",
+    "officialLanguageNote": "영어가 공식 언어입니다. 다른 언어는 글로벌 SEO를 위해 번역되었습니다.",
+    "relatedPages": "관련 페이지",
     "selectLanguage": "Select language",
     "englishOfficial": "English — official language",
     "englishIsOfficial": "English is the official language",
@@ -112,9 +112,9 @@
     "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
-    "explore": "Explorar",
-    "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables para Arc Raiders — checkout en Zadeyo."
+    "explore": "탐색",
+    "help": "도움말 및 법적",
+    "tagline": "Arc Raiders용 undetected ESP, wallhack, radar, Aimbot — Zadeyo 결제."
   },
   "home": {
     "aboutTitle": "Undetected arc raiders cheats for ARC Raiders",

@@ -1,15 +1,15 @@
 {
   "nav": {
-    "home": "Inicio",
+    "home": "หน้าแรก",
     "hacks": "Hacks",
     "aimbot": "Aimbot",
     "esp": "ESP",
-    "features": "Funciones",
-    "pricing": "Precios",
-    "setup": "Instalación",
-    "updates": "Actualizaciones",
+    "features": "ฟีเจอร์",
+    "pricing": "ราคา",
+    "setup": "ติดตั้ง",
+    "updates": "อัปเดต",
     "faq": "FAQ",
-    "buyNow": "Comprar",
+    "buyNow": "ซื้อเลย",
     "preview": "Cheats",
     "store": "Store",
     "status": "Status",
@@ -20,12 +20,12 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Trucos Arc Raiders indetectables",
+    "accent": "Arc Raiders cheats ไม่ถูกตรวจจับ",
     "accentShort": "Arc Raiders Cheats",
-    "subtitle": "ESP wallhack, radar hack y Aimbot para Arc Raiders en PC Windows — mantenimiento Easy Anti-Cheat incluido.",
-    "subtitleShort": "ESP, radar y Aimbot para Arc Raiders PC",
-    "buyNow": "Comprar ahora",
-    "seeFeatures": "Ver funciones",
+    "subtitle": "ESP wallhack, radar hack และ Aimbot สำหรับ Arc Raiders บน Windows PC — รวมการดูแล Easy Anti-Cheat",
+    "subtitleShort": "ESP, radar และ Aimbot สำหรับ Arc Raiders PC",
+    "buyNow": "ซื้อเลย",
+    "seeFeatures": "ดูฟีเจอร์",
     "title": "Arc Raiders Cheats",
     "priceFrom": "from",
     "imageAlt": "{{brand}} — ARC Raiders ESP and aimbot overlay",
@@ -35,27 +35,27 @@
     "chipUpdates": "Patch updates"
   },
   "cta": {
-    "buy": "Comprar ahora",
+    "buy": "ซื้อเลย",
     "buyShort": "Buy"
   },
   "trust": {
-    "status": "En línea",
-    "statusNote": "El paquete Arc Raiders Cheats está activo para Arc Raiders en PC Windows.",
-    "statusShort": "Activo",
-    "delivery": "Entrega digital instantánea",
-    "platform": "Windows 10 y 11",
-    "antiCheat": "Mantenimiento Easy Anti-Cheat incluido",
-    "antiCheatShort": "Easy Anti-Cheat incluido"
+    "status": "ออนไลน์",
+    "statusNote": "แพ็กเกจ Arc Raiders Cheats พร้อมใช้งานสำหรับ Arc Raiders บน Windows PC",
+    "statusShort": "ใช้งาน",
+    "delivery": "จัดส่งดิจิทัลทันที",
+    "platform": "Windows 10 และ 11",
+    "antiCheat": "รองรับการดูแล Easy Anti-Cheat",
+    "antiCheatShort": "Easy Anti-Cheat รองรับ"
   },
   "product": {
     "title": "Arc Raiders Cheats",
-    "addToCart": "Añadir al carrito",
-    "monthly": "Mensual",
-    "lifetime": "De por vida",
-    "available": "Disponible ahora",
+    "addToCart": "เพิ่มในตะกร้า",
+    "monthly": "รายเดือน",
+    "lifetime": "ตลอดชีพ",
+    "available": "พร้อมใช้งาน",
     "gameBadge": "Arc Raiders",
-    "platformBadge": "PC Windows",
-    "statusBadge": "Paquete indetectable",
+    "platformBadge": "Windows PC",
+    "statusBadge": "แพ็กเกจ undetected",
     "days30": "30 days",
     "oneTime": "One-time",
     "plans": "Plans",
@@ -65,10 +65,10 @@
     "buyLifetime": "Buy lifetime"
   },
   "reviews": {
-    "title": "Lo que dicen los jugadores",
-    "subtitle": "Comentarios recientes de compradores de Arc Raiders Cheats",
-    "outOf": "de 5",
-    "countLabel": "reseñas",
+    "title": "ผู้เล่นพูดว่าอย่างไร",
+    "subtitle": "ความคิดเห็นล่าสุดจากผู้ซื้อ Arc Raiders Cheats",
+    "outOf": "จาก 5",
+    "countLabel": "รีวิว",
     "eyebrow": "Reviews",
     "homeTitle": "Arc Raiders Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
@@ -77,11 +77,11 @@
     "readAll": "Read all reviews →"
   },
   "common": {
-    "buyNow": "Comprar ahora",
-    "readGuide": "Leer guía",
-    "language": "Idioma",
-    "officialLanguageNote": "El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.",
-    "relatedPages": "Páginas relacionadas",
+    "buyNow": "ซื้อเลย",
+    "readGuide": "อ่านคู่มือ",
+    "language": "ภาษา",
+    "officialLanguageNote": "ภาษาอังกฤษเป็นภาษาทางการ ภาษาอื่นแปลเพื่อ SEO ระดับโลก",
+    "relatedPages": "หน้าที่เกี่ยวข้อง",
     "selectLanguage": "Select language",
     "englishOfficial": "English — official language",
     "englishIsOfficial": "English is the official language",
@@ -112,9 +112,9 @@
     "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
-    "explore": "Explorar",
-    "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables para Arc Raiders — checkout en Zadeyo."
+    "explore": "สำรวจ",
+    "help": "ช่วยเหลือและกฎหมาย",
+    "tagline": "ESP, wallhack, radar และ Aimbot ไม่ถูกตรวจจับสำหรับ Arc Raiders — ชำระผ่าน Zadeyo"
   },
   "home": {
     "aboutTitle": "Undetected arc raiders cheats for ARC Raiders",

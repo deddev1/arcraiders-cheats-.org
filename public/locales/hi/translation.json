@@ -1,15 +1,15 @@
 {
   "nav": {
-    "home": "Inicio",
+    "home": "होम",
     "hacks": "Hacks",
     "aimbot": "Aimbot",
     "esp": "ESP",
-    "features": "Funciones",
-    "pricing": "Precios",
-    "setup": "Instalación",
-    "updates": "Actualizaciones",
+    "features": "फ़ीचर्स",
+    "pricing": "कीमत",
+    "setup": "सेटअप",
+    "updates": "अपडेट",
     "faq": "FAQ",
-    "buyNow": "Comprar",
+    "buyNow": "अभी खरीदें",
     "preview": "Cheats",
     "store": "Store",
     "status": "Status",
@@ -20,12 +20,12 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Trucos Arc Raiders indetectables",
+    "accent": "Undetected Arc Raiders cheats",
     "accentShort": "Arc Raiders Cheats",
-    "subtitle": "ESP wallhack, radar hack y Aimbot para Arc Raiders en PC Windows — mantenimiento Easy Anti-Cheat incluido.",
-    "subtitleShort": "ESP, radar y Aimbot para Arc Raiders PC",
-    "buyNow": "Comprar ahora",
-    "seeFeatures": "Ver funciones",
+    "subtitle": "Arc Raiders Windows PC के लिए ESP wallhack, radar hack और Aimbot — Easy Anti-Cheat maintenance शामिल।",
+    "subtitleShort": "Arc Raiders PC के लिए ESP, radar और Aimbot",
+    "buyNow": "अभी खरीदें",
+    "seeFeatures": "फ़ीचर्स देखें",
     "title": "Arc Raiders Cheats",
     "priceFrom": "from",
     "imageAlt": "{{brand}} — ARC Raiders ESP and aimbot overlay",
@@ -35,27 +35,27 @@
     "chipUpdates": "Patch updates"
   },
   "cta": {
-    "buy": "Comprar ahora",
+    "buy": "अभी खरीदें",
     "buyShort": "Buy"
   },
   "trust": {
-    "status": "En línea",
-    "statusNote": "El paquete Arc Raiders Cheats está activo para Arc Raiders en PC Windows.",
-    "statusShort": "Activo",
-    "delivery": "Entrega digital instantánea",
-    "platform": "Windows 10 y 11",
-    "antiCheat": "Mantenimiento Easy Anti-Cheat incluido",
-    "antiCheatShort": "Easy Anti-Cheat incluido"
+    "status": "ऑनलाइन",
+    "statusNote": "Arc Raiders Cheats पैकेज Arc Raiders Windows PC के लिए सक्रिय है।",
+    "statusShort": "सक्रिय",
+    "delivery": "तुरंत डिजिटल डिलीवरी",
+    "platform": "Windows 10 और 11",
+    "antiCheat": "Easy Anti-Cheat maintenance समर्थित",
+    "antiCheatShort": "Easy Anti-Cheat समर्थित"
   },
   "product": {
     "title": "Arc Raiders Cheats",
-    "addToCart": "Añadir al carrito",
-    "monthly": "Mensual",
-    "lifetime": "De por vida",
-    "available": "Disponible ahora",
+    "addToCart": "कार्ट में जोड़ें",
+    "monthly": "मासिक",
+    "lifetime": "लाइफ़टाइम",
+    "available": "अभी उपलब्ध",
     "gameBadge": "Arc Raiders",
-    "platformBadge": "PC Windows",
-    "statusBadge": "Paquete indetectable",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Undetected पैकेज",
     "days30": "30 days",
     "oneTime": "One-time",
     "plans": "Plans",
@@ -65,10 +65,10 @@
     "buyLifetime": "Buy lifetime"
   },
   "reviews": {
-    "title": "Lo que dicen los jugadores",
-    "subtitle": "Comentarios recientes de compradores de Arc Raiders Cheats",
-    "outOf": "de 5",
-    "countLabel": "reseñas",
+    "title": "खिलाड़ी क्या कहते हैं",
+    "subtitle": "Arc Raiders Cheats खरीदारों की हाल की प्रतिक्रिया",
+    "outOf": "/5",
+    "countLabel": "समीक्षाएँ",
     "eyebrow": "Reviews",
     "homeTitle": "Arc Raiders Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
@@ -77,11 +77,11 @@
     "readAll": "Read all reviews →"
   },
   "common": {
-    "buyNow": "Comprar ahora",
-    "readGuide": "Leer guía",
-    "language": "Idioma",
-    "officialLanguageNote": "El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.",
-    "relatedPages": "Páginas relacionadas",
+    "buyNow": "अभी खरीदें",
+    "readGuide": "गाइड पढ़ें",
+    "language": "भाषा",
+    "officialLanguageNote": "अंग्रेज़ी आधिकारिक भाषा है। अन्य भाषाएँ वैश्विक SEO के लिए अनुवादित हैं।",
+    "relatedPages": "संबंधित पेज",
     "selectLanguage": "Select language",
     "englishOfficial": "English — official language",
     "englishIsOfficial": "English is the official language",
@@ -112,9 +112,9 @@
     "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
-    "explore": "Explorar",
-    "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables para Arc Raiders — checkout en Zadeyo."
+    "explore": "एक्सप्लोर",
+    "help": "सहायता और कानूनी",
+    "tagline": "Arc Raiders के लिए undetected ESP, wallhack, radar और Aimbot — Zadeyo checkout।"
   },
   "home": {
     "aboutTitle": "Undetected arc raiders cheats for ARC Raiders",

@@ -3,6 +3,26 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './public/locales/en/translation.json';
 import es from './public/locales/es/translation.json';
+import fr from './public/locales/fr/translation.json';
+import de from './public/locales/de/translation.json';
+import pt from './public/locales/pt/translation.json';
+import it from './public/locales/it/translation.json';
+import nl from './public/locales/nl/translation.json';
+import pl from './public/locales/pl/translation.json';
+import ru from './public/locales/ru/translation.json';
+import tr from './public/locales/tr/translation.json';
+import ar from './public/locales/ar/translation.json';
+import ja from './public/locales/ja/translation.json';
+import ko from './public/locales/ko/translation.json';
+import zh from './public/locales/zh/translation.json';
+import hi from './public/locales/hi/translation.json';
+import id from './public/locales/id/translation.json';
+import th from './public/locales/th/translation.json';
+import vi from './public/locales/vi/translation.json';
+import uk from './public/locales/uk/translation.json';
+import cs from './public/locales/cs/translation.json';
+import ro from './public/locales/ro/translation.json';
+import sv from './public/locales/sv/translation.json';
 
 export const supportedLngs = [
 	'en',
@@ -32,6 +52,26 @@ export const supportedLngs = [
 const resources = {
 	en: { translation: en },
 	es: { translation: es },
+	fr: { translation: fr },
+	de: { translation: de },
+	pt: { translation: pt },
+	it: { translation: it },
+	nl: { translation: nl },
+	pl: { translation: pl },
+	ru: { translation: ru },
+	tr: { translation: tr },
+	ar: { translation: ar },
+	ja: { translation: ja },
+	ko: { translation: ko },
+	zh: { translation: zh },
+	hi: { translation: hi },
+	id: { translation: id },
+	th: { translation: th },
+	vi: { translation: vi },
+	uk: { translation: uk },
+	cs: { translation: cs },
+	ro: { translation: ro },
+	sv: { translation: sv },
 };
 
 if (!i18n.isInitialized) {

@@ -1,15 +1,15 @@
 {
   "nav": {
-    "home": "Inicio",
+    "home": "Acasă",
     "hacks": "Hacks",
     "aimbot": "Aimbot",
     "esp": "ESP",
-    "features": "Funciones",
-    "pricing": "Precios",
-    "setup": "Instalación",
-    "updates": "Actualizaciones",
+    "features": "Funcții",
+    "pricing": "Prețuri",
+    "setup": "Instalare",
+    "updates": "Actualizări",
     "faq": "FAQ",
-    "buyNow": "Comprar",
+    "buyNow": "Cumpără",
     "preview": "Cheats",
     "store": "Store",
     "status": "Status",
@@ -20,12 +20,12 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Trucos Arc Raiders indetectables",
+    "accent": "Cheats Arc Raiders undetected",
     "accentShort": "Arc Raiders Cheats",
-    "subtitle": "ESP wallhack, radar hack y Aimbot para Arc Raiders en PC Windows — mantenimiento Easy Anti-Cheat incluido.",
-    "subtitleShort": "ESP, radar y Aimbot para Arc Raiders PC",
-    "buyNow": "Comprar ahora",
-    "seeFeatures": "Ver funciones",
+    "subtitle": "ESP wallhack, radar hack și Aimbot pentru Arc Raiders pe PC Windows — mentenanță Easy Anti-Cheat inclusă.",
+    "subtitleShort": "ESP, radar și Aimbot pentru Arc Raiders PC",
+    "buyNow": "Cumpără acum",
+    "seeFeatures": "Vezi funcții",
     "title": "Arc Raiders Cheats",
     "priceFrom": "from",
     "imageAlt": "{{brand}} — ARC Raiders ESP and aimbot overlay",
@@ -35,27 +35,27 @@
     "chipUpdates": "Patch updates"
   },
   "cta": {
-    "buy": "Comprar ahora",
+    "buy": "Cumpără acum",
     "buyShort": "Buy"
   },
   "trust": {
-    "status": "En línea",
-    "statusNote": "El paquete Arc Raiders Cheats está activo para Arc Raiders en PC Windows.",
-    "statusShort": "Activo",
-    "delivery": "Entrega digital instantánea",
-    "platform": "Windows 10 y 11",
-    "antiCheat": "Mantenimiento Easy Anti-Cheat incluido",
-    "antiCheatShort": "Easy Anti-Cheat incluido"
+    "status": "Online",
+    "statusNote": "Pachetul Arc Raiders Cheats este activ pentru Arc Raiders pe PC Windows.",
+    "statusShort": "Activ",
+    "delivery": "Livrare digitală instantă",
+    "platform": "Windows 10 și 11",
+    "antiCheat": "Mentenanță Easy Anti-Cheat suportată",
+    "antiCheatShort": "Easy Anti-Cheat suportat"
   },
   "product": {
     "title": "Arc Raiders Cheats",
-    "addToCart": "Añadir al carrito",
-    "monthly": "Mensual",
-    "lifetime": "De por vida",
-    "available": "Disponible ahora",
+    "addToCart": "Adaugă în coș",
+    "monthly": "Lunar",
+    "lifetime": "Pe viață",
+    "available": "Disponibil acum",
     "gameBadge": "Arc Raiders",
-    "platformBadge": "PC Windows",
-    "statusBadge": "Paquete indetectable",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Pachet undetected",
     "days30": "30 days",
     "oneTime": "One-time",
     "plans": "Plans",
@@ -65,10 +65,10 @@
     "buyLifetime": "Buy lifetime"
   },
   "reviews": {
-    "title": "Lo que dicen los jugadores",
-    "subtitle": "Comentarios recientes de compradores de Arc Raiders Cheats",
-    "outOf": "de 5",
-    "countLabel": "reseñas",
+    "title": "Ce spun jucătorii",
+    "subtitle": "Feedback recent de la cumpărătorii Arc Raiders Cheats",
+    "outOf": "din 5",
+    "countLabel": "recenzii",
     "eyebrow": "Reviews",
     "homeTitle": "Arc Raiders Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
@@ -77,11 +77,11 @@
     "readAll": "Read all reviews →"
   },
   "common": {
-    "buyNow": "Comprar ahora",
-    "readGuide": "Leer guía",
-    "language": "Idioma",
-    "officialLanguageNote": "El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.",
-    "relatedPages": "Páginas relacionadas",
+    "buyNow": "Cumpără acum",
+    "readGuide": "Citește ghidul",
+    "language": "Limbă",
+    "officialLanguageNote": "Engleza este limba oficială. Alte limbi sunt traduse pentru SEO global.",
+    "relatedPages": "Pagini related",
     "selectLanguage": "Select language",
     "englishOfficial": "English — official language",
     "englishIsOfficial": "English is the official language",
@@ -112,9 +112,9 @@
     "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
-    "explore": "Explorar",
-    "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables para Arc Raiders — checkout en Zadeyo."
+    "explore": "Explorează",
+    "help": "Ajutor și legal",
+    "tagline": "ESP, wallhack, radar și Aimbot undetected pentru Arc Raiders — checkout via Zadeyo."
   },
   "home": {
     "aboutTitle": "Undetected arc raiders cheats for ARC Raiders",

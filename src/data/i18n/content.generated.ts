@@ -47,9 +47,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				hero: {
 					accent: "2026 — Undetected ESP, Aimbot & Wallhack",
 					accentShort: "Undetected arc raiders cheats 2026",
-					subtitle: "Arc Raiders cheats with arc-raiders esp, radar hack and arc-raiders aimbot for Windows PC — Easy Anti-Cheat maintenance included.",
+					subtitle: "Undetected ESP, soft aim, and radar for ARC Raiders on Windows PC.",
 					subtitleShort: "Arc Raiders esp, radar & aimbot for PC",
-					buyNow: "Buy Arc Raiders Cheats",
+					buyNow: "Get Access",
 					seeFeatures: "See Features",
 				},
 				trust: {

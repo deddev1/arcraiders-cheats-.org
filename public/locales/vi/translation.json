@@ -1,15 +1,15 @@
 {
   "nav": {
-    "home": "Inicio",
+    "home": "Trang chủ",
     "hacks": "Hacks",
     "aimbot": "Aimbot",
     "esp": "ESP",
-    "features": "Funciones",
-    "pricing": "Precios",
-    "setup": "Instalación",
-    "updates": "Actualizaciones",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "updates": "Cập nhật",
     "faq": "FAQ",
-    "buyNow": "Comprar",
+    "buyNow": "Mua ngay",
     "preview": "Cheats",
     "store": "Store",
     "status": "Status",
@@ -20,12 +20,12 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Trucos Arc Raiders indetectables",
+    "accent": "Cheat Arc Raiders undetected",
     "accentShort": "Arc Raiders Cheats",
-    "subtitle": "ESP wallhack, radar hack y Aimbot para Arc Raiders en PC Windows — mantenimiento Easy Anti-Cheat incluido.",
-    "subtitleShort": "ESP, radar y Aimbot para Arc Raiders PC",
-    "buyNow": "Comprar ahora",
-    "seeFeatures": "Ver funciones",
+    "subtitle": "ESP wallhack, radar hack và Aimbot cho Arc Raiders trên PC Windows — bảo trì Easy Anti-Cheat bao gồm.",
+    "subtitleShort": "ESP, radar & Aimbot cho Arc Raiders PC",
+    "buyNow": "Mua ngay",
+    "seeFeatures": "Xem tính năng",
     "title": "Arc Raiders Cheats",
     "priceFrom": "from",
     "imageAlt": "{{brand}} — ARC Raiders ESP and aimbot overlay",
@@ -35,27 +35,27 @@
     "chipUpdates": "Patch updates"
   },
   "cta": {
-    "buy": "Comprar ahora",
+    "buy": "Mua ngay",
     "buyShort": "Buy"
   },
   "trust": {
-    "status": "En línea",
-    "statusNote": "El paquete Arc Raiders Cheats está activo para Arc Raiders en PC Windows.",
-    "statusShort": "Activo",
-    "delivery": "Entrega digital instantánea",
-    "platform": "Windows 10 y 11",
-    "antiCheat": "Mantenimiento Easy Anti-Cheat incluido",
-    "antiCheatShort": "Easy Anti-Cheat incluido"
+    "status": "Trực tuyến",
+    "statusNote": "Gói Arc Raiders Cheats đang hoạt động cho Arc Raiders trên PC Windows.",
+    "statusShort": "Hoạt động",
+    "delivery": "Giao hàng kỹ thuật số tức thì",
+    "platform": "Windows 10 & 11",
+    "antiCheat": "Hỗ trợ bảo trì Easy Anti-Cheat",
+    "antiCheatShort": "Hỗ trợ Easy Anti-Cheat"
   },
   "product": {
     "title": "Arc Raiders Cheats",
-    "addToCart": "Añadir al carrito",
-    "monthly": "Mensual",
-    "lifetime": "De por vida",
-    "available": "Disponible ahora",
+    "addToCart": "Thêm vào giỏ",
+    "monthly": "Hàng tháng",
+    "lifetime": "Trọn đời",
+    "available": "Có sẵn ngay",
     "gameBadge": "Arc Raiders",
-    "platformBadge": "PC Windows",
-    "statusBadge": "Paquete indetectable",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Gói undetected",
     "days30": "30 days",
     "oneTime": "One-time",
     "plans": "Plans",
@@ -65,10 +65,10 @@
     "buyLifetime": "Buy lifetime"
   },
   "reviews": {
-    "title": "Lo que dicen los jugadores",
-    "subtitle": "Comentarios recientes de compradores de Arc Raiders Cheats",
-    "outOf": "de 5",
-    "countLabel": "reseñas",
+    "title": "Người chơi nói gì",
+    "subtitle": "Phản hồi gần đây từ người mua Arc Raiders Cheats",
+    "outOf": "/5",
+    "countLabel": "đánh giá",
     "eyebrow": "Reviews",
     "homeTitle": "Arc Raiders Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
@@ -77,11 +77,11 @@
     "readAll": "Read all reviews →"
   },
   "common": {
-    "buyNow": "Comprar ahora",
-    "readGuide": "Leer guía",
-    "language": "Idioma",
-    "officialLanguageNote": "El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.",
-    "relatedPages": "Páginas relacionadas",
+    "buyNow": "Mua ngay",
+    "readGuide": "Đọc hướng dẫn",
+    "language": "Ngôn ngữ",
+    "officialLanguageNote": "Tiếng Anh là ngôn ngữ chính thức. Các ngôn ngữ khác được dịch cho SEO toàn cầu.",
+    "relatedPages": "Trang liên quan",
     "selectLanguage": "Select language",
     "englishOfficial": "English — official language",
     "englishIsOfficial": "English is the official language",
@@ -112,9 +112,9 @@
     "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
-    "explore": "Explorar",
-    "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables para Arc Raiders — checkout en Zadeyo."
+    "explore": "Khám phá",
+    "help": "Trợ giúp & pháp lý",
+    "tagline": "ESP, wallhack, radar và Aimbot undetected cho Arc Raiders — thanh toán qua Zadeyo."
   },
   "home": {
     "aboutTitle": "Undetected arc raiders cheats for ARC Raiders",
