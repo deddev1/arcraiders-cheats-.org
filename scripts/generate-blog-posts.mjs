@@ -14,12 +14,12 @@ const OUT = join(__dirname, '..', 'src', 'data', 'blog', 'posts.generated.ts');
 const LOCALES = ['en'];
 
 const EXT = {
+	game:
+		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 	'arc-raiders':
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 	status:
-		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
-	eac:
-		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">Embark Studios</a>',
 	eac:
 		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
 };
@@ -39,24 +39,24 @@ const sources = [
 		slug: 'arc-raiders-patch-notes-guide',
 		title: 'How to Read ARC Raiders Patch Notes',
 		metaDescription:
-			'Learn how ARC Raiders patch notes change PMC loadouts, ammo economy, and maps. What to do after Easy Anti-Cheat and wipe updates in 2026.',
+			'Learn how ARC Raiders patch notes change Raider loadouts, ammo economy, and maps. What to do after Easy Anti-Cheat and season updates in 2026.',
 		h1: 'How to Read ARC Raiders Patch Notes Without Guessing',
 		intro:
-			'When Embark Studios drops a patch, most players skim the headline and queue anyway. That is how you walk into Customs with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read ARC Raiders patch notes so your next raid still makes sense.',
+			'When Embark Studios drops a patch, most players skim the headline and queue anyway. That is how you walk into Speranza with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read ARC Raiders patch notes so your next raid still makes sense.',
 		keywords: [
-			'escape from arc-raiders patch notes',
-			'arc-raiders wipe update',
-			'battleye patch',
+			'arc raiders patch notes',
+			'arc-raiders season update',
+			'Easy Anti-Cheat patch',
 			'pmc loadout',
 			'arc-raiders intel',
 		],
-		imageAlt: 'Player reviewing ARC Raiders patch notes before a PMC raid',
+		imageAlt: 'Player reviewing ARC Raiders patch notes before a surface raid',
 		sections: [
 			{
 				h2: 'What actually matters in a Arc Raiders patch?',
 				paragraphs: [
 					`Official notes live on ${EXT.game}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Raiders? Does this change what loot is worth looting? Does this change which extract or map I should run tonight?`,
-					'Ammo tables, armor classes, boss spawn rates, and trader unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Woods and Interchange. Cosmetic lines and UI polish almost never decide whether you survive dorms.',
+					'Ammo tables, armor classes, boss spawn rates, and vendor unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Rust Belt and underground zones. Cosmetic lines and UI polish almost never decide whether you survive underground zones.',
 					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Arc Raiders Cheats status page</a> before you blame your own aim.`,
 				],
 			},
@@ -64,14 +64,14 @@ const sources = [
 				h2: 'Buffs, nerfs, and removed items — a simple framework',
 				paragraphs: [
 					'When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused raids — before you rebuild your entire stash around them.',
-					'Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against class-five plates, your Customs push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href="/blog/arc-raiders-weapon-tier-list/">Arc Raiders weapon tier list</a> so you are not chasing streamer kits that ignore your budget.',
+					'Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against class-five plates, your Speranza push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href="/blog/arc-raiders-weapon-tier-list/">Arc Raiders weapon tier list</a> so you are not chasing streamer kits that ignore your budget.',
 				],
 			},
 			{
 				h2: 'How patches reshuffle loadouts and map plans',
 				paragraphs: [
 					'When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near extracts and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, boss path changes — rewrite your first three minutes on that map before you farm it for quests.',
-					'Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and extract camping patterns are what get you killed. For aggressive Scav timing after a meta shift, see our <a href="/blog/arc-raiders-scav-run-aggressive-strategies/">extraction run strategies</a>.',
+					'Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and extract camping patterns are what get you killed. For aggressive extraction timing after a meta shift, see our <a href="/blog/arc-raiders-extraction-run-aggressive-strategies/">extraction run strategies</a>.',
 					`On big mornings, confirm ${EXT.status} looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.`,
 				],
 			},
@@ -87,15 +87,15 @@ const sources = [
 		slug: 'arc-raiders-skin-leaks-guide',
 		title: 'Arc Raiders Cosmetics & Skin Leaks: What Is Worth Buying',
 		metaDescription:
-			'Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy on the Flea Market, what to skip, and how looks affect raid readability.',
+			'Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy in the Raider shop, what to skip, and how looks affect raid readability.',
 		h1: 'Arc Raiders Cosmetics and Skin Leaks: Buy Smart, Not Impulsive',
 		intro:
-			'Leaks make every wipe feel like a fashion drop. Before you dump roubles into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.',
+			'Leaks make every wipe feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.',
 		keywords: [
 			'arc-raiders skins',
 			'arc-raiders cosmetics',
-			'flea market skins',
-			'escape from arc-raiders apparel',
+			'arc-raiders cosmetics shop',
+			'arc raiders apparel',
 			'arc-raiders intel',
 		],
 		imageAlt: 'ARC Raiders character cosmetics and gear appearance options',
@@ -103,22 +103,22 @@ const sources = [
 			{
 				h2: 'Why most impulse cosmetic buys feel bad after a week',
 				paragraphs: [
-					`Shop rotations and official apparel come from ${EXT.game}. Leaks are entertainment, not a shopping list. Many players spend hard-earned flea money the night before a wipe, then realize they still need meds, ammo, and a backup kit.`,
-					'Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Woods or in dark Interchange hallways. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.',
+					`Shop rotations and official apparel come from ${EXT.game}. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a wipe, then realize they still need meds, ammo, and a backup kit.`,
+					'Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Rust Belt or in dark underground corridors. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.',
 				],
 			},
 			{
 				h2: 'A simple worth-it checklist for Arc Raiders cosmetics',
 				paragraphs: [
-					'Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.',
-					'Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Flea Market. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.',
+					'Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a credits reserve for ammo and healing before fashion.',
+					'Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece in the Raider shop. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.',
 				],
 			},
 			{
 				h2: 'How to use leaks without getting played',
 				paragraphs: [
-					'Treat late-wipe leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.',
-					'For competitive readability tips that actually affect fights, pair this with our <a href="/blog/arc-raiders-pro-settings-guide/">pro settings guide</a>. Looking clean matters less than seeing the other PMC first.',
+					'Treat late-season leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.',
+					'For competitive readability tips that actually affect fights, pair this with our <a href="/blog/arc-raiders-pro-settings-guide/">pro settings guide</a>. Looking clean matters less than seeing the other Raider first.',
 				],
 			},
 		],
@@ -133,7 +133,7 @@ const sources = [
 		slug: 'arc-raiders-weapon-tier-list',
 		title: 'Arc Raiders Weapon Tier List: Best Guns for Raids',
 		metaDescription:
-			'A practical ARC Raiders weapon tier list for PMC and Scav raids — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.',
+			'A practical ARC Raiders weapon tier list for Raider and extraction raids — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.',
 		h1: 'Arc Raiders Weapon Tier List: What Wins Raids in 2026',
 		intro:
 			'Creator tier lists love flashy guns. ARC Raiders rewards expected value: armor penetration, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.',
@@ -144,71 +144,71 @@ const sources = [
 			'm4a1 arc-raiders',
 			'arc-raiders intel',
 		],
-		imageAlt: 'ARC Raiders weapons laid out for a PMC loadout comparison',
+		imageAlt: 'ARC Raiders weapons laid out for a Raider loadout comparison',
 		sections: [
 			{
 				h2: 'How should you define S-tier in Arc Raiders?',
 				paragraphs: [
-					'S-tier means the best expected value across a hundred PMC fights on maps like Customs, Woods, and Interchange — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.',
-					'Shotguns still own tight interiors. Bolt-actions still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant wipe after wipe when ammo and mods are available.',
+					'S-tier means the best expected value across a hundred surface raid fights on maps like Speranza, Rust Belt, and underground zones — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.',
+					'Shotguns still own tight interiors. Bolt-actions still punish long peeks on Rust Belt and extraction routes. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant season after season when ammo and mods are available.',
 					`Always re-check live values after patches on ${EXT.game}. The hierarchy logic stays useful even when numbers nudge.`,
 				],
 			},
 			{
 				h2: 'Ammo, TTK, and peek discipline matter more than brand names',
 				paragraphs: [
-					'Time-to-kill in Arc Raiders is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this wipe, then pick a platform that controls recoil at your skill level.',
+					'Time-to-kill in Arc Raiders is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this season, then pick a platform that controls recoil at your skill level.',
 					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href="/blog/arc-raiders-loot-routes-guide/">loot routes guide</a> so you actually spawn with the ammo you planned to use.',
 				],
 			},
 			{
 				h2: 'Loadout pairings and common mistakes',
 				paragraphs: [
-					'A durable kit is usually a reliable mid rifle, a close-range option for dorms or Factory, enough meds, and an armor class you can replace after deaths. In extraction runs, that same spine supports the aggression patterns in our <a href="/blog/arc-raiders-scav-run-aggressive-strategies/">Scav strategies article</a>.',
+					'A durable kit is usually a reliable mid rifle, a close-range option for underground zones or industrial zones, enough meds, and an armor class you can replace after deaths. In extraction runs, that same spine supports the aggression patterns in our <a href="/blog/arc-raiders-extraction-run-aggressive-strategies/">extraction strategies article</a>.',
 					'Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href="/arc-raiders-aimbot/">Arc Raiders aimbot settings</a>.',
 				],
 			},
 		],
 	},
 	{
-		id: 'arc-raiders-scav-run-meta',
+		id: 'arc-raiders-extraction-run-meta',
 		imageKey: 'battleRoyaleCombat',
 		published: '2026-07-22',
 		updated: '2026-08-13',
-		category: 'Scav Runs',
+		category: 'Extraction Runs',
 		featured: true,
-		slug: 'arc-raiders-scav-run-aggressive-strategies',
-		title: 'Arc Raiders Scav Run Strategies That Actually Print Loot',
+		slug: 'arc-raiders-extraction-run-aggressive-strategies',
+		title: 'Arc Raiders Extraction Run Strategies That Actually Print Loot',
 		metaDescription:
-			'Five aggressive but smart ARC Raiders Scav strategies — timings, extracts, third-parties, and how to leave raids with gear instead of empty pockets.',
-		h1: 'Arc Raiders Scav Run Strategies: How to Leave With Gear',
+			'Five aggressive but smart ARC Raiders extraction strategies — timings, extracts, third-parties, and how to leave raids with gear instead of empty pockets.',
+		h1: 'Arc Raiders Extraction Run Strategies: How to Leave With Gear',
 		intro:
-			'Passive Scav players wait behind a bush while two PMC teams erase each other, then spray into the mess and die. Strong extraction runs manufacture a short advantage, grab what matters, and extract before the map collapses on you.',
+			'Passive ARC drone players wait behind a bush while two Raider teams erase each other, then spray into the mess and die. Strong extraction runs manufacture a short advantage, grab what matters, and extract before the map collapses on you.',
 		keywords: [
 			'arc-raiders scav run',
 			'scav strategies',
-			'escape from arc-raiders scav',
+			'arc raiders scav',
 			'arc-raiders extracts',
 			'arc-raiders esp',
 		],
-		imageAlt: 'Scav player moving toward extract with loot in ARC Raiders',
+		imageAlt: 'ARC drone player moving toward extract with loot in ARC Raiders',
 		sections: [
 			{
 				h2: 'Why so many extraction runs feel soft',
 				paragraphs: [
-					'Scav kits are random, timers are limited, and player ARC drones can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href="/arc-raiders-esp/">Arc Raiders ESP</a> can help you see fights early — but you still need an exit plan.',
+					'extraction runner kits are random, timers are limited, and player ARC drones can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href="/arc-raiders-esp/">Arc Raiders ESP</a> can help you see fights early — but you still need an exit plan.',
 					'Decide your extract before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-party clock in hot POIs is only a few seconds long once gunfire starts.',
 				],
 			},
 			{
 				h2: 'Five aggressive habits that still work',
 				paragraphs: [
-					'Pre-aim common corners on Customs dorms and Interchange tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.',
+					'Pre-aim common corners on underground zones and industrial loot zones so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.',
 					`Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with ${EXT.game} wipes; the geometry of first-shot advantage does not.`,
 				],
 			},
 			{
-				h2: 'Warmup checklist before you queue a Scav',
+				h2: 'Warmup checklist before you queue a ARC drone',
 				paragraphs: [
 					'Know your map’s main extracts, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href="/blog/arc-raiders-loot-routes-guide/">loot routes</a>, <a href="/blog/arc-raiders-weapon-tier-list/">weapon tiers</a>, and <a href="/blog/arc-raiders-warmup-maps-ranked/">warmup routines</a>.',
 					'Try one session where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-party window closed.',
@@ -226,7 +226,7 @@ const sources = [
 		slug: 'arc-raiders-tournament-meta-guide',
 		title: 'What Competitive Arc Raiders Players Optimize For',
 		metaDescription:
-			'What strong ARC Raiders competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal PMC queues.',
+			'What strong ARC Raiders competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal Raider queues.',
 		h1: 'What Competitive Arc Raiders Players Optimize For',
 		intro:
 			'Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal ARC Raiders queues.',
@@ -256,8 +256,8 @@ const sources = [
 			{
 				h2: 'What actually translates to normal raids',
 				paragraphs: [
-					'Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href="/blog/arc-raiders-scav-run-aggressive-strategies/">Scav aggression guide</a>.',
-					'Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid PMC block before adding another.',
+					'Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href="/blog/arc-raiders-extraction-run-aggressive-strategies/">extraction aggression guide</a>.',
+					'Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid Raider block before adding another.',
 				],
 			},
 		],
@@ -272,7 +272,7 @@ const sources = [
 		slug: 'arc-raiders-loot-routes-guide',
 		title: 'Arc Raiders Loot Routes That Leave Spawn Ready to Fight',
 		metaDescription:
-			'High-percentage ARC Raiders loot routes for Customs, Woods, and Interchange — how to leave spawn with guns, armor, and meds that win mid-raid fights.',
+			'High-percentage ARC Raiders loot routes for Speranza, Rust Belt, and underground zones — how to leave spawn with guns, armor, and meds that win mid-raid fights.',
 		h1: 'Arc Raiders Loot Routes: Leave Spawn Ready to Fight',
 		intro:
 			'Winning in ARC Raiders starts before the first gunfight. Random looting gets you killed with a pistol and no meds. These route habits consistently convert a spawn into a kit you can actually fight with.',
@@ -302,7 +302,7 @@ const sources = [
 			{
 				h2: 'Convert a strong spawn into a win',
 				paragraphs: [
-					'Pair these routes with <a href="/blog/arc-raiders-scav-run-aggressive-strategies/">Scav aggression</a> and <a href="/blog/arc-raiders-weapon-tier-list/">weapon tiers</a>. Leave spawn rich so mid-raid becomes a skill check instead of a scavenger panic.',
+					'Pair these routes with <a href="/blog/arc-raiders-extraction-run-aggressive-strategies/">extraction aggression</a> and <a href="/blog/arc-raiders-weapon-tier-list/">weapon tiers</a>. Leave spawn rich so mid-raid becomes a skill check instead of a loot panic.',
 					'If you practice with loot markers, read <a href="/arc-raiders-esp/">Arc Raiders ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.',
 				],
 			},
@@ -334,8 +334,8 @@ const sources = [
 			{
 				h2: 'Visibility and performance before fancy numbers',
 				paragraphs: [
-					'If your frame rate collapses in Streets of Arc Raiders or Interchange interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so PMC silhouettes pop sooner in tree lines and warehouse lighting.',
-					'Test changes in offline mode or a quiet Scav before locking them for serious surface raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.',
+					'If your frame rate collapses in Streets of Arc Raiders or underground zones interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so Raider silhouettes pop sooner in tree lines and warehouse lighting.',
+					'Test changes in training mode or a quiet ARC drone before locking them for serious surface raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.',
 				],
 			},
 			{
@@ -348,7 +348,7 @@ const sources = [
 			{
 				h2: 'Audio cues that win extracts',
 				paragraphs: [
-					'Footsteps, magazine reloads, and extract buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a scav AI shuffle and a player PMC push.',
+					'Footsteps, magazine reloads, and extract buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a scav AI shuffle and a player Raider push.',
 					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/arc-raiders-loot-routes-guide/">loot routes</a> article so you know where those sounds are coming from.',
 				],
 			},
@@ -362,12 +362,12 @@ const sources = [
 		category: 'Warmup',
 		featured: false,
 		slug: 'arc-raiders-warmup-maps-ranked',
-		title: 'Arc Raiders Warmup Routine Before Serious PMC Raids',
+		title: 'Arc Raiders Warmup Routine Before Serious Raider Raids',
 		metaDescription:
 			'A short ARC Raiders warmup routine before surface raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.',
-		h1: 'Arc Raiders Warmup Routine Before You Queue PMC',
+		h1: 'Arc Raiders Warmup Routine Before You Queue Raider',
 		intro:
-			'Queuing cold into Factory or dorms is how you donate a kit. A short ARC Raiders warmup — even ten to fifteen minutes — makes your first real fight feel like your third.',
+			'Queuing cold into industrial zones or underground zones is how you donate a kit. A short ARC Raiders warmup — even ten to fifteen minutes — makes your first real fight feel like your third.',
 		keywords: [
 			'arc-raiders warmup',
 			'arc-raiders aim practice',
@@ -375,27 +375,27 @@ const sources = [
 			'arc-raiders offline practice',
 			'arc-raiders intel',
 		],
-		imageAlt: 'Player warming up aim before an ARC Raiders PMC raid',
+		imageAlt: 'Player warming up aim before an ARC Raiders surface raid',
 		sections: [
 			{
 				h2: 'Why your first raid should not be the warmup',
 				paragraphs: [
 					'Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the session, not optional fluff.',
-					'Offline practice, shooting range habits, and a couple of low-stakes extraction runs exist so your expensive PMC kit is not the experiment.',
+					'Offline practice, shooting range habits, and a couple of low-stakes extraction runs exist so your expensive Raider kit is not the experiment.',
 				],
 			},
 			{
 				h2: 'A simple 15-minute routine that scales',
 				paragraphs: [
-					'Minutes 1–5: tracking and short bursts on a range or offline bots. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused Scav or offline fight block where you only work one habit, like holding an extract or clearing a room.',
-					'Keep the routine identical for a week so improvements are measurable. Rotate maps later — Customs one day, Woods the next — after the habit sticks.',
+					'Minutes 1–5: tracking and short bursts on a range or offline bots. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused ARC drone or offline fight block where you only work one habit, like holding an extract or clearing a room.',
+					'Keep the routine identical for a week so improvements are measurable. Rotate maps later — Speranza one day, Rust Belt the next — after the habit sticks.',
 				],
 			},
 			{
 				h2: 'What to do right before you ready up',
 				paragraphs: [
 					'Check stash meds and ammo, confirm your map extracts, and skim <a href="/updates/">cheat status</a> if you use overlays after a patch. Pair warmup with <a href="/blog/arc-raiders-pro-settings-guide/">settings</a> and <a href="/blog/arc-raiders-weapon-tier-list/">weapon tiers</a> so you are not reinventing the kit every night.',
-					'If the first two PMC deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.',
+					'If the first two Raider deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.',
 				],
 			},
 		],
@@ -427,7 +427,7 @@ const sources = [
 				h2: 'What do people mean when they say arc raiders cheats?',
 				paragraphs: [
 					'In plain language, arc raiders cheats are third-party tools that add information or aim assistance on top of the ARC Raiders client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “escape from arc raiders cheats,” “eft hacks,” or “arc-raiders wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href="/arc-raiders-cheats/">arc raiders cheats pillar</a> if you want the product overview without the long essay.',
+					'Searchers also say “arc raiders hacks,” “arc raiders wallhack,” or “undetected arc raiders cheats.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href="/arc-raiders-cheats/">arc raiders cheats pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
@@ -447,31 +447,30 @@ const sources = [
 			{
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
-					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/escape-from-arc-raiders-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
-					'Arc Raiders Cheats is built for Windows PC PMC and Scav play. It will not replace map knowledge — it amplifies the reads you already practice in raids.',
+					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
+					'Arc Raiders Cheats is built for Windows PC Raider and extraction play. It will not replace map knowledge — it amplifies the reads you already practice in raids.',
 				],
 			},
 		],
 	},
 	{
-		id: 'escape-from-arc-raiders-cheats-buyers-guide',
+		id: 'arc-raiders-cheats-buyers-guide',
 		imageKey: 'cheatsPackage',
 		published: '2026-07-28',
 		updated: '2026-08-13',
 		category: 'Buyers Guide',
 		featured: true,
-		slug: 'escape-from-arc-raiders-cheats-buyers-guide',
+		slug: 'arc-raiders-cheats-buyers-guide',
 		title: 'ARC Raiders Cheats Buyers Guide',
 		metaDescription:
-			'What to check before you buy escape from arc raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
+			'What to check before you buy ARC Raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
 		h1: 'ARC Raiders Cheats: What to Check Before You Buy',
 		intro:
-			'Buying escape from arc raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
+			'Buying ARC Raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
 		keywords: [
-			'escape from arc raiders cheats',
 			'arc raiders cheats buyers guide',
 			'buy arc raiders cheats',
-			'undetected eft cheats',
+			'undetected arc raiders cheats',
 			'arc-raiders pricing',
 		],
 		imageAlt: 'Checklist for buying ARC Raiders cheats safely',
@@ -509,14 +508,14 @@ const sources = [
 		slug: 'arc-raiders-cheats-2026-whats-new',
 		title: 'Arc Raiders Cheats 2026: What Changed This Year',
 		metaDescription:
-			'What changed for arc raiders cheats in 2026 — wipe cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Arc Raiders Cheats adapted for ARC Raiders.',
+			'What changed for arc raiders cheats in 2026 — season cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Arc Raiders Cheats adapted for ARC Raiders.',
 		h1: 'What Changed for Arc Raiders Cheats in 2026',
 		intro:
 			'2026 did not invent cheating in ARC Raiders — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious arc raiders cheats packages need to operate.',
 		keywords: [
 			'arc raiders cheats 2026',
-			'eft cheats 2026',
-			'battleye 2026',
+			'arc raiders cheats 2026',
+			'Easy Anti-Cheat 2026',
 			'arc-raiders wipe',
 			'arc raiders cheats updates',
 		],
@@ -526,7 +525,7 @@ const sources = [
 				h2: 'Why 2026 buyers care more about status pages',
 				paragraphs: [
 					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/undetected-arc-raiders-cheats/">undetected explainer</a> instead of empty guarantees.',
-					`${EXT.eac} and Battlestate client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
+					`${EXT.eac} and Embark Studios client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
 				],
 			},
 			{
@@ -571,14 +570,14 @@ const sources = [
 			{
 				h2: 'Start softer than you think you need',
 				paragraphs: [
-					'Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Customs or Factory and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.',
+					'Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Speranza or industrial zones and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.',
 					'Full control docs live on <a href="/arc-raiders-aimbot/">Arc Raiders Aimbot</a> and <a href="/arc-raiders-soft-aim/">soft aim</a>.',
 				],
 			},
 			{
 				h2: 'Per-weapon profiles beat one global slider',
 				paragraphs: [
-					'ARs, SMGs, and bolt-actions want different assist. Save separate profiles so dorms sprays and long Woods peeks do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.',
+					'ARs, SMGs, and bolt-actions want different assist. Save separate profiles so close-quarters sprays and long Rust Belt peeks do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.',
 					'Hotkeys matter mid-raid. You need to disable assist when you are looting friendlies or holding a suspicious angle where obvious corrections would look wrong.',
 				],
 			},
@@ -636,13 +635,13 @@ const sources = [
 		],
 	},
 	{
-		id: 'undetected-arc-raiders-cheats-battleye',
+		id: 'undetected-arc-raiders-cheats-eac',
 		imageKey: 'playerEsp',
 		published: '2026-07-19',
 		updated: '2026-08-13',
 		category: 'Undetected',
 		featured: true,
-		slug: 'undetected-arc-raiders-cheats-battleye',
+		slug: 'undetected-arc-raiders-cheats-eac',
 		title: 'Undetected Arc Raiders Cheats and Easy Anti-Cheat Reality',
 		metaDescription:
 			'What “undetected arc raiders cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue ARC Raiders.',
@@ -651,9 +650,9 @@ const sources = [
 			'“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for ARC Raiders players.',
 		keywords: [
 			'undetected arc raiders cheats',
-			'battleye arc-raiders',
+			'Easy Anti-Cheat arc-raiders',
 			'arc-raiders ban risk',
-			'eft undetected',
+			'arc raiders undetected',
 			'arc-raiders status',
 		],
 		imageAlt: 'Easy Anti-Cheat maintenance status for undetected Arc Raiders cheats',
@@ -668,7 +667,7 @@ const sources = [
 			{
 				h2: 'Patch-day habits that reduce pain',
 				paragraphs: [
-					`After a Arc Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Battlestate services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
+					`After an ARC Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Embark Studios services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
 					'Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.',
 				],
 			},
@@ -688,20 +687,20 @@ const sources = [
 		category: 'Comparisons',
 		featured: false,
 		slug: 'arc-raiders-cheats-vs-cheatvault-comparison',
-		title: 'Arc Raiders Cheats vs Typical Budget EFT Shops',
+		title: 'Arc Raiders Cheats vs Typical Budget Cheat Shops',
 		metaDescription:
 			'How Arc Raiders Cheats compares to typical budget ARC Raiders cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
-		h1: 'Arc Raiders Cheats vs Typical Budget EFT Cheat Shops',
+		h1: 'Arc Raiders Cheats vs Typical Budget ARC Raiders Cheat Shops',
 		intro:
 			'Budget ARC Raiders stores often look identical: neon banners, “undetected” badges, and a low weekly price. Arc Raiders Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
 			'arc raiders cheats comparison',
-			'budget eft cheats',
+			'budget arc raiders cheats',
 			'arc raiders cheats vs other shops',
 			'esp radar pricing',
 			'arc raiders cheats',
 		],
-		imageAlt: 'Comparing Arc Raiders Cheats features against budget EFT cheat shops',
+		imageAlt: 'Comparing Arc Raiders Cheats features against budget ARC Raiders cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',
@@ -714,7 +713,7 @@ const sources = [
 				h2: 'Price versus what you touch every raid',
 				paragraphs: [
 					'If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold extracts, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.',
-					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/escape-from-arc-raiders-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
+					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
 				],
 			},
 			{
@@ -760,7 +759,7 @@ const sources = [
 				h2: 'Soft aim and the mid-raid feel',
 				paragraphs: [
 					'Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.',
-					'On Arc Raiders Cheats I relied more on per-weapon profiles so dorms and long peeks did not share one magnet. Details are in the <a href="/arc-raiders-aimbot/">aimbot guide</a>.',
+					'On Arc Raiders Cheats I relied more on per-weapon profiles so underground zones and long peeks did not share one magnet. Details are in the <a href="/arc-raiders-aimbot/">aimbot guide</a>.',
 				],
 			},
 			{

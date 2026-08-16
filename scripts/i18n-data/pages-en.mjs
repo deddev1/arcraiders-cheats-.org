@@ -17,14 +17,14 @@ export const enPages = {
 		sections: [
 			section(
 				'Why players choose Arc Raiders cheats in 2026',
-				'Arc Raiders rewards map awareness. Arc Raiders Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, scav-run, and competitive lobbies.',
+				'Arc Raiders rewards map awareness. Arc Raiders Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, extraction-run, and competitive lobbies.',
 				`Official seasons, patches, and anti-cheat updates come from ${EXT.game} and ${EXT.eac}. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href="/updates/">Updates page</a>.`,
 				'Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Easy Anti-Cheat maintenance rebuilds when anti-cheat or game patches require updates.',
 				'Start with the <a href="/arc-raiders-cheats/">Arc Raiders cheats pillar</a>, <a href="/arc-raiders-esp/">ESP guide</a>, <a href="/arc-raiders-aimbot/">Aimbot controls</a>, and <a href="/arc-raiders-cheats/">undetected status</a> pages if you are comparing tools before checkout.',
 			),
 			section(
 				'ESP wallhack, radar hack, and Aimbot in one license',
-				'Instead of stacking separate tools, Arc Raiders Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for surface raids and scav-runs — covering both “arc raiders cheats” and “escape from arc raiders cheats” search intent.',
+				'Instead of stacking separate tools, Arc Raiders Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for surface raids and extraction-runs — covering both “arc raiders cheats” and “arc raiders hacks” search intent.',
 				'Browse the <a href="/arc-raiders-esp/">ESP</a>, <a href="/arc-raiders-aimbot/">Aimbot</a>, <a href="/arc-raiders-esp/">wallhack</a>, and <a href="/arc-raiders-radar-hack/">radar</a> pages for control details — or jump to <a href="/pricing/">Pricing</a> for monthly and lifetime options.',
 				`Before patch days, check ${EXT.status} for Embark Studios service health, then confirm our maintenance notes so you are not queueing on an outdated build.`,
 				'Ready to buy? Open <a href="/pricing/">Pricing</a>, follow <a href="/setup/">Setup</a> after delivery, and keep <a href="/faq/">FAQ</a> / <a href="/support/">Support</a> bookmarked for license questions.',
@@ -37,7 +37,7 @@ export const enPages = {
 			'Arc Raiders ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected arc raiders cheats for ARC Raiders.',
 		h1: 'Arc Raiders ESP — Player Boxes & Wallhack',
 		intro:
-			'Arc Raiders esp visibility tools for raid and scav-run. Read enemy squads, Raiders, ARC drones, loot, and distance before you commit — toggleable arc-raiders esp wallhack overlays bundled in our arc raiders cheats package.',
+			'Arc Raiders esp visibility tools for raid and extraction-run. Read enemy squads, Raiders, ARC drones, loot, and distance before you commit — toggleable arc-raiders esp wallhack overlays bundled in our arc raiders cheats package.',
 		imageAlt: "Arc Raiders ESP player boxes and distance readouts in a raid",
 		galleryTitle: 'Arc Raiders ESP overlay visuals',
 		ctaPrimary: 'Buy Arc Raiders Cheats',
@@ -47,13 +47,13 @@ export const enPages = {
 			section(
 				'What Arc Raiders ESP solves in raids',
 				'Arc Raiders maps punish incomplete information. Arc Raiders Cheats ESP wallhack helps you spot enemy squads early, spot Raiders and ARC drones before they push your angle, and mark high-value loot worth the detour.',
-				'On raid, scav-run, and competitive lobbies, that visibility gap is often the difference between a clean third-party and a wiped squad. ESP ships bundled with radar overlays and Aimbot in one license.',
+				'On raid, extraction-run, and competitive lobbies, that visibility gap is often the difference between a clean third-party and a wiped squad. ESP ships bundled with radar overlays and Aimbot in one license.',
 				`Arc Raiders’s live seasons and map updates are published by Embark Studios (${EXT.game}). When POIs or loot rules shift, ESP categories stay useful because they track players and containers — not a single static landmark.`,
 			),
 			section(
 				'Player, boss, and loot ESP wallhack categories',
 				'Toggle enemy player outlines, boss markers, extract cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.',
-				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports surface raids and scav-runs lobbies alike.',
+				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports surface raids and extraction-runs lobbies alike.',
 				'Compare category detail on the <a href="/arc-raiders-esp/">wallhack page</a> and pair visibility with the <a href="/arc-raiders-radar-hack/">radar hack</a> for flanks outside your FOV.',
 				[
 					'Enemy player ESP outlines with distance',
@@ -97,7 +97,7 @@ export const enPages = {
 			),
 			section(
 				'Per-weapon Aimbot profiles',
-				'Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and dorms clears without reopening menus every raid.',
+				'Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and underground zone clears without reopening menus every raid.',
 				'Prefer softer tracking? Read the <a href="/arc-raiders-aimbot/">soft aim guide</a>.',
 				'Aimbot ships alongside <a href="/arc-raiders-esp/">ESP wallhack</a> and <a href="/arc-raiders-radar-hack/">2D radar</a> in the same Arc Raiders Cheats license.',
 				[
@@ -137,7 +137,7 @@ export const enPages = {
 			section(
 				'ESP wallhack and visibility features',
 				'Enemy player ESP wallhack, boss and extract awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.',
-				'Team and enemy colour coding supports surface raids and scav-runs. Deep-dive the <a href="/arc-raiders-esp/">ESP page</a> and <a href="/arc-raiders-esp/">wallhack guide</a> for category-level detail.',
+				'Team and enemy colour coding supports surface raids and extraction-runs. Deep-dive the <a href="/arc-raiders-esp/">ESP page</a> and <a href="/arc-raiders-esp/">wallhack guide</a> for category-level detail.',
 				`Map and loot systems evolve with ${EXT.game} wipe and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
 			),
 			section(
@@ -237,7 +237,7 @@ export const enPages = {
 				'Why the Updates page matters',
 				'Arc Raiders and Easy Anti-Cheat receive frequent patches. Arc Raiders Cheats publishes maintenance notes when ESP wallhack, radar, or Aimbot behavior needs a rebuild.',
 				`Use ${EXT.status} for Embark Studios platform health and this page for Arc Raiders Cheats build status — both matter on big update days.`,
-				'Checking this log before you queue reduces surprises after game days or seasonal launches on raid and scav-run.',
+				'Checking this log before you queue reduces surprises after game days or seasonal launches on raid and extraction-run.',
 			),
 			section(
 				'What maintenance entries cover',
@@ -269,7 +269,7 @@ export const enPages = {
 			section(
 				'What is Arc Raiders Cheats?',
 				'Arc Raiders Cheats is an undetected cheat package for Arc Raiders on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with Easy Anti-Cheat maintenance updates.',
-				'Packages cover raid and scav-run. Explore <a href="/features/">Features</a> for the full control list and <a href="/arc-raiders-esp/">ESP</a> / <a href="/arc-raiders-aimbot/">Aimbot</a> for module detail.',
+				'Packages cover raid and extraction-run. Explore <a href="/features/">Features</a> for the full control list and <a href="/arc-raiders-esp/">ESP</a> / <a href="/arc-raiders-aimbot/">Aimbot</a> for module detail.',
 				`Arc Raiders itself is published by Embark Studios (${EXT.game}). Cheats are third-party tools and may violate Embark Studios' rules — use is at your own risk.`,
 			),
 			section(
@@ -358,7 +358,7 @@ export const enPages = {
 			'Arc Raiders wallhack ESP with player boxes and loot markers for Windows PC. Undetected arc raiders cheats — learn overlays and buy.',
 		h1: 'Arc Raiders Wallhack — ESP Boxes & Visibility',
 		intro:
-			'Arc Raiders wallhack ESP for Arc Raiders — see players, loot, bosses, and containers through toggleable wallhack overlays built for surface raids and scav-runs.',
+			'Arc Raiders wallhack ESP for Arc Raiders — see players, loot, bosses, and containers through toggleable wallhack overlays built for surface raids and extraction-runs.',
 		imageAlt: "Arc Raiders wallhack visibility through walls in a raid",
 		galleryTitle: 'Arc Raiders wallhack ESP gallery',
 		ctaPrimary: 'Buy Arc Raiders Cheats',
@@ -373,7 +373,7 @@ export const enPages = {
 			),
 			section(
 				'Map coverage for wallhack ESP',
-				'Wallhack overlays support raid, scav-run, and competitive lobbies with distance readouts and snaplines for engagement control.',
+				'Wallhack overlays support raid, extraction-run, and competitive lobbies with distance readouts and snaplines for engagement control.',
 				`Season maps and POI changes are announced via ${EXT.game}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
 				'Pair wallhack awareness with <a href="/arc-raiders-radar-hack/">radar hack</a> cues for flanks during building and rooftop fights.',
 			),
@@ -388,7 +388,7 @@ export const enPages = {
 	radar: {
 		title: 'Arc Raiders Radar Hack 2026 | 2D Threat Overlay',
 		description:
-			'Arc Raiders radar hack for flank awareness on Windows PC. Bundled with ESP boxes, soft aim, and radar in our arc raiders cheats package.',
+			'Arc Raiders radar hack for flank awareness on Windows PC. 2D threat overlay bundled with ESP boxes, soft aim, and patch updates in our arc raiders cheats package.',
 		h1: 'Arc Raiders Radar Hack — 2D Threat Awareness',
 		intro:
 			'2D radar-style overlay for Arc Raiders — directional threat cues for nearby players outside your line of sight, bundled with ESP wallhack and Aimbot.',
@@ -406,7 +406,7 @@ export const enPages = {
 			),
 			section(
 				'Configurable radar range',
-				'Adjust radar range for early rotations versus tight extract holds. Directional cues highlight flanks during building clears and flank pushes across raid and scav-run.',
+				'Adjust radar range for early rotations versus tight extract holds. Directional cues highlight flanks during building clears and flank pushes across raid and extraction-run.',
 				'Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href="/arc-raiders-cheats/">mod menu</a> page.',
 				'Combat follow-up lives on <a href="/arc-raiders-aimbot/">Aimbot</a> when you convert radar info into a fight.',
 			),
@@ -468,7 +468,7 @@ export const enPages = {
 				'Why arc raiders cheats buyers choose Arc Raiders Cheats in 2026',
 				'2026 seasons bring new maps, weapons, and Easy Anti-Cheat updates. Arc Raiders Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.',
 				`Track official season messaging on ${EXT.game}, then use our <a href="/updates/">Updates log</a> for product rebuild timing.`,
-				'Monthly ($35) and lifetime ($150) plans cover raid and scav-run loops — see <a href="/pricing/">Pricing</a>.',
+				'Monthly ($35) and lifetime ($150) plans cover raid and extraction-run loops — see <a href="/pricing/">Pricing</a>.',
 			),
 			section(
 				'Full feature stack for 2026 buyers',
@@ -490,7 +490,7 @@ export const enPages = {
 			'Arc Raiders cheats for Windows PC: undetected ESP wallhack, radar hack, and Aimbot with Easy Anti-Cheat maintenance. Compare arc raiders cheats options and buy the full package.',
 		h1: 'Arc Raiders Cheats — Undetected ESP, Aimbot & Wallhack',
 		intro:
-			'Arc Raiders cheats for raid and scav-run combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Easy Anti-Cheat patches. This is the pillar guide for arc raiders cheats in 2026.',
+			'Arc Raiders cheats for raid and extraction-run combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Easy Anti-Cheat patches. This is the pillar guide for arc raiders cheats in 2026.',
 		imageAlt: "Arc Raiders Cheats product page — ESP, aimbot, and radar",
 		galleryTitle: 'Arc Raiders cheats gallery — ESP, Aimbot, wallhack',
 		ctaPrimary: 'Buy Arc Raiders Cheats',
@@ -500,14 +500,14 @@ export const enPages = {
 			section(
 				'What Arc Raiders cheats include in 2026',
 				'Players searching for Arc Raiders cheats usually want visibility and combat tools without stacking separate downloads. Arc Raiders Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called arc raiders cheats.',
-				'Coverage spans raid and scav-run with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
+				'Coverage spans raid and extraction-run with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
 				`Official game updates come from ${EXT.game}; our hacks package tracks those releases via the <a href="/updates/">Updates page</a>. Cross-check platform health on ${EXT.status} before patch-day queues.`,
 			),
 			section(
 				'How this Arc Raiders cheats pillar fits nearby pages',
 				'Use this pillar for the core product overview. For year-specific buying notes, see the <a href="/arc-raiders-cheats/">arc raiders cheats 2026</a> and <a href="/arc-raiders-cheats/">Arc Raiders cheats</a> pages cover buyer comparisons in cheats wording.',
 				'Deep-dive modules: <a href="/arc-raiders-esp/">Arc Raiders ESP</a>, <a href="/arc-raiders-aimbot/">Arc Raiders Aimbot</a>, <a href="/arc-raiders-esp/">wallhack</a>, <a href="/arc-raiders-radar-hack/">radar hack</a>, and <a href="/arc-raiders-aimbot/">soft aim</a>.',
-				'Blog guides expand Easy Anti-Cheat keyword: <a href="/blog/arc-raiders-cheats-complete-guide-2026/">hacks complete guide</a>, <a href="/blog/arc-raiders-cheats-buyers-guide/">cheats buyers guide</a>, and <a href="/blog/undetected-arc-raiders-cheats-battleye/">undetected Easy Anti-Cheat notes</a>.',
+				'Blog guides expand Easy Anti-Cheat keyword: <a href="/blog/arc-raiders-cheats-complete-guide-2026/">hacks complete guide</a>, <a href="/blog/arc-raiders-cheats-buyers-guide/">cheats buyers guide</a>, and <a href="/blog/undetected-arc-raiders-cheats-eac/">undetected Easy Anti-Cheat notes</a>.',
 			),
 			section(
 				'Arc Raiders cheats vs single-feature tools',
@@ -544,7 +544,7 @@ export const enPages = {
 			),
 			section(
 				'What your download unlocks',
-				'Every Arc Raiders cheat download includes player ESP wallhack, loot and container markers, 2D radar overlays, Aimbot profiles, and in-client toggles for surface raids and scav-runs.',
+				'Every Arc Raiders cheat download includes player ESP wallhack, loot and container markers, 2D radar overlays, Aimbot profiles, and in-client toggles for surface raids and extraction-runs.',
 				'Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href="/pricing/">Pricing page</a>.',
 				'Feature detail: <a href="/features/">Features</a>. Module pages: <a href="/arc-raiders-esp/">ESP</a>, <a href="/arc-raiders-aimbot/">Aimbot</a>.',
 			),
@@ -576,7 +576,7 @@ export const enPages = {
 				'Control deep-dives: <a href="/arc-raiders-esp/">ESP</a>, <a href="/arc-raiders-aimbot/">Aimbot</a>, <a href="/arc-raiders-radar-hack/">radar</a>.',
 			),
 			section(
-				'Mod menu categories for surface raids and scav-runs',
+				'Mod menu categories for surface raids and extraction-runs',
 				'Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and extract holds.',
 				'Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.game} seasons change fight distances and mobility.',
 				'Soft tracking players should start with <a href="/arc-raiders-aimbot/">soft aim</a> profiles before aggressive FOV.',
@@ -638,7 +638,7 @@ export const enPages = {
 			section(
 				'What makes the Arc Raiders cheats in 2026',
 				'The Arc Raiders cheats combine active Easy Anti-Cheat maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.',
-				'Arc Raiders Cheats covers raid and scav-run with in-client toggles and post-patch rebuilds.',
+				'Arc Raiders Cheats covers raid and extraction-run with in-client toggles and post-patch rebuilds.',
 				`Verify the live game is healthy via ${EXT.status}, then confirm our <a href="/updates/">Updates</a> note before you judge any package “best.”`,
 			),
 			section(
@@ -671,7 +671,7 @@ export const enPages = {
 			section(
 				'Arc Raiders aimbot hack vs visibility tools',
 				'A Arc Raiders aimbot hack focuses on assisted targeting during firefights — while ESP wallhack and radar handle map awareness. Arc Raiders Cheats bundles aimbot hack modules with visibility overlays in one license.',
-				'Smoothness, FOV, and sensitivity controls tune assist for Arc Raiders combat pace across surface raids and scav-runs.',
+				'Smoothness, FOV, and sensitivity controls tune assist for Arc Raiders combat pace across surface raids and extraction-runs.',
 				'Prefer softer tracking language? See <a href="/arc-raiders-aimbot/">soft aim</a>. Full settings: <a href="/arc-raiders-aimbot/">Aimbot page</a>.',
 			),
 			section(
@@ -694,7 +694,7 @@ export const enPages = {
 			'Arc Raiders ESP hack with player boxes and loot markers for Windows PC. Undetected arc raiders cheats with — see overlays and buy.',
 		h1: 'Arc Raiders ESP Hack — Player Boxes Guide',
 		intro:
-			'Arc Raiders ESP hack overlays for Arc Raiders — player outlines, boss threat cues, loot and container markers with distance readouts across raid and scav-run.',
+			'Arc Raiders ESP hack overlays for Arc Raiders — player outlines, boss threat cues, loot and container markers with distance readouts across raid and extraction-run.',
 		imageAlt: "Arc Raiders ESP hack boxes and loot markers",
 		galleryTitle: 'Arc Raiders ESP hack gallery',
 		ctaPrimary: 'Buy Arc Raiders Cheats',
@@ -710,7 +710,7 @@ export const enPages = {
 			section(
 				'ESP hack categories for raids',
 				'Toggle player ESP hack, loot markers, chest pins, and vehicle cues independently so only raid-critical overlays stay active during rotations.',
-				'Team and enemy colour coding supports surface raids and scav-runs.',
+				'Team and enemy colour coding supports surface raids and extraction-runs.',
 				`POI and loot changes publish through ${EXT.game} — keep categories toggled to what the current map rewards.`,
 			),
 			section(
@@ -738,7 +738,7 @@ export const enPages = {
 				'What Arc Raiders unlock all usually means',
 				'Arc Raiders unlock all searches often refer to instant access to weapons, camos, skins, or battle pass tiers. Those claims differ from visibility and combat-assist tools like ESP wallhack and Aimbot.',
 				'Arc Raiders Cheats focuses on in-match awareness — player ESP, loot markers, radar overlays, and configurable Aimbot — not account-wide cosmetic unlocks.',
-				`Cosmetics and wipe progression items are sold through ${EXT.game}. Be wary of unlock-all downloads that promise free skins — they are often scams.`,
+				`Cosmetics and season progression items are sold through ${EXT.game}. Be wary of unlock-all downloads that promise free skins — they are often scams.`,
 			),
 			section(
 				'Visibility tools vs unlock-all claims',

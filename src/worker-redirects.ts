@@ -1,9 +1,12 @@
 import cannibalRedirects from '../functions/cannibal-redirects.json';
+import escapeFromRedirects from '../functions/escape-from-redirects.json';
 import pathRedirects from '../functions/path-redirects.json';
 
 export const PATH_REDIRECTS = pathRedirects as Record<string, string>;
 
 export const CANNIBAL_REDIRECTS = cannibalRedirects as Record<string, string>;
+
+export const ESCAPE_FROM_REDIRECTS = escapeFromRedirects as Record<string, string>;
 
 export function isBrandStudioPath(pathname: string): boolean {
 	return (
@@ -30,6 +33,7 @@ export function trailingSlashRedirect(pathname: string): string | null {
 export function resolvePathRedirect(pathname: string): string | null {
 	return (
 		PATH_REDIRECTS[pathname] ??
+		ESCAPE_FROM_REDIRECTS[pathname] ??
 		CANNIBAL_REDIRECTS[pathname] ??
 		xmlTrailingSlashRedirect(pathname) ??
 		trailingSlashRedirect(pathname)

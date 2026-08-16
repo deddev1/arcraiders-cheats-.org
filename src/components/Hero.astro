@@ -65,7 +65,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	.hero__media img {
 		/* Cover = keep proportions; crop top/bottom of the shorter bar */
 		object-fit: cover;
-		/* Prefer a bit higher in the frame so the USEC head stays in view */
+		/* Prefer a bit higher in the frame so the hero subject stays in view */
 		object-position: right 28%;
 		image-rendering: auto;
 		transform: translateZ(0);
@@ -115,11 +115,11 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	.hero__brand {
 		margin: 0;
 		font-family: var(--font-sans);
-		font-size: clamp(2.1rem, 4.4vw, 3.25rem);
+		font-size: clamp(1.35rem, 3.8vw, 3.25rem);
 		font-weight: 700;
 		line-height: 1.12;
 		letter-spacing: -0.03em;
-		overflow-wrap: anywhere;
+		white-space: nowrap;
 		color: #fff;
 		width: 100%;
 		text-transform: uppercase;
@@ -328,7 +328,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__brand {
-			font-size: clamp(1.7rem, 7.5vw, 2.35rem);
+			font-size: clamp(1.25rem, 6.2vw, 2.35rem);
 			line-height: 1.08;
 		}
 
@@ -377,7 +377,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__brand {
-			font-size: clamp(1.55rem, 8.2vw, 1.95rem);
+			font-size: clamp(1.15rem, 6.8vw, 1.95rem);
 		}
 
 		.hero__lede {
@@ -400,7 +400,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__brand {
-			font-size: 1.45rem;
+			font-size: clamp(1.05rem, 7vw, 1.45rem);
 		}
 
 		.hero__features {

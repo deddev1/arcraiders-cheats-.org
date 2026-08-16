@@ -3,7 +3,7 @@
 export const uiStrings = {
 	en: {
 		nav: { home: 'Home', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Features', pricing: 'Pricing', setup: 'Setup', updates: 'Updates', faq: 'FAQ', buyNow: 'Buy Now' },
-		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected arc raiders cheats 2026', subtitle: 'Arc Raiders cheats with arc-raiders esp, radar hack and arc-raiders aimbot for Windows PC — Easy Anti-Cheat maintenance included.', subtitleShort: 'Arc Raiders esp, radar & aimbot for PC', buyNow: 'Buy Arc Raiders Cheats', seeFeatures: 'See Features' },
+		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected arc raiders cheats 2026', subtitle: 'Undetected ESP, soft aim, and radar for ARC Raiders on Windows PC.', subtitleShort: 'Arc Raiders esp, radar & aimbot for PC', buyNow: 'Get Access', seeFeatures: 'See Features' },
 		trust: { status: 'Online', statusNote: 'Arc Raiders Cheats — undetected arc raiders cheats live for Arc Raiders on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Easy Anti-Cheat maintenance supported', antiCheatShort: 'Easy Anti-Cheat supported' },
 		product: { title: 'Arc Raiders Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'Arc Raiders', platformBadge: 'Windows PC', statusBadge: 'Undetected arc raiders cheats' },
 		reviews: { title: 'What players say', subtitle: 'Recent feedback from Arc Raiders Cheats buyers', outOf: 'out of 5', countLabel: 'reviews' },
