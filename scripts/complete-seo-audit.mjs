@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Completes escape-from-tarkov-cheats SEO audit: add missing pages, fix leftovers, strip Zadeyo from meta.
+ * Completes escape-from-arc-raiders-cheats SEO audit: add missing pages, fix leftovers, strip Zadeyo from meta.
  * Run: node scripts/complete-seo-audit.mjs
  */
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
@@ -11,52 +11,52 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NODE = 'C:\\Program Files\\nodejs\\node.exe';
 
 const EXTRA_PAGES = [
-	{ id: 'hacks', dir: 'tarkov-cheats', pageId: 'hacks' },
-	{ id: 'cheat-download', dir: 'tarkov-cheat-download', pageId: 'cheat-download' },
-	{ id: 'mod-menu', dir: 'tarkov-mod-menu', pageId: 'mod-menu' },
-	{ id: 'soft-aim', dir: 'tarkov-soft-aim', pageId: 'soft-aim' },
-	{ id: 'best-cheats', dir: 'best-tarkov-cheats', pageId: 'best-cheats' },
-	{ id: 'aimbot-hack', dir: 'tarkov-aimbot-hack', pageId: 'aimbot-hack' },
-	{ id: 'esp-hack', dir: 'tarkov-esp-hack', pageId: 'esp-hack' },
-	{ id: 'unlock-all', dir: 'tarkov-unlock-all', pageId: 'unlock-all' },
+	{ id: 'hacks', dir: 'arc-raiders-cheats', pageId: 'hacks' },
+	{ id: 'cheat-download', dir: 'arc-raiders-cheat-download', pageId: 'cheat-download' },
+	{ id: 'mod-menu', dir: 'arc-raiders-mod-menu', pageId: 'mod-menu' },
+	{ id: 'soft-aim', dir: 'arc-raiders-soft-aim', pageId: 'soft-aim' },
+	{ id: 'best-cheats', dir: 'best-arc-raiders-cheats', pageId: 'best-cheats' },
+	{ id: 'aimbot-hack', dir: 'arc-raiders-aimbot-hack', pageId: 'aimbot-hack' },
+	{ id: 'esp-hack', dir: 'arc-raiders-esp-hack', pageId: 'esp-hack' },
+	{ id: 'unlock-all', dir: 'arc-raiders-unlock-all', pageId: 'unlock-all' },
 ];
 
 const GLOBAL_REPLACEMENTS = [
-	[/tarkov-tarkov/g, 'tarkov'],
-	[/battleye-bypass-tarkov/g, 'battleye-bypass'],
-	[/Escape from Tarkov/g, 'Escape from Tarkov'],
-	[/Escape from Tarkov/g, 'Escape from Tarkov'],
-	[/Call of Duty/g, 'Escape from Tarkov'],
-	[/Tarkov Wallhack/g, 'Escape from Tarkov Wallhack'],
-	[/Tarkov Radar Hack/g, 'Escape from Tarkov Radar Hack'],
-	[/Tarkov Cheat Features/g, 'Escape from Tarkov Cheat Features'],
-	[/Tarkov Cheat Pricing/g, 'Escape from Tarkov Cheat Pricing'],
-	[/Tarkov Cheat Setup/g, 'Escape from Tarkov Cheat Setup'],
-	[/Tarkov Cheat Status/g, 'Escape from Tarkov Cheat Status'],
-	[/Tarkov Cheat Support/g, 'Escape from Tarkov Cheat Support'],
-	[/Tarkov squad fight/g, 'Escape from Tarkov squad fight'],
-	[/Tarkov squad builder/g, 'Escape from Tarkov loadout builder'],
-	[/Tarkov store header/g, 'Escape from Tarkov header'],
-	[/Tarkov wasteland combat/g, 'Escape from Tarkov battle royale combat'],
-	[/Tarkov loadout builder/g, 'Escape from Tarkov loadout builder'],
-	[/Tarkov pricing/g, 'Escape from Tarkov pricing'],
-	[/Tarkov BattlEye anti-cheat/g, 'Escape from Tarkov BattlEye anti-cheat'],
-	[/on Tarkov/g, 'on Escape from Tarkov'],
-	[/for Tarkov/g, 'for Escape from Tarkov'],
-	[/Tarkov guides/g, 'Escape from Tarkov guides'],
-	[/Tarkov guide/g, 'Escape from Tarkov guide'],
-	[/Tarkov hileleri/g, 'Escape from Tarkov hileleri'],
-	[/Tarkov hile/g, 'Escape from Tarkov hile'],
-	[/Tarkov hileleri/g, 'Escape from Tarkov hileleri'],
-	[/cheatów Tarkov/g, 'cheatów Escape from Tarkov'],
-	[/cheat Tarkov/g, 'cheat Escape from Tarkov'],
-	[/cheats Tarkov/g, 'cheats Escape from Tarkov'],
-	[/trucos Tarkov/g, 'trucos Escape from Tarkov'],
-	[/triche Tarkov/g, 'triche Escape from Tarkov'],
-	[/trucchi Tarkov/g, 'trucchi Escape from Tarkov'],
-	[/Wallhack Tarkov/g, 'Escape from Tarkov Wallhack'],
-	[/cheat Tarkov undetected/g, 'cheat Escape from Tarkov undetected'],
-	[/cheats Tarkov undetected/g, 'cheats Escape from Tarkov undetected'],
+	[/arc-raiders-arc-raiders/g, 'arc-raiders'],
+	[/eac-bypass-arc-raiders/g, 'eac-bypass'],
+	[/ARC Raiders/g, 'ARC Raiders'],
+	[/ARC Raiders/g, 'ARC Raiders'],
+	[/Call of Duty/g, 'ARC Raiders'],
+	[/Arc Raiders Wallhack/g, 'ARC Raiders Wallhack'],
+	[/Arc Raiders Radar Hack/g, 'ARC Raiders Radar Hack'],
+	[/Arc Raiders Cheat Features/g, 'ARC Raiders Cheat Features'],
+	[/Arc Raiders Cheat Pricing/g, 'ARC Raiders Cheat Pricing'],
+	[/Arc Raiders Cheat Setup/g, 'ARC Raiders Cheat Setup'],
+	[/Arc Raiders Cheat Status/g, 'ARC Raiders Cheat Status'],
+	[/Arc Raiders Cheat Support/g, 'ARC Raiders Cheat Support'],
+	[/Arc Raiders squad fight/g, 'ARC Raiders squad fight'],
+	[/Arc Raiders squad builder/g, 'ARC Raiders loadout builder'],
+	[/Arc Raiders store header/g, 'ARC Raiders header'],
+	[/Arc Raiders wasteland combat/g, 'ARC Raiders battle royale combat'],
+	[/Arc Raiders loadout builder/g, 'ARC Raiders loadout builder'],
+	[/Arc Raiders pricing/g, 'ARC Raiders pricing'],
+	[/Arc Raiders Easy Anti-Cheat/g, 'ARC Raiders Easy Anti-Cheat'],
+	[/on Arc Raiders/g, 'on ARC Raiders'],
+	[/for Arc Raiders/g, 'for ARC Raiders'],
+	[/Arc Raiders guides/g, 'ARC Raiders guides'],
+	[/Arc Raiders guide/g, 'ARC Raiders guide'],
+	[/Arc Raiders hileleri/g, 'ARC Raiders hileleri'],
+	[/Arc Raiders hile/g, 'ARC Raiders hile'],
+	[/Arc Raiders hileleri/g, 'ARC Raiders hileleri'],
+	[/cheatów Arc Raiders/g, 'cheatów ARC Raiders'],
+	[/cheat Arc Raiders/g, 'cheat ARC Raiders'],
+	[/cheats Arc Raiders/g, 'cheats ARC Raiders'],
+	[/trucos Arc Raiders/g, 'trucos ARC Raiders'],
+	[/triche Arc Raiders/g, 'triche ARC Raiders'],
+	[/trucchi Arc Raiders/g, 'trucchi ARC Raiders'],
+	[/Wallhack Arc Raiders/g, 'ARC Raiders Wallhack'],
+	[/cheat Arc Raiders undetected/g, 'cheat ARC Raiders undetected'],
+	[/cheats Arc Raiders undetected/g, 'cheats ARC Raiders undetected'],
 	[/Verdansk beams/g, 'long-range AR beams'],
 	[/scav-run room clears/g, 'close-quarters room clears'],
 	[/Verdansk and Urzikstan/g, 'Verdansk and scav-run'],
@@ -68,13 +68,13 @@ const GLOBAL_REPLACEMENTS = [
 	[/Activision security/g, 'Epic Games security'],
 	[/Activision bans/g, 'Epic Games bans'],
 	[/Activision/g, 'Epic Games'],
-	[/battleye/gi, 'battleye'],
-	[/BattlEye/g, 'BattlEye anti-cheat'],
-	[/escape-from-tarkov-cheats/g, 'escape-from-tarkov-cheats'],
-	[/escape-from-tarkov/g, 'tarkov'],
-	[/Undetected Wallhack for Call of Duty/g, 'Undetected Wallhack for Escape from Tarkov'],
+	[/battleye/gi, 'eac'],
+	[/Easy Anti-Cheat/g, 'Easy Anti-Cheat'],
+	[/escape-from-arc-raiders-cheats/g, 'escape-from-arc-raiders-cheats'],
+	[/arc-raiders/g, 'arc-raiders'],
+	[/Undetected Wallhack for Call of Duty/g, 'Undetected Wallhack for ARC Raiders'],
 	[/How ESP wallhack, radar, and Aimbot rebuild after Call of Duty anti-cheat/g,
-		'How ESP wallhack, radar, and Aimbot rebuild after Escape from Tarkov anti-cheat'],
+		'How ESP wallhack, radar, and Aimbot rebuild after ARC Raiders anti-cheat'],
 ];
 
 /** Remove Zadeyo from meta description/title strings only */
@@ -90,7 +90,7 @@ function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, 'instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy Tarkov Cheats')
+		.replace(/Buy on Zadeyo/g, 'Buy Arc Raiders Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -169,38 +169,38 @@ import LocalizedPage from '../../components/LocalizedPage.astro';
 async function fixLocalesBlogUi() {
 	const file = path.join(ROOT, 'src', 'data', 'i18n', 'locales.ts');
 	let content = await readFile(file, 'utf8');
-	content = content.replace(/Tarkov guides/g, 'Escape from Tarkov guides');
-	content = content.replace(/Tarkov guide/g, 'Escape from Tarkov guide');
-	content = content.replace(/Tarkov hileleri/g, 'Escape from Tarkov hileleri');
-	content = content.replace(/Tarkov hile/g, 'Escape from Tarkov hile');
-	content = content.replace(/cheat Tarkov/g, 'cheat Escape from Tarkov');
-	content = content.replace(/cheats Tarkov/g, 'cheats Escape from Tarkov');
-	content = content.replace(/trucos Tarkov/g, 'trucos Escape from Tarkov');
-	content = content.replace(/triche Tarkov/g, 'triche Escape from Tarkov');
-	content = content.replace(/trucchi Tarkov/g, 'trucchi Escape from Tarkov');
-	content = content.replace(/cheatów Tarkov/g, 'cheatów Escape from Tarkov');
-	content = content.replace(/читов Tarkov/g, 'читов Escape from Tarkov');
-	content = content.replace(/читів Tarkov/g, 'читів Escape from Tarkov');
-	content = content.replace(/Tarkovチート/g, 'Escape from Tarkovチート');
-	content = content.replace(/Tarkov 치트/g, 'Escape from Tarkov 치트');
-	content = content.replace(/Tarkov作弊/g, 'Escape from Tarkov作弊');
-	content = content.replace(/Tarkov rehberleri/g, 'Escape from Tarkov rehberleri');
-	content = content.replace(/Tarkov gidsen/g, 'Escape from Tarkov gidsen');
-	content = content.replace(/Tarkov průvodce/g, 'Escape from Tarkov průvodce');
-	content = content.replace(/Tarkov guider/g, 'Escape from Tarkov guider');
-	content = content.replace(/Tarkov related/g, 'Escape from Tarkov related');
-	content = content.replace(/Tarkov ガイド/g, 'Escape from Tarkov ガイド');
-	content = content.replace(/Tarkov 가이드/g, 'Escape from Tarkov 가이드');
-	content = content.replace(/Tarkov指南/g, 'Escape from Tarkov指南');
-	content = content.replace(/Tarkov गाइड/g, 'Escape from Tarkov गाइड');
-	content = content.replace(/Tarkov panduan/g, 'Escape from Tarkov panduan');
-	content = content.replace(/Tarkov คู่มือ/g, 'Escape from Tarkov คู่มือ');
-	content = content.replace(/Tarkov hướng dẫn/g, 'Escape from Tarkov hướng dẫn');
+	content = content.replace(/Arc Raiders guides/g, 'ARC Raiders guides');
+	content = content.replace(/Arc Raiders guide/g, 'ARC Raiders guide');
+	content = content.replace(/Arc Raiders hileleri/g, 'ARC Raiders hileleri');
+	content = content.replace(/Arc Raiders hile/g, 'ARC Raiders hile');
+	content = content.replace(/cheat Arc Raiders/g, 'cheat ARC Raiders');
+	content = content.replace(/cheats Arc Raiders/g, 'cheats ARC Raiders');
+	content = content.replace(/trucos Arc Raiders/g, 'trucos ARC Raiders');
+	content = content.replace(/triche Arc Raiders/g, 'triche ARC Raiders');
+	content = content.replace(/trucchi Arc Raiders/g, 'trucchi ARC Raiders');
+	content = content.replace(/cheatów Arc Raiders/g, 'cheatów ARC Raiders');
+	content = content.replace(/читов Arc Raiders/g, 'читов ARC Raiders');
+	content = content.replace(/читів Arc Raiders/g, 'читів ARC Raiders');
+	content = content.replace(/Arc Raidersチート/g, 'ARC Raidersチート');
+	content = content.replace(/Arc Raiders 치트/g, 'ARC Raiders 치트');
+	content = content.replace(/Arc Raiders作弊/g, 'ARC Raiders作弊');
+	content = content.replace(/Arc Raiders rehberleri/g, 'ARC Raiders rehberleri');
+	content = content.replace(/Arc Raiders gidsen/g, 'ARC Raiders gidsen');
+	content = content.replace(/Arc Raiders průvodce/g, 'ARC Raiders průvodce');
+	content = content.replace(/Arc Raiders guider/g, 'ARC Raiders guider');
+	content = content.replace(/Arc Raiders related/g, 'ARC Raiders related');
+	content = content.replace(/Arc Raiders ガイド/g, 'ARC Raiders ガイド');
+	content = content.replace(/Arc Raiders 가이드/g, 'ARC Raiders 가이드');
+	content = content.replace(/Arc Raiders指南/g, 'ARC Raiders指南');
+	content = content.replace(/Arc Raiders गाइड/g, 'ARC Raiders गाइड');
+	content = content.replace(/Arc Raiders panduan/g, 'ARC Raiders panduan');
+	content = content.replace(/Arc Raiders คู่มือ/g, 'ARC Raiders คู่มือ');
+	content = content.replace(/Arc Raiders hướng dẫn/g, 'ARC Raiders hướng dẫn');
 	await writeFile(file, content, 'utf8');
 	console.log('Fixed locales.ts blogUi');
 }
 
-console.log('=== Tarkov Cheats SEO completion ===\n');
+console.log('=== Arc Raiders Cheats SEO completion ===\n');
 await applyGlobalFixes();
 await createExtraPages();
 await fixLocalesBlogUi();

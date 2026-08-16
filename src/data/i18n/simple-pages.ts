@@ -50,7 +50,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'ESP & wallhack',
 				paragraphs: [
-					'See PMCs, Scavs, bosses, and loot through walls with distance readouts.',
+					'See Raiders, ARC drones, bosses, and loot through walls with distance readouts.',
 					'Use filters so the overlay stays clear in dorms, Factory, and scav-run chaos.',
 				],
 				list: ['Player boxes & distance', 'Loot and extract markers', 'Boss and Scav filters'],
@@ -69,7 +69,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'A simple 2D radar for threats outside your view.',
 					'Spot flanks near extracts without filling the whole screen.',
 				],
-				list: ['Nearby enemy cues', 'Adjustable range', 'Works in PMC & Scav'],
+				list: ['Nearby enemy cues', 'Adjustable range', 'Works in Raider & extraction'],
 			},
 			{
 				h2: 'Updates & support',
@@ -124,14 +124,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Tarkov Cheats overview',
-		ctaSecondaryHref: '/tarkov-cheats/',
+		ctaSecondary: 'Arc Raiders Cheats overview',
+		ctaSecondaryHref: '/arc-raiders-cheats/',
 		galleryTitle: 'In-game look',
 		sections: [
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of 13 Aug 2026 the package is online for Escape from Tarkov on Windows PC. We post a new note here when a game or BattlEye patch needs a rebuild.',
+					'As of 13 Aug 2026 the package is online for ARC Raiders on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
 					'If Status is green, you can raid. If we are rebuilding, wait for the next note.',
 				],
 				list: [
@@ -157,7 +157,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Tarkov Cheats',
+		h1: 'Arc Raiders Cheats',
 		intro: brandCopy.previewIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
@@ -167,24 +167,24 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'What you get',
 				paragraphs: [
-					'One license for Escape from Tarkov on Windows PC — built for PMC raids and Scav runs.',
+					'One license for ARC Raiders on Windows PC — built for surface raids and extraction runs.',
 				],
 				list: [
 					'ESP / wallhack with distance',
 					'Soft aim & aimbot profiles',
 					'2D radar for flanks',
-					'BattlEye rebuilds after patches',
+					'Easy Anti-Cheat rebuilds after patches',
 				],
 			},
 			{
-				h2: 'Built for Tarkov raids',
+				h2: 'Built for Arc Raiders raids',
 				paragraphs: [
-					'Read PMCs and Scavs before you push, mark loot worth the risk, and stay aware near extracts. Tune soft aim per weapon class for dorms, Factory, and long-range maps.',
+					'Read Raiders and ARC drones before you push, mark loot worth the risk, and stay aware near extracts. Tune soft aim per weapon class for dorms, Factory, and long-range maps.',
 				],
 				list: [
-					'<a href="/tarkov-esp/">ESP guide</a>',
-					'<a href="/tarkov-aimbot/">Aimbot controls</a>',
-					'<a href="/tarkov-radar-hack/">Radar overlay</a>',
+					'<a href="/arc-raiders-esp/">ESP guide</a>',
+					'<a href="/arc-raiders-aimbot/">Aimbot controls</a>',
+					'<a href="/arc-raiders-radar-hack/">Radar overlay</a>',
 					'<a href="/updates/">Live status</a>',
 				],
 			},
@@ -199,20 +199,20 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'tarkov-esp': page({
-		title: 'Tarkov ESP | {brand}',
+	'arc-raiders-esp': page({
+		title: 'Arc Raiders ESP | {brand}',
 		description:
-			'Tarkov ESP and wallhack for Escape from Tarkov on Windows PC — player boxes, distance, loot filters, and clear overlays in raids.',
+			'Arc Raiders ESP and wallhack for ARC Raiders on Windows PC — player boxes, distance, loot filters, and clear overlays in raids.',
 		h1: 'ESP',
-		intro: 'See players and loot through walls during Tarkov raids. Part of the same {brand} license.',
+		intro: 'See players and loot through walls during Arc Raiders raids. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Tarkov Cheats overview',
-		ctaSecondaryHref: '/tarkov-cheats/',
+		ctaSecondary: 'Arc Raiders Cheats overview',
+		ctaSecondaryHref: '/arc-raiders-cheats/',
 		galleryTitle: 'ESP in raid',
 		sections: [
 			{
 				h2: 'What ESP shows',
-				paragraphs: ['Boxes, distance, and filters for PMCs, Scavs, bosses, and loot.'],
+				paragraphs: ['Boxes, distance, and filters for Raiders, ARC drones, bosses, and loot.'],
 				list: ['Player ESP', 'Loot markers', 'Boss and Scav filters'],
 			},
 			{
@@ -224,22 +224,22 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Next steps',
 				paragraphs: ['ESP is included with aimbot and radar in one plan.'],
 				list: [
-					'<a href="/tarkov-cheats/">Full product</a>',
+					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/features/">All features</a>',
 					'<a href="/pricing/">Store</a>',
 				],
 			},
 		],
 	}),
-	'tarkov-aimbot': page({
-		title: 'Tarkov Aimbot | {brand}',
+	'arc-raiders-aimbot': page({
+		title: 'Arc Raiders Aimbot | {brand}',
 		description:
-			'Tarkov aimbot and soft aim for Escape from Tarkov on Windows PC — FOV, smoothness, and bone priority you can tune per weapon.',
+			'Arc Raiders aimbot and soft aim for ARC Raiders on Windows PC — FOV, smoothness, and bone priority you can tune per weapon.',
 		h1: 'Aimbot',
-		intro: 'Soft aim and aim assist you can tune for Tarkov. Included in the same {brand} license.',
+		intro: 'Soft aim and aim assist you can tune for Arc Raiders. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Tarkov Cheats overview',
-		ctaSecondaryHref: '/tarkov-cheats/',
+		ctaSecondary: 'Arc Raiders Cheats overview',
+		ctaSecondaryHref: '/arc-raiders-cheats/',
 		galleryTitle: 'Aimbot view',
 		sections: [
 			{
@@ -256,7 +256,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Next steps',
 				paragraphs: ['Aimbot ships with ESP and radar in one license.'],
 				list: [
-					'<a href="/tarkov-cheats/">Full product</a>',
+					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/features/">All features</a>',
 					'<a href="/pricing/">Store</a>',
 				],
@@ -264,27 +264,27 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	radar: page({
-		title: 'Tarkov Radar | {brand}',
+		title: 'Arc Raiders Radar | {brand}',
 		description:
-			'Tarkov 2D radar for Escape from Tarkov on Windows PC — flank cues near extracts without filling the whole screen.',
+			'Arc Raiders 2D radar for ARC Raiders on Windows PC — flank cues near extracts without filling the whole screen.',
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Tarkov Cheats overview',
-		ctaSecondaryHref: '/tarkov-cheats/',
+		ctaSecondary: 'Arc Raiders Cheats overview',
+		ctaSecondaryHref: '/arc-raiders-cheats/',
 		galleryTitle: 'Radar overlay',
 		sections: [
 			{
 				h2: 'What it shows',
-				paragraphs: ['Nearby enemy cues with adjustable range for PMC and Scav runs.'],
+				paragraphs: ['Nearby enemy cues with adjustable range for PMC and extraction runs.'],
 				list: ['Flank awareness', 'Extract approaches', 'Adjustable range'],
 			},
 			{
 				h2: 'With ESP',
 				paragraphs: ['Use radar for threats you cannot see yet. Use ESP when you push.'],
 				list: [
-					'<a href="/tarkov-esp/">ESP guide</a>',
-					'<a href="/tarkov-cheats/">Full product</a>',
+					'<a href="/arc-raiders-esp/">ESP guide</a>',
+					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/pricing/">Store</a>',
 				],
 			},

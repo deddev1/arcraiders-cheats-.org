@@ -138,7 +138,7 @@ export const productInfo = {
 			'Hotkeys mid-raid',
 			'Per-weapon profiles',
 		],
-		radar: ['2D radar overlay', 'Adjustable range', 'Works in PMC raids and Scav runs'],
+		radar: ['2D radar overlay', 'Adjustable range', 'Works in surface raids and extraction runs'],
 		general: [
 			fillBrandTokens('{antiCheat} maintenance after patches'),
 			'Digital delivery after checkout',

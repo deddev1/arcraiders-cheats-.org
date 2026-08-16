@@ -5,28 +5,28 @@
  */
 export const brand = {
 	/** Public brand name (nav, footer, H1 hero, schema Organization) */
-	name: 'Tarkov Cheats',
+	name: 'Arc Raiders Cheats',
 	/** Short product label if needed */
-	shortName: 'Tarkov',
+	shortName: 'Arc Raiders',
 	/** Canonical origin — no trailing slash */
-	url: 'https://tarkovcheats.org',
+	url: 'https://arcraiderscheats.org',
 	locale: 'en',
 	market: 'Worldwide',
-	supportEmail: 'support@tarkovcheats.org',
-	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fescape-from-tarkov',
+	supportEmail: 'support@arcraiderscheats.org',
+	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders',
 
 	/** Game this template instance targets */
-	game: 'Escape from Tarkov',
+	game: 'ARC Raiders',
 	/** Anti-cheat name used in Status / FAQ copy */
-	antiCheat: 'BattlEye',
+	antiCheat: 'Easy Anti-Cheat',
 
-	logo: '/images/tarkov-cheats-logo.webp',
-	logoRaster: '/images/tarkov-cheats-logo.png',
+	logo: '/images/arc-raiders-cheats-logo.webp',
+	logoRaster: '/images/arc-raiders-cheats-logo.png',
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
-	logoAlt: 'Tarkov Cheats logo',
-	defaultOgImage: '/images/tarkov-cheats-hero-1024w.webp',
-	heroImage: '/images/tarkov-cheats-hero-1024w.webp',
+	logoAlt: 'Arc Raiders Cheats logo',
+	defaultOgImage: '/images/arc-raiders-cheats-hero-1024w.webp',
+	heroImage: '/images/arc-raiders-cheats-hero-1024w.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
@@ -40,12 +40,12 @@ export const brand = {
 	 * Edit in Brand Studio → Colors (tones are fully customizable).
 	 */
 	theme: {
-		accent: '#5311ee',
-		bg: '#0a0811',
-		soft: '#c3aef4',
-		deep: '#4907df',
-		hover: '#a07bf4',
-		panel: '#0a080c',
+		accent: '#e86a24',
+		bg: '#080a09',
+		soft: '#e9a15b',
+		deep: '#9e3d15',
+		hover: '#ff7f32',
+		panel: '#111512',
 	},
 
 	/**
@@ -53,16 +53,16 @@ export const brand = {
 	 * Keep 5–8 terms.
 	 */
 	keywords: {
-		primary: 'tarkov cheats',
+		primary: 'arc raiders cheats',
 		list: [
-			'tarkov cheats',
-			'escape from tarkov cheats',
-			'tarkov esp',
-			'tarkov aimbot',
-			'tarkov wallhack',
-			'tarkov hacks',
-			'undetected tarkov cheats',
-			'best tarkov cheats',
+			'arc raiders cheats',
+			'arc raiders esp',
+			'arc raiders aimbot',
+			'arc raiders wallhack',
+			'arc raiders hacks',
+			'undetected arc raiders cheats',
+			'best arc raiders cheats',
+			'arc raiders radar hack',
 		] as const,
 	},
 
@@ -72,10 +72,10 @@ export const brand = {
 	 */
 	seo: {
 		/** Titles ≤60 chars; descriptions ~140–160 (Google SERP display). */
-		/** Home = brand hub. Money URL /tarkov-cheats/ owns the head term. */
-		homeTitle: 'Tarkov Cheats | Official Windows PC Site',
+		/** Home = brand hub. Money URL /arc-raiders-cheats/ owns the head term. */
+		homeTitle: 'Arc Raiders Cheats | Official Windows PC Site',
 		homeDescription:
-			'Official Tarkov Cheats site for Windows PC. Compare features, store plans, and live status — then buy ESP, soft aim, and radar in one license.',
+			'Official Arc Raiders Cheats site for Windows PC. Compare features, store plans, and live status — then buy ESP, soft aim, and radar in one license.',
 		featuresTitle: '{game} Features | {brand}',
 		featuresDescription:
 			'Everything in one {game} license for Windows PC — ESP, soft aim, radar, loot tools, and patch updates after {antiCheat}. See what is included.',
@@ -84,26 +84,26 @@ export const brand = {
 			'Monthly and lifetime {game} plans for Windows PC. Same ESP, aimbot, and radar features on both. Instant delivery after payment checkout.',
 		statusTitle: '{game} Status | {brand}',
 		statusDescription:
-			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a raid on Windows PC today.',
-		/** Money page meta — primary target for "tarkov cheats". */
-		previewTitle: 'Tarkov Cheats | Undetected ESP & Aimbot',
+			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a surface raid on Windows PC today.',
+		/** Money page meta — primary target for "arc raiders cheats". */
+		previewTitle: 'Arc Raiders Cheats | Undetected ESP & Aimbot',
 		previewDescription:
-			'Buy undetected tarkov cheats for Escape from Tarkov on Windows PC. ESP, soft aim, radar, and BattlEye patch updates in one license with instant delivery.',
+			'Buy undetected arc raiders cheats for ARC Raiders on Windows PC. ESP, soft aim, radar, and Easy Anti-Cheat patch updates in one license with instant delivery.',
 		setupTitle: '{game} Setup | {brand}',
 		setupDescription:
-			'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can raid faster. Follow each step in order before your first match.',
+			'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can extract faster. Follow each step in order before your first match.',
 		supportTitle: '{game} Support | {brand}',
 		supportDescription:
 			'Get help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
 		faqTitle: '{game} FAQ | {brand}',
 		faqDescription:
-			'Short answers about {brand} for Escape from Tarkov — delivery, setup, {antiCheat} updates, refunds, and Windows PC system notes before you buy.',
+			'Short answers about {brand} for ARC Raiders — delivery, setup, {antiCheat} updates, refunds, and Windows PC system notes before you buy.',
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
 		reviewsDescription:
-			'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for Escape from Tarkov on Windows PC. Real feedback from license holders.',
+			'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for ARC Raiders on Windows PC. Real feedback from license holders.',
 		blogTitle: '{game} Intel | {brand}',
 		blogDescription:
-			'Guides and notes for {game} — raid tips, ESP, aimbot, loot routes, and {antiCheat} update coverage for Windows PC players who raid.',
+			'Guides and notes for {game} — surface raid tips, ESP, aimbot, loot routes, and {antiCheat} update coverage for Windows PC players.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */
@@ -111,15 +111,15 @@ export const brand = {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
 		summary:
 			'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
-		heroLede: 'Undetected ESP, soft aim, and radar for Escape from Tarkov on Windows PC.',
-		blogLabel: 'Tarkov Intel',
+		heroLede: 'Undetected ESP, soft aim, and radar for ARC Raiders on Windows PC.',
+		blogLabel: 'Arc Raiders Intel',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',
 		featuresIntro: 'Everything included in one license for {game} on Windows PC.',
 		storeIntro: 'Pick a plan. Same features on both. Instant delivery after payment.',
-		statusIntro: 'Check here after a {game} or {antiCheat} patch before you raid.',
+		statusIntro: 'Check here after a {game} or {antiCheat} patch before you extract.',
 		previewIntro:
-			'{brand} for Escape from Tarkov — ESP wallhack, soft aim, 2D radar, and BattlEye rebuilds after patches.',
+			'{brand} for ARC Raiders — ESP wallhack, soft aim, 2D radar, and Easy Anti-Cheat rebuilds after patches.',
 		setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 		supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 		faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
@@ -141,41 +141,41 @@ export const brand = {
 	 * Tokens: {brand} {game} {antiCheat} {email} {primaryKeyword}
 	 */
 	sitemap: {
-		/** YYYY-MM-DD — Brand Studio can bump this on save to refresh crawl dates */
-		contentLastmod: '2026-08-13',
+		/** YYYY-MM-DD — Brand Studio can bump this on refresh to update crawl dates */
+		contentLastmod: '2026-08-16',
 		blogImageTitle: '{brand} blog',
 		blogImageCaption: 'Tips and updates for {primaryKeyword}',
 		reviewsImageTitle: '{brand} reviews',
 		reviewsImageCaption: 'What buyers say about {primaryKeyword}',
 		images: [
 			{
-				src: '/images/tarkov-cheats-esp.webp',
-				title: 'ESP overlay in Escape from Tarkov',
-				caption: 'Player ESP boxes and distance readouts during a raid',
+				src: '/images/arc-raiders-cheats-esp.webp',
+				title: 'ESP overlay in ARC Raiders',
+				caption: 'Player ESP boxes and distance readouts during a surface raid',
 			},
 			{
-				src: '/images/tarkov-cheats-wallhack.webp',
-				title: 'Wallhack visibility for Tarkov raids',
-				caption: 'PMC and Scav outlines through walls and terrain',
+				src: '/images/arc-raiders-cheats-wallhack.webp',
+				title: 'Wallhack visibility for extraction runs',
+				caption: 'Raider and ARC drone outlines through cover',
 			},
 			{
-				src: '/images/tarkov-cheats-aimbot.webp',
-				title: 'Soft aim assist for Tarkov',
+				src: '/images/arc-raiders-cheats-aimbot.webp',
+				title: 'Soft aim assist for ARC Raiders',
 				caption: 'Configurable soft aim FOV and bone priority',
 			},
 			{
-				src: '/images/tarkov-cheats-aimbot-view.webp',
-				title: 'Aimbot view in Tarkov Cheats',
+				src: '/images/arc-raiders-cheats-aimbot-view.webp',
+				title: 'Aimbot view in Arc Raiders Cheats',
 				caption: 'In-menu aimbot controls for Windows PC',
 			},
 			{
-				src: '/images/tarkov-cheats-radar.webp',
+				src: '/images/arc-raiders-cheats-radar.webp',
 				title: '2D radar threat overlay',
-				caption: 'Radar cues for flanks near extracts',
+				caption: 'Radar cues for flanks near extraction zones',
 			},
 			{
-				src: '/images/tarkov-cheats-raid.webp',
-				title: 'Tarkov Cheats license plans',
+				src: '/images/arc-raiders-cheats-raid.webp',
+				title: 'Arc Raiders Cheats license plans',
 				caption: 'Monthly and lifetime plans for Windows PC',
 			},
 		],

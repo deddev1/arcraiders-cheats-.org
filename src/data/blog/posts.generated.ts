@@ -11,35 +11,35 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-patch-notes-guide",
-		title: "How to Read Escape from Tarkov Patch Notes",
-		metaDescription: "Learn how Escape from Tarkov patch notes change PMC loadouts, ammo economy, and maps. What to do after BattlEye and wipe updates in 2026.",
-		h1: "How to Read Escape from Tarkov Patch Notes Without Guessing",
-		intro: "When Battlestate Games drops a patch, most players skim the headline and queue anyway. That is how you walk into Customs with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read Escape from Tarkov patch notes so your next raid still makes sense.",
-		keywords: ["escape from tarkov patch notes","tarkov wipe update","battleye patch","pmc loadout","tarkov intel"],
-		imageAlt: "Player reviewing Escape from Tarkov patch notes before a PMC raid",
+		slug: "arc-raiders-patch-notes-guide",
+		title: "How to Read ARC Raiders Patch Notes",
+		metaDescription: "Learn how ARC Raiders patch notes change PMC loadouts, ammo economy, and maps. What to do after Easy Anti-Cheat and wipe updates in 2026.",
+		h1: "How to Read ARC Raiders Patch Notes Without Guessing",
+		intro: "When Embark Studios drops a patch, most players skim the headline and queue anyway. That is how you walk into Customs with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read ARC Raiders patch notes so your next raid still makes sense.",
+		keywords: ["escape from arc-raiders patch notes","arc-raiders wipe update","battleye patch","pmc loadout","arc-raiders intel"],
+		imageAlt: "Player reviewing ARC Raiders patch notes before a PMC raid",
 		sections: [
 			{
-				h2: "What actually matters in a Tarkov patch?",
+				h2: "What actually matters in a Arc Raiders patch?",
 				paragraphs: [
-					"Official notes live on <a href=\"https://www.escapefromtarkov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored PMCs? Does this change what loot is worth looting? Does this change which extract or map I should run tonight?",
+					"Official notes live on undefined. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Raiders? Does this change what loot is worth looting? Does this change which extract or map I should run tonight?",
 					"Ammo tables, armor classes, boss spawn rates, and trader unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Woods and Interchange. Cosmetic lines and UI polish almost never decide whether you survive dorms.",
-					"If you also run third-party tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> or client update, check our <a href=\"/updates/\">Tarkov Cheats status page</a> before you blame your own aim.",
+					"If you also run third-party tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> or client update, check our <a href=\"/updates/\">Arc Raiders Cheats status page</a> before you blame your own aim.",
 				],
 			},
 			{
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
 					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused raids — before you rebuild your entire stash around them.",
-					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against class-five plates, your Customs push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/tarkov-weapon-tier-list/\">Tarkov weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
+					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against class-five plates, your Customs push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/arc-raiders-weapon-tier-list/\">Arc Raiders weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
 				],
 			},
 			{
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
 					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near extracts and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, boss path changes — rewrite your first three minutes on that map before you farm it for quests.",
-					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and extract camping patterns are what get you killed. For aggressive Scav timing after a meta shift, see our <a href=\"/blog/tarkov-scav-run-aggressive-strategies/\">Scav run strategies</a>.",
-					"On big mornings, confirm <a href=\"https://www.escapefromtarkov.com/support/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.",
+					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and extract camping patterns are what get you killed. For aggressive Scav timing after a meta shift, see our <a href=\"/blog/arc-raiders-scav-run-aggressive-strategies/\">extraction run strategies</a>.",
+					"On big mornings, confirm <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.",
 				],
 			}
 		],
@@ -47,7 +47,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-skin-leaks",
+		id: "arc-raiders-skin-leaks",
 		imageKey: "headerArt",
 		published: "2026-07-27",
 		updated: "2026-08-13",
@@ -55,23 +55,23 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-skin-leaks-guide",
-		title: "Tarkov Cosmetics & Skin Leaks: What Is Worth Buying",
-		metaDescription: "Sensible advice on Escape from Tarkov cosmetics and skin leaks — what to buy on the Flea Market, what to skip, and how looks affect raid readability.",
-		h1: "Tarkov Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
-		intro: "Leaks make every wipe feel like a fashion drop. Before you dump roubles into another loud outfit, decide whether the skin helps you play Escape from Tarkov — or just looks cool in a screenshot.",
-		keywords: ["tarkov skins","tarkov cosmetics","flea market skins","escape from tarkov apparel","tarkov intel"],
-		imageAlt: "Escape from Tarkov character cosmetics and gear appearance options",
+		slug: "arc-raiders-skin-leaks-guide",
+		title: "Arc Raiders Cosmetics & Skin Leaks: What Is Worth Buying",
+		metaDescription: "Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy on the Flea Market, what to skip, and how looks affect raid readability.",
+		h1: "Arc Raiders Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
+		intro: "Leaks make every wipe feel like a fashion drop. Before you dump roubles into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.",
+		keywords: ["arc-raiders skins","arc-raiders cosmetics","flea market skins","escape from arc-raiders apparel","arc-raiders intel"],
+		imageAlt: "ARC Raiders character cosmetics and gear appearance options",
 		sections: [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official apparel come from <a href=\"https://www.escapefromtarkov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned flea money the night before a wipe, then realize they still need meds, ammo, and a backup kit.",
+					"Shop rotations and official apparel come from undefined. Leaks are entertainment, not a shopping list. Many players spend hard-earned flea money the night before a wipe, then realize they still need meds, ammo, and a backup kit.",
 					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Woods or in dark Interchange hallways. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
-				h2: "A simple worth-it checklist for Tarkov cosmetics",
+				h2: "A simple worth-it checklist for Arc Raiders cosmetics",
 				paragraphs: [
 					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.",
 					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Flea Market. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
@@ -81,7 +81,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to use leaks without getting played",
 				paragraphs: [
 					"Treat late-wipe leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.",
-					"For competitive readability tips that actually affect fights, pair this with our <a href=\"/blog/tarkov-pro-settings-guide/\">pro settings guide</a>. Looking clean matters less than seeing the other PMC first.",
+					"For competitive readability tips that actually affect fights, pair this with our <a href=\"/blog/arc-raiders-pro-settings-guide/\">pro settings guide</a>. Looking clean matters less than seeing the other PMC first.",
 				],
 			}
 		],
@@ -89,7 +89,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-weapon-tier-list",
+		id: "arc-raiders-weapon-tier-list",
 		imageKey: "aimbotCombat",
 		published: "2026-07-25",
 		updated: "2026-08-13",
@@ -97,34 +97,34 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "tarkov-weapon-tier-list",
-		title: "Tarkov Weapon Tier List: Best Guns for Raids",
-		metaDescription: "A practical Escape from Tarkov weapon tier list for PMC and Scav raids — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.",
-		h1: "Tarkov Weapon Tier List: What Wins Raids in 2026",
-		intro: "Creator tier lists love flashy guns. Escape from Tarkov rewards expected value: armor penetration, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
-		keywords: ["tarkov weapon tier list","best tarkov guns","tarkov meta weapons","m4a1 tarkov","tarkov intel"],
-		imageAlt: "Escape from Tarkov weapons laid out for a PMC loadout comparison",
+		slug: "arc-raiders-weapon-tier-list",
+		title: "Arc Raiders Weapon Tier List: Best Guns for Raids",
+		metaDescription: "A practical ARC Raiders weapon tier list for PMC and Scav raids — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.",
+		h1: "Arc Raiders Weapon Tier List: What Wins Raids in 2026",
+		intro: "Creator tier lists love flashy guns. ARC Raiders rewards expected value: armor penetration, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
+		keywords: ["arc-raiders weapon tier list","best arc-raiders guns","arc-raiders meta weapons","m4a1 arc-raiders","arc-raiders intel"],
+		imageAlt: "ARC Raiders weapons laid out for a PMC loadout comparison",
 		sections: [
 			{
-				h2: "How should you define S-tier in Tarkov?",
+				h2: "How should you define S-tier in Arc Raiders?",
 				paragraphs: [
 					"S-tier means the best expected value across a hundred PMC fights on maps like Customs, Woods, and Interchange — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.",
 					"Shotguns still own tight interiors. Bolt-actions still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant wipe after wipe when ammo and mods are available.",
-					"Always re-check live values after patches on <a href=\"https://www.escapefromtarkov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov</a>. The hierarchy logic stays useful even when numbers nudge.",
+					"Always re-check live values after patches on undefined. The hierarchy logic stays useful even when numbers nudge.",
 				],
 			},
 			{
 				h2: "Ammo, TTK, and peek discipline matter more than brand names",
 				paragraphs: [
-					"Time-to-kill in Tarkov is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this wipe, then pick a platform that controls recoil at your skill level.",
-					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href=\"/blog/tarkov-loot-routes-guide/\">loot routes guide</a> so you actually spawn with the ammo you planned to use.",
+					"Time-to-kill in Arc Raiders is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this wipe, then pick a platform that controls recoil at your skill level.",
+					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href=\"/blog/arc-raiders-loot-routes-guide/\">loot routes guide</a> so you actually spawn with the ammo you planned to use.",
 				],
 			},
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid rifle, a close-range option for dorms or Factory, enough meds, and an armor class you can replace after deaths. In Scav runs, that same spine supports the aggression patterns in our <a href=\"/blog/tarkov-scav-run-aggressive-strategies/\">Scav strategies article</a>.",
-					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/tarkov-aimbot/\">Tarkov aimbot settings</a>.",
+					"A durable kit is usually a reliable mid rifle, a close-range option for dorms or Factory, enough meds, and an armor class you can replace after deaths. In extraction runs, that same spine supports the aggression patterns in our <a href=\"/blog/arc-raiders-scav-run-aggressive-strategies/\">Scav strategies article</a>.",
+					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/arc-raiders-aimbot/\">Arc Raiders aimbot settings</a>.",
 				],
 			}
 		],
@@ -132,7 +132,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-scav-run-meta",
+		id: "arc-raiders-scav-run-meta",
 		imageKey: "battleRoyaleCombat",
 		published: "2026-07-22",
 		updated: "2026-08-13",
@@ -140,18 +140,18 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "tarkov-scav-run-aggressive-strategies",
-		title: "Tarkov Scav Run Strategies That Actually Print Loot",
-		metaDescription: "Five aggressive but smart Escape from Tarkov Scav strategies — timings, extracts, third-parties, and how to leave raids with gear instead of empty pockets.",
-		h1: "Tarkov Scav Run Strategies: How to Leave With Gear",
-		intro: "Passive Scav players wait behind a bush while two PMC teams erase each other, then spray into the mess and die. Strong Scav runs manufacture a short advantage, grab what matters, and extract before the map collapses on you.",
-		keywords: ["tarkov scav run","scav strategies","escape from tarkov scav","tarkov extracts","tarkov esp"],
-		imageAlt: "Scav player moving toward extract with loot in Escape from Tarkov",
+		slug: "arc-raiders-scav-run-aggressive-strategies",
+		title: "Arc Raiders Scav Run Strategies That Actually Print Loot",
+		metaDescription: "Five aggressive but smart ARC Raiders Scav strategies — timings, extracts, third-parties, and how to leave raids with gear instead of empty pockets.",
+		h1: "Arc Raiders Scav Run Strategies: How to Leave With Gear",
+		intro: "Passive Scav players wait behind a bush while two PMC teams erase each other, then spray into the mess and die. Strong extraction runs manufacture a short advantage, grab what matters, and extract before the map collapses on you.",
+		keywords: ["arc-raiders scav run","scav strategies","escape from arc-raiders scav","arc-raiders extracts","arc-raiders esp"],
+		imageAlt: "Scav player moving toward extract with loot in ARC Raiders",
 		sections: [
 			{
-				h2: "Why so many Scav runs feel soft",
+				h2: "Why so many extraction runs feel soft",
 				paragraphs: [
-					"Scav kits are random, timers are limited, and player Scavs can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href=\"/tarkov-esp/\">Tarkov ESP</a> can help you see fights early — but you still need an exit plan.",
+					"Scav kits are random, timers are limited, and player ARC drones can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href=\"/arc-raiders-esp/\">Arc Raiders ESP</a> can help you see fights early — but you still need an exit plan.",
 					"Decide your extract before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-party clock in hot POIs is only a few seconds long once gunfire starts.",
 				],
 			},
@@ -159,13 +159,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Five aggressive habits that still work",
 				paragraphs: [
 					"Pre-aim common corners on Customs dorms and Interchange tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
-					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with <a href=\"https://www.escapefromtarkov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov</a> wipes; the geometry of first-shot advantage does not.",
+					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with undefined wipes; the geometry of first-shot advantage does not.",
 				],
 			},
 			{
 				h2: "Warmup checklist before you queue a Scav",
 				paragraphs: [
-					"Know your map’s main extracts, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/blog/tarkov-loot-routes-guide/\">loot routes</a>, <a href=\"/blog/tarkov-weapon-tier-list/\">weapon tiers</a>, and <a href=\"/blog/tarkov-warmup-maps-ranked/\">warmup routines</a>.",
+					"Know your map’s main extracts, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/blog/arc-raiders-loot-routes-guide/\">loot routes</a>, <a href=\"/blog/arc-raiders-weapon-tier-list/\">weapon tiers</a>, and <a href=\"/blog/arc-raiders-warmup-maps-ranked/\">warmup routines</a>.",
 					"Try one session where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-party window closed.",
 				],
 			}
@@ -174,7 +174,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-tournament-meta",
+		id: "arc-raiders-tournament-meta",
 		imageKey: "rebootFight",
 		published: "2026-07-20",
 		updated: "2026-08-13",
@@ -182,18 +182,18 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-tournament-meta-guide",
-		title: "What Competitive Tarkov Players Optimize For",
-		metaDescription: "What strong Escape from Tarkov competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal PMC queues.",
-		h1: "What Competitive Tarkov Players Optimize For",
-		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal Escape from Tarkov queues.",
-		keywords: ["tarkov competitive","tarkov tournament","tarkov meta","pmc habits","tarkov intel"],
-		imageAlt: "Competitive Escape from Tarkov players reviewing raid strategy",
+		slug: "arc-raiders-tournament-meta-guide",
+		title: "What Competitive Arc Raiders Players Optimize For",
+		metaDescription: "What strong ARC Raiders competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal PMC queues.",
+		h1: "What Competitive Arc Raiders Players Optimize For",
+		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal ARC Raiders queues.",
+		keywords: ["arc-raiders competitive","arc-raiders tournament","arc-raiders meta","pmc habits","arc-raiders intel"],
+		imageAlt: "Competitive ARC Raiders players reviewing raid strategy",
 		sections: [
 			{
 				h2: "Watch competitive VODs like a coach, not a fan",
 				paragraphs: [
-					"Start with schedules and film from <a href=\"https://www.escapefromtarkov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov</a> community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-raid decision.",
+					"Start with schedules and film from undefined community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-raid decision.",
 					"Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.",
 				],
 			},
@@ -201,13 +201,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Spawn EV and loadout patterns that keep showing up",
 				paragraphs: [
 					"Score every spawn on contest rate, loot quality in the first few minutes, extract pain, exit paths, and split potential with teammates. Edge spawns with clean exits often beat “sexy” mid-map landmarks that look good on stream and then get third-partied.",
-					"Expect a reliable mid rifle, a close-range option, mobility or stamina management, and enough meds. High-tier loot is taken when free, not forced — matching the mindset in our <a href=\"/blog/tarkov-weapon-tier-list/\">weapon tier list</a>.",
+					"Expect a reliable mid rifle, a close-range option, mobility or stamina management, and enough meds. High-tier loot is taken when free, not forced — matching the mindset in our <a href=\"/blog/arc-raiders-weapon-tier-list/\">weapon tier list</a>.",
 				],
 			},
 			{
 				h2: "What actually translates to normal raids",
 				paragraphs: [
-					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/tarkov-scav-run-aggressive-strategies/\">Scav aggression guide</a>.",
+					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/arc-raiders-scav-run-aggressive-strategies/\">Scav aggression guide</a>.",
 					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid PMC block before adding another.",
 				],
 			}
@@ -216,7 +216,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-loot-routes",
+		id: "arc-raiders-loot-routes",
 		imageKey: "battleRoyaleIslandMap",
 		published: "2026-07-18",
 		updated: "2026-08-13",
@@ -224,13 +224,13 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "tarkov-loot-routes-guide",
-		title: "Tarkov Loot Routes That Leave Spawn Ready to Fight",
-		metaDescription: "High-percentage Escape from Tarkov loot routes for Customs, Woods, and Interchange — how to leave spawn with guns, armor, and meds that win mid-raid fights.",
-		h1: "Tarkov Loot Routes: Leave Spawn Ready to Fight",
-		intro: "Winning in Escape from Tarkov starts before the first gunfight. Random looting gets you killed with a pistol and no meds. These route habits consistently convert a spawn into a kit you can actually fight with.",
-		keywords: ["tarkov loot routes","customs loot path","interchange loot","tarkov spawn guide","tarkov esp"],
-		imageAlt: "Loot route planning across an Escape from Tarkov map",
+		slug: "arc-raiders-loot-routes-guide",
+		title: "Arc Raiders Loot Routes That Leave Spawn Ready to Fight",
+		metaDescription: "High-percentage ARC Raiders loot routes for Customs, Woods, and Interchange — how to leave spawn with guns, armor, and meds that win mid-raid fights.",
+		h1: "Arc Raiders Loot Routes: Leave Spawn Ready to Fight",
+		intro: "Winning in ARC Raiders starts before the first gunfight. Random looting gets you killed with a pistol and no meds. These route habits consistently convert a spawn into a kit you can actually fight with.",
+		keywords: ["arc-raiders loot routes","customs loot path","interchange loot","arc-raiders spawn guide","arc-raiders esp"],
+		imageAlt: "Loot route planning across an ARC Raiders map",
 		sections: [
 			{
 				h2: "Why early inventory is the real bottleneck",
@@ -243,14 +243,14 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
 					"Contested edge POI: land outer loot, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.",
-					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with <a href=\"https://www.escapefromtarkov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov</a> wipes — keep the geometry, not just the landmark brand.",
+					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with undefined wipes — keep the geometry, not just the landmark brand.",
 				],
 			},
 			{
 				h2: "Convert a strong spawn into a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/tarkov-scav-run-aggressive-strategies/\">Scav aggression</a> and <a href=\"/blog/tarkov-weapon-tier-list/\">weapon tiers</a>. Leave spawn rich so mid-raid becomes a skill check instead of a scavenger panic.",
-					"If you practice with loot markers, read <a href=\"/tarkov-esp/\">Tarkov ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
+					"Pair these routes with <a href=\"/blog/arc-raiders-scav-run-aggressive-strategies/\">Scav aggression</a> and <a href=\"/blog/arc-raiders-weapon-tier-list/\">weapon tiers</a>. Leave spawn rich so mid-raid becomes a skill check instead of a scavenger panic.",
+					"If you practice with loot markers, read <a href=\"/arc-raiders-esp/\">Arc Raiders ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			}
 		],
@@ -258,7 +258,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-pro-settings",
+		id: "arc-raiders-pro-settings",
 		imageKey: "cheatsPackage",
 		published: "2026-07-12",
 		updated: "2026-08-13",
@@ -266,33 +266,33 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-pro-settings-guide",
-		title: "Tarkov Pro Settings That Actually Help You See Enemies",
-		metaDescription: "Practical Escape from Tarkov settings used by strong players — visibility, audio cues, sensitivity, and what to copy vs ignore from pro configs.",
-		h1: "Tarkov Settings Guide: See More, Panic Less",
-		intro: "Copying a champion’s entire config will not make you one. But a few Escape from Tarkov settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
-		keywords: ["tarkov settings","tarkov sensitivity","tarkov visibility","tarkov audio settings","tarkov intel"],
-		imageAlt: "Escape from Tarkov graphics and control settings menu",
+		slug: "arc-raiders-pro-settings-guide",
+		title: "Arc Raiders Pro Settings That Actually Help You See Enemies",
+		metaDescription: "Practical ARC Raiders settings used by strong players — visibility, audio cues, sensitivity, and what to copy vs ignore from pro configs.",
+		h1: "Arc Raiders Settings Guide: See More, Panic Less",
+		intro: "Copying a champion’s entire config will not make you one. But a few ARC Raiders settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
+		keywords: ["arc-raiders settings","arc-raiders sensitivity","arc-raiders visibility","arc-raiders audio settings","arc-raiders intel"],
+		imageAlt: "ARC Raiders graphics and control settings menu",
 		sections: [
 			{
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
-					"If your frame rate collapses in Streets of Tarkov or Interchange interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so PMC silhouettes pop sooner in tree lines and warehouse lighting.",
-					"Test changes in offline mode or a quiet Scav before locking them for serious PMC raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
+					"If your frame rate collapses in Streets of Arc Raiders or Interchange interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so PMC silhouettes pop sooner in tree lines and warehouse lighting.",
+					"Test changes in offline mode or a quiet Scav before locking them for serious surface raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
 				],
 			},
 			{
 				h2: "Sensitivity, ADS, and muscle memory",
 				paragraphs: [
-					"Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href=\"/blog/tarkov-warmup-maps-ranked/\">warmup guide</a> so your hands match the new numbers.",
-					"If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href=\"/tarkov-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
+					"Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href=\"/blog/arc-raiders-warmup-maps-ranked/\">warmup guide</a> so your hands match the new numbers.",
+					"If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href=\"/arc-raiders-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
 				],
 			},
 			{
 				h2: "Audio cues that win extracts",
 				paragraphs: [
 					"Footsteps, magazine reloads, and extract buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a scav AI shuffle and a player PMC push.",
-					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/tarkov-loot-routes-guide/\">loot routes</a> article so you know where those sounds are coming from.",
+					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/arc-raiders-loot-routes-guide/\">loot routes</a> article so you know where those sounds are coming from.",
 				],
 			}
 		],
@@ -300,7 +300,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-warmup-maps",
+		id: "arc-raiders-warmup-maps",
 		imageKey: "playerEsp",
 		published: "2026-07-10",
 		updated: "2026-08-13",
@@ -308,19 +308,19 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-warmup-maps-ranked",
-		title: "Tarkov Warmup Routine Before Serious PMC Raids",
-		metaDescription: "A short Escape from Tarkov warmup routine before PMC raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
-		h1: "Tarkov Warmup Routine Before You Queue PMC",
-		intro: "Queuing cold into Factory or dorms is how you donate a kit. A short Escape from Tarkov warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
-		keywords: ["tarkov warmup","tarkov aim practice","pmc warmup routine","tarkov offline practice","tarkov intel"],
-		imageAlt: "Player warming up aim before an Escape from Tarkov PMC raid",
+		slug: "arc-raiders-warmup-maps-ranked",
+		title: "Arc Raiders Warmup Routine Before Serious PMC Raids",
+		metaDescription: "A short ARC Raiders warmup routine before surface raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
+		h1: "Arc Raiders Warmup Routine Before You Queue PMC",
+		intro: "Queuing cold into Factory or dorms is how you donate a kit. A short ARC Raiders warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
+		keywords: ["arc-raiders warmup","arc-raiders aim practice","pmc warmup routine","arc-raiders offline practice","arc-raiders intel"],
+		imageAlt: "Player warming up aim before an ARC Raiders PMC raid",
 		sections: [
 			{
 				h2: "Why your first raid should not be the warmup",
 				paragraphs: [
 					"Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the session, not optional fluff.",
-					"Offline practice, shooting range habits, and a couple of low-stakes Scav runs exist so your expensive PMC kit is not the experiment.",
+					"Offline practice, shooting range habits, and a couple of low-stakes extraction runs exist so your expensive PMC kit is not the experiment.",
 				],
 			},
 			{
@@ -333,7 +333,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What to do right before you ready up",
 				paragraphs: [
-					"Check stash meds and ammo, confirm your map extracts, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/tarkov-pro-settings-guide/\">settings</a> and <a href=\"/blog/tarkov-weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
+					"Check stash meds and ammo, confirm your map extracts, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/arc-raiders-pro-settings-guide/\">settings</a> and <a href=\"/blog/arc-raiders-weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
 					"If the first two PMC deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.",
 				],
 			}
@@ -342,7 +342,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-cheats-complete-guide",
+		id: "arc-raiders-cheats-complete-guide",
 		imageKey: "espWallhack",
 		published: "2026-07-30",
 		updated: "2026-08-13",
@@ -350,40 +350,40 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "tarkov-cheats-complete-guide-2026",
-		title: "Tarkov Cheats 2026: Complete Undetected Guide",
-		metaDescription: "A clear 2026 guide to tarkov cheats — what ESP, soft aim, and radar actually do in Escape from Tarkov, how BattlEye maintenance works, and how to buy safely.",
-		h1: "Tarkov Cheats in 2026: What They Are and How to Use Them Carefully",
-		intro: "People search “tarkov cheats” for a simple reason: Escape from Tarkov is information-heavy, punishing, and full of extract campers. This guide explains what modern undetected packages actually include, how BattlEye maintenance works, and how to decide whether a tool fits your play style.",
-		keywords: ["tarkov cheats","undetected tarkov cheats","tarkov esp","tarkov aimbot","battleye"],
-		imageAlt: "Overview of Tarkov Cheats ESP soft aim and radar tools for 2026",
+		slug: "arc-raiders-cheats-complete-guide-2026",
+		title: "Arc Raiders Cheats 2026: Complete Undetected Guide",
+		metaDescription: "A clear 2026 guide to arc raiders cheats — what ESP, soft aim, and radar actually do in ARC Raiders, how Easy Anti-Cheat maintenance works, and how to buy safely.",
+		h1: "Arc Raiders Cheats in 2026: What They Are and How to Use Them Carefully",
+		intro: "People search “arc raiders cheats” for a simple reason: ARC Raiders is information-heavy, punishing, and full of extract campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.",
+		keywords: ["arc raiders cheats","undetected arc raiders cheats","arc-raiders esp","arc-raiders aimbot","eac"],
+		imageAlt: "Overview of Arc Raiders Cheats ESP soft aim and radar tools for 2026",
 		sections: [
 			{
-				h2: "What do people mean when they say tarkov cheats?",
+				h2: "What do people mean when they say arc raiders cheats?",
 				paragraphs: [
-					"In plain language, tarkov cheats are third-party tools that add information or aim assistance on top of the Escape from Tarkov client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
-					"Searchers also say “escape from tarkov cheats,” “eft hacks,” or “tarkov wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/tarkov-cheats/\">tarkov cheats pillar</a> if you want the product overview without the long essay.",
+					"In plain language, arc raiders cheats are third-party tools that add information or aim assistance on top of the ARC Raiders client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
+					"Searchers also say “escape from arc raiders cheats,” “eft hacks,” or “arc-raiders wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/arc-raiders-cheats/\">arc raiders cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
 			{
 				h2: "ESP, soft aim, and radar — what each tool is for",
 				paragraphs: [
 					"ESP answers “who is near me and what is worth looting?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
-					"Deep dives live on <a href=\"/tarkov-esp/\">ESP</a>, <a href=\"/tarkov-aimbot/\">aimbot</a>, <a href=\"/tarkov-esp/\">wallhack</a>, and <a href=\"/tarkov-radar-hack/\">radar</a>. Read those before you buy if you only need one job done well.",
+					"Deep dives live on <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-aimbot/\">aimbot</a>, <a href=\"/arc-raiders-wallhack/\">wallhack</a>, and <a href=\"/arc-raiders-radar-hack/\">radar</a>. Read those before you buy if you only need one job done well.",
 				],
 			},
 			{
-				h2: "BattlEye, “undetected,” and honest expectations",
+				h2: "Easy Anti-Cheat, “undetected,” and honest expectations",
 				paragraphs: [
-					"<a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> protects Escape from Tarkov. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/tarkov-cheats/\">undetected tarkov cheats</a> and <a href=\"/updates/\">BattlEye maintenance</a>.",
+					"<a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> protects ARC Raiders. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/undetected-arc-raiders-cheats/\">undetected arc raiders cheats</a> and <a href=\"/eac-bypass/\">Easy Anti-Cheat maintenance</a>.",
 					"Before every patch-day queue, read <a href=\"/updates/\">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.",
 				],
 			},
 			{
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
-					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/escape-from-tarkov-cheats-buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
-					"Tarkov Cheats is built for Windows PC PMC and Scav play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
+					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/escape-from-arc-raiders-cheats-buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
+					"Arc Raiders Cheats is built for Windows PC PMC and Scav play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
 				],
 			}
 		],
@@ -391,7 +391,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "escape-from-tarkov-cheats-buyers-guide",
+		id: "escape-from-arc-raiders-cheats-buyers-guide",
 		imageKey: "cheatsPackage",
 		published: "2026-07-28",
 		updated: "2026-08-13",
@@ -399,26 +399,26 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "escape-from-tarkov-cheats-buyers-guide",
-		title: "Escape from Tarkov Cheats Buyers Guide",
-		metaDescription: "What to check before you buy escape from tarkov cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
-		h1: "Escape from Tarkov Cheats: What to Check Before You Buy",
-		intro: "Buying escape from tarkov cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
-		keywords: ["escape from tarkov cheats","tarkov cheats buyers guide","buy tarkov cheats","undetected eft cheats","tarkov pricing"],
-		imageAlt: "Checklist for buying Escape from Tarkov cheats safely",
+		slug: "escape-from-arc-raiders-cheats-buyers-guide",
+		title: "ARC Raiders Cheats Buyers Guide",
+		metaDescription: "What to check before you buy escape from arc raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
+		h1: "ARC Raiders Cheats: What to Check Before You Buy",
+		intro: "Buying escape from arc raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
+		keywords: ["escape from arc raiders cheats","arc raiders cheats buyers guide","buy arc raiders cheats","undetected eft cheats","arc-raiders pricing"],
+		imageAlt: "Checklist for buying ARC Raiders cheats safely",
 		sections: [
 			{
 				h2: "Start with status, not screenshots",
 				paragraphs: [
-					"Ask whether the seller publishes a dated status page after BattlEye or client patches. Fancy galleries do not help if the tool is offline for three days. Tarkov Cheats posts rebuild notes on <a href=\"/updates/\">Updates</a> for that reason.",
+					"Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Arc Raiders Cheats posts rebuild notes on <a href=\"/updates/\">Updates</a> for that reason.",
 					"If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.",
 				],
 			},
 			{
-				h2: "Feature checklist that matches real Tarkov raids",
+				h2: "Feature checklist that matches real Arc Raiders raids",
 				paragraphs: [
-					"For Escape from Tarkov, useful features usually mean player ESP with distance, loot filters, extract awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
-					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/tarkov-esp/\">ESP</a>, and <a href=\"/tarkov-aimbot/\">Aimbot</a>. If radar matters to how you hold extracts, confirm it exists before checkout.",
+					"For ARC Raiders, useful features usually mean player ESP with distance, loot filters, extract awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
+					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/arc-raiders-esp/\">ESP</a>, and <a href=\"/arc-raiders-aimbot/\">Aimbot</a>. If radar matters to how you hold extracts, confirm it exists before checkout.",
 				],
 			},
 			{
@@ -433,7 +433,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-cheats-2026-whats-new",
+		id: "arc-raiders-cheats-2026-whats-new",
 		imageKey: "hero",
 		published: "2026-07-26",
 		updated: "2026-08-13",
@@ -441,32 +441,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-cheats-2026-whats-new",
-		title: "Tarkov Cheats 2026: What Changed This Year",
-		metaDescription: "What changed for tarkov cheats in 2026 — wipe cadence, BattlEye maintenance habits, ESP focus, and how Tarkov Cheats adapted for Escape from Tarkov.",
-		h1: "What Changed for Tarkov Cheats in 2026",
-		intro: "2026 did not invent cheating in Escape from Tarkov — it raised the bar for maintenance. Wipes, BattlEye pushes, and map updates punish stale builds. Here is what changed in how serious tarkov cheats packages need to operate.",
-		keywords: ["tarkov cheats 2026","eft cheats 2026","battleye 2026","tarkov wipe","tarkov cheats updates"],
-		imageAlt: "2026 updates for Tarkov Cheats on Escape from Tarkov",
+		slug: "arc-raiders-cheats-2026-whats-new",
+		title: "Arc Raiders Cheats 2026: What Changed This Year",
+		metaDescription: "What changed for arc raiders cheats in 2026 — wipe cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Arc Raiders Cheats adapted for ARC Raiders.",
+		h1: "What Changed for Arc Raiders Cheats in 2026",
+		intro: "2026 did not invent cheating in ARC Raiders — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious arc raiders cheats packages need to operate.",
+		keywords: ["arc raiders cheats 2026","eft cheats 2026","battleye 2026","arc-raiders wipe","arc raiders cheats updates"],
+		imageAlt: "2026 updates for Arc Raiders Cheats on ARC Raiders",
 		sections: [
 			{
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
-					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/tarkov-cheats/\">undetected explainer</a> instead of empty guarantees.",
-					"<a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> and Battlestate client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
+					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/undetected-arc-raiders-cheats/\">undetected explainer</a> instead of empty guarantees.",
+					"<a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> and Battlestate client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
 			{
 				h2: "Feature focus shifted toward raid information",
 				paragraphs: [
-					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Tarkov fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near extracts.",
-					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/tarkov-cheats/\">tarkov cheats</a>.",
+					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Arc Raiders fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near extracts.",
+					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/arc-raiders-cheats/\">arc raiders cheats</a>.",
 				],
 			},
 			{
 				h2: "What we recommend you do differently this year",
 				paragraphs: [
-					"Check status before patch-day queues. Keep soft aim conservative. Use loot ESP filters so your screen stays clean. Read the <a href=\"/blog/tarkov-cheats-complete-guide-2026/\">complete 2026 guide</a> if you are new to the category.",
+					"Check status before patch-day queues. Keep soft aim conservative. Use loot ESP filters so your screen stays clean. Read the <a href=\"/blog/arc-raiders-cheats-complete-guide-2026/\">complete 2026 guide</a> if you are new to the category.",
 					"Pricing remains monthly and lifetime on <a href=\"/pricing/\">Pricing</a> with digital delivery after payment.",
 				],
 			}
@@ -475,7 +475,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-aimbot-settings-guide",
+		id: "arc-raiders-aimbot-settings-guide",
 		imageKey: "aimbotCombat",
 		published: "2026-07-24",
 		updated: "2026-08-13",
@@ -483,19 +483,19 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-aimbot-settings-guide",
-		title: "Tarkov Aimbot Settings: Smooth FOV Without Looking Robotic",
-		metaDescription: "How to tune tarkov aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Escape from Tarkov raids.",
-		h1: "Tarkov Aimbot Settings That Feel Natural",
-		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Escape from Tarkov players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
-		keywords: ["tarkov aimbot settings","tarkov soft aim","aimbot fov","tarkov aim assist","tarkov cheats"],
-		imageAlt: "Soft aim and FOV settings for Tarkov aimbot on Windows PC",
+		slug: "arc-raiders-aimbot-settings-guide",
+		title: "Arc Raiders Aimbot Settings: Smooth FOV Without Looking Robotic",
+		metaDescription: "How to tune arc-raiders aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in ARC Raiders raids.",
+		h1: "Arc Raiders Aimbot Settings That Feel Natural",
+		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most ARC Raiders players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
+		keywords: ["arc-raiders aimbot settings","arc-raiders soft aim","aimbot fov","arc-raiders aim assist","arc raiders cheats"],
+		imageAlt: "Soft aim and FOV settings for Arc Raiders aimbot on Windows PC",
 		sections: [
 			{
 				h2: "Start softer than you think you need",
 				paragraphs: [
 					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Customs or Factory and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
-					"Full control docs live on <a href=\"/tarkov-aimbot/\">Tarkov Aimbot</a> and <a href=\"/tarkov-aimbot/\">soft aim</a>.",
+					"Full control docs live on <a href=\"/arc-raiders-aimbot/\">Arc Raiders Aimbot</a> and <a href=\"/arc-raiders-soft-aim/\">soft aim</a>.",
 				],
 			},
 			{
@@ -508,7 +508,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Pair aim settings with information tools",
 				paragraphs: [
-					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/tarkov-esp/\">ESP categories</a> before blaming aim. After BattlEye patches, confirm <a href=\"/updates/\">Updates</a> before you tune anything on an old build.",
+					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/arc-raiders-esp/\">ESP categories</a> before blaming aim. After Easy Anti-Cheat patches, confirm <a href=\"/updates/\">Updates</a> before you tune anything on an old build.",
 				],
 			}
 		],
@@ -516,7 +516,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-esp-wallhack-explained",
+		id: "arc-raiders-esp-wallhack-explained",
 		imageKey: "espWallhack",
 		published: "2026-07-21",
 		updated: "2026-08-13",
@@ -524,32 +524,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-esp-wallhack-explained",
-		title: "Tarkov ESP and Wallhack Explained in Plain English",
-		metaDescription: "What tarkov ESP and wallhack actually show in Escape from Tarkov — players, loot, distance, extracts — and how to keep overlays readable in raids.",
-		h1: "Tarkov ESP and Wallhack Explained Clearly",
-		intro: "“ESP” and “wallhack” get used interchangeably. In Escape from Tarkov they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
-		keywords: ["tarkov esp","tarkov wallhack","eft esp","loot esp tarkov","tarkov cheats"],
-		imageAlt: "ESP wallhack overlay showing players and loot in Escape from Tarkov",
+		slug: "arc-raiders-esp-wallhack-explained",
+		title: "Arc Raiders ESP and Wallhack Explained in Plain English",
+		metaDescription: "What arc-raiders ESP and wallhack actually show in ARC Raiders — players, loot, distance, extracts — and how to keep overlays readable in raids.",
+		h1: "Arc Raiders ESP and Wallhack Explained Clearly",
+		intro: "“ESP” and “wallhack” get used interchangeably. In ARC Raiders they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
+		keywords: ["arc-raiders esp","arc-raiders wallhack","eft esp","loot esp arc-raiders","arc raiders cheats"],
+		imageAlt: "ESP wallhack overlay showing players and loot in ARC Raiders",
 		sections: [
 			{
 				h2: "What ESP shows during a real raid",
 				paragraphs: [
-					"Player ESP outlines PMCs and Scavs through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for tarkov esp in the first place.",
-					"Read the dedicated pages for <a href=\"/tarkov-esp/\">ESP</a> and <a href=\"/tarkov-esp/\">wallhack</a> if you want category-level detail.",
+					"Player ESP outlines Raiders and ARC drones through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for arc-raiders esp in the first place.",
+					"Read the dedicated pages for <a href=\"/arc-raiders-esp/\">ESP</a> and <a href=\"/arc-raiders-wallhack/\">wallhack</a> if you want category-level detail.",
 				],
 			},
 			{
 				h2: "How to keep overlays from becoming noise",
 				paragraphs: [
 					"Toggle categories. During a hot push you may want players only. During a loot route you may want containers. Near extract you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.",
-					"Pair ESP with <a href=\"/tarkov-radar-hack/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
+					"Pair ESP with <a href=\"/arc-raiders-radar-hack/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
 				],
 			},
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after BattlEye patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/tarkov-cheats/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			}
 		],
@@ -557,7 +557,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "undetected-tarkov-cheats-battleye",
+		id: "undetected-arc-raiders-cheats-battleye",
 		imageKey: "playerEsp",
 		published: "2026-07-19",
 		updated: "2026-08-13",
@@ -565,32 +565,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "undetected-tarkov-cheats-battleye",
-		title: "Undetected Tarkov Cheats and BattlEye Reality",
-		metaDescription: "What “undetected tarkov cheats” really means under BattlEye — maintenance, patch days, risk, and how to read status before you queue Escape from Tarkov.",
-		h1: "Undetected Tarkov Cheats: What BattlEye Reality Looks Like",
-		intro: "“Undetected” is the most abused word in cheat marketing. Under BattlEye, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Escape from Tarkov players.",
-		keywords: ["undetected tarkov cheats","battleye tarkov","tarkov ban risk","eft undetected","tarkov status"],
-		imageAlt: "BattlEye maintenance status for undetected Tarkov cheats",
+		slug: "undetected-arc-raiders-cheats-battleye",
+		title: "Undetected Arc Raiders Cheats and Easy Anti-Cheat Reality",
+		metaDescription: "What “undetected arc raiders cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue ARC Raiders.",
+		h1: "Undetected Arc Raiders Cheats: What Easy Anti-Cheat Reality Looks Like",
+		intro: "“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for ARC Raiders players.",
+		keywords: ["undetected arc raiders cheats","battleye arc-raiders","arc-raiders ban risk","eft undetected","arc-raiders status"],
+		imageAlt: "Easy Anti-Cheat maintenance status for undetected Arc Raiders cheats",
 		sections: [
 			{
 				h2: "What undetected can honestly mean",
 				paragraphs: [
-					"BattlEye is documented at <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Tarkov Cheats does that on <a href=\"/updates/\">Updates</a> and explains the workflow on <a href=\"/updates/\">BattlEye maintenance</a>.",
+					"Easy Anti-Cheat is documented at <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Arc Raiders Cheats does that on <a href=\"/updates/\">Updates</a> and explains the workflow on <a href=\"/eac-bypass/\">Easy Anti-Cheat maintenance</a>.",
 					"If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.",
 				],
 			},
 			{
 				h2: "Patch-day habits that reduce pain",
 				paragraphs: [
-					"After a Tarkov or BattlEye update, wait for a status note before queueing. Confirm Battlestate services on <a href=\"https://www.escapefromtarkov.com/support/\" target=\"_blank\" rel=\"noopener noreferrer\">Escape from Tarkov Support</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
+					"After a Arc Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Battlestate services on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
 					"Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.",
 				],
 			},
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/tarkov-cheats/\">undetected tarkov cheats</a>, the <a href=\"/blog/tarkov-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/undetected-arc-raiders-cheats/\">undetected arc raiders cheats</a>, the <a href=\"/blog/arc-raiders-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			}
 		],
@@ -598,7 +598,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-cheats-vs-cheatvault",
+		id: "arc-raiders-cheats-vs-cheatvault",
 		imageKey: "cheatsPackage",
 		published: "2026-07-15",
 		updated: "2026-08-13",
@@ -606,33 +606,33 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-cheats-vs-cheatvault-comparison",
-		title: "Tarkov Cheats vs Typical Budget EFT Shops",
-		metaDescription: "How Tarkov Cheats compares to typical budget Escape from Tarkov cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
-		h1: "Tarkov Cheats vs Typical Budget EFT Cheat Shops",
-		intro: "Budget Escape from Tarkov stores often look identical: neon banners, “undetected” badges, and a low weekly price. Tarkov Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
-		keywords: ["tarkov cheats comparison","budget eft cheats","tarkov cheats vs other shops","esp radar pricing","tarkov cheats"],
-		imageAlt: "Comparing Tarkov Cheats features against budget EFT cheat shops",
+		slug: "arc-raiders-cheats-vs-cheatvault-comparison",
+		title: "Arc Raiders Cheats vs Typical Budget EFT Shops",
+		metaDescription: "How Arc Raiders Cheats compares to typical budget ARC Raiders cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
+		h1: "Arc Raiders Cheats vs Typical Budget EFT Cheat Shops",
+		intro: "Budget ARC Raiders stores often look identical: neon banners, “undetected” badges, and a low weekly price. Arc Raiders Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
+		keywords: ["arc raiders cheats comparison","budget eft cheats","arc raiders cheats vs other shops","esp radar pricing","arc raiders cheats"],
+		imageAlt: "Comparing Arc Raiders Cheats features against budget EFT cheat shops",
 		sections: [
 			{
 				h2: "What budget shops usually optimize for",
 				paragraphs: [
-					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after BattlEye pushes.",
-					"Tarkov Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/updates/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
+					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.",
+					"Arc Raiders Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/updates/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
 				],
 			},
 			{
 				h2: "Price versus what you touch every raid",
 				paragraphs: [
 					"If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold extracts, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.",
-					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/escape-from-tarkov-cheats-buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
+					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/escape-from-arc-raiders-cheats-buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
 				],
 			},
 			{
 				h2: "How to decide without brand loyalty",
 				paragraphs: [
 					"Write down must-haves: dated status, loot ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
-					"Then return to <a href=\"/tarkov-cheats/\">tarkov cheats</a> and <a href=\"/tarkov-cheats/\">undetected notes</a> if that checklist matches what we ship.",
+					"Then return to <a href=\"/arc-raiders-cheats/\">arc raiders cheats</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected notes</a> if that checklist matches what we ship.",
 				],
 			}
 		],
@@ -648,33 +648,33 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "elitefn-vs-tarkov-cheats-two-week-test",
-		title: "I Tested Another Tarkov Cheat for 2 Weeks First",
-		metaDescription: "A two-week test of another Escape from Tarkov cheat before switching to Tarkov Cheats — ESP feel, soft aim, patch downtime, and support differences.",
-		h1: "I Tested Another Tarkov Cheat for Two Weeks Before Switching",
-		intro: "My Discord kept recommending a popular Escape from Tarkov cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Tarkov Cheats. This is what actually differed — without the usual affiliate script.",
-		keywords: ["tarkov cheats review","eft cheat comparison","tarkov cheat downtime","soft aim test","tarkov cheats"],
-		imageAlt: "Two week hands-on comparison between Tarkov cheat providers",
+		slug: "elitefn-vs-arc-raiders-cheats-two-week-test",
+		title: "I Tested Another Arc Raiders Cheat for 2 Weeks First",
+		metaDescription: "A two-week test of another ARC Raiders cheat before switching to Arc Raiders Cheats — ESP feel, soft aim, patch downtime, and support differences.",
+		h1: "I Tested Another Arc Raiders Cheat for Two Weeks Before Switching",
+		intro: "My Discord kept recommending a popular ARC Raiders cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Arc Raiders Cheats. This is what actually differed — without the usual affiliate script.",
+		keywords: ["arc raiders cheats review","eft cheat comparison","arc-raiders cheat downtime","soft aim test","arc raiders cheats"],
+		imageAlt: "Two week hands-on comparison between Arc Raiders cheat providers",
 		sections: [
 			{
 				h2: "Week one — setup and first impressions",
 				paragraphs: [
 					"Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Loot ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.",
-					"Tarkov Cheats later felt similar on install time, but filters for loot and extracts were easier to toggle independently during loot routes.",
+					"Arc Raiders Cheats later felt similar on install time, but filters for loot and extracts were easier to toggle independently during loot routes.",
 				],
 			},
 			{
 				h2: "Soft aim and the mid-raid feel",
 				paragraphs: [
 					"Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
-					"On Tarkov Cheats I relied more on per-weapon profiles so dorms and long peeks did not share one magnet. Details are in the <a href=\"/tarkov-aimbot/\">aimbot guide</a>.",
+					"On Arc Raiders Cheats I relied more on per-weapon profiles so dorms and long peeks did not share one magnet. Details are in the <a href=\"/arc-raiders-aimbot/\">aimbot guide</a>.",
 				],
 			},
 			{
 				h2: "The patch window that ended the trial",
 				paragraphs: [
-					"A Tarkov plus BattlEye update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
-					"Tarkov Cheats won me over with written notes on <a href=\"/updates/\">Updates</a>. I still do not queue blind after patches on any tool.",
+					"A Arc Raiders plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
+					"Arc Raiders Cheats won me over with written notes on <a href=\"/updates/\">Updates</a>. I still do not queue blind after patches on any tool.",
 				],
 			},
 			{
@@ -689,7 +689,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "tarkov-cheats-vs-ghostware",
+		id: "arc-raiders-cheats-vs-ghostware",
 		imageKey: "espWallhack",
 		published: "2026-07-05",
 		updated: "2026-08-13",
@@ -697,40 +697,40 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "tarkov-cheats-vs-ghostware-features-pricing",
-		title: "Full-Stack Tarkov Cheats vs Minimal ESP Tools",
-		metaDescription: "Full-stack Tarkov Cheats versus minimal ESP-only Escape from Tarkov tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
-		h1: "Full-Stack Tarkov Cheats vs Minimal ESP-Only Tools",
-		intro: "Some Escape from Tarkov tools sell a slim ESP module and call it a day. Tarkov Cheats ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
-		keywords: ["tarkov esp only cheat","tarkov cheats features","radar vs esp","tarkov cheat pricing","tarkov cheats"],
-		imageAlt: "Full stack Tarkov Cheats compared with minimal ESP-only tools",
+		slug: "arc-raiders-cheats-vs-ghostware-features-pricing",
+		title: "Full-Stack Arc Raiders Cheats vs Minimal ESP Tools",
+		metaDescription: "Full-stack Arc Raiders Cheats versus minimal ESP-only ARC Raiders tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
+		h1: "Full-Stack Arc Raiders Cheats vs Minimal ESP-Only Tools",
+		intro: "Some ARC Raiders tools sell a slim ESP module and call it a day. Arc Raiders Cheats ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
+		keywords: ["arc-raiders esp only cheat","arc raiders cheats features","radar vs esp","arc-raiders cheat pricing","arc raiders cheats"],
+		imageAlt: "Full stack Arc Raiders Cheats compared with minimal ESP-only tools",
 		sections: [
 			{
 				h2: "Two philosophies: minimal surface vs full raid loop",
 				paragraphs: [
 					"Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.",
-					"Tarkov Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold extracts, missing radar becomes obvious.",
+					"Arc Raiders Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold extracts, missing radar becomes obvious.",
 				],
 			},
 			{
 				h2: "Feature and pricing reality check",
 				paragraphs: [
-					"Tarkov Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
-					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/tarkov-esp/\">ESP</a>, <a href=\"/tarkov-radar-hack/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
+					"Arc Raiders Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
+					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-radar-hack/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
 				],
 			},
 			{
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"Tarkov Cheats documents maintenance on <a href=\"/updates/\">BattlEye workflow</a> and <a href=\"/tarkov-cheats/\">undetected notes</a>.",
+					"Arc Raiders Cheats documents maintenance on <a href=\"/eac-bypass/\">Easy Anti-Cheat workflow</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected notes</a>.",
 				],
 			},
 			{
 				h2: "Which style should you buy?",
 				paragraphs: [
-					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Tarkov Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.",
-					"Decide your must-haves on paper first. Then open <a href=\"/tarkov-cheats/\">tarkov cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
+					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Arc Raiders Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.",
+					"Decide your must-haves on paper first. Then open <a href=\"/arc-raiders-cheats/\">arc raiders cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
 				],
 			}
 		],
