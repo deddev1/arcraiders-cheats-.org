@@ -38,8 +38,8 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 }
 
 /**
- * Homepage / banner hero — compressed WebP ladder (not the 375KB+ PNG master).
- * Native art ~1024×409 (~2.5:1).
+ * Homepage / banner hero — compressed WebP ladder.
+ * Native art 1730×909 (~1.9:1).
  */
 export const heroResponsive: ResponsiveWidth[] = [
 	{ src: '/images/arc-raiders-cheats-hero-640w.webp', width: 640 },
@@ -57,9 +57,9 @@ export const heroSizes = '100vw';
 export const heroPreloadSrc = heroSrc;
 export const heroMimeType = 'image/webp';
 
-/** Exact native dimensions (no zoom crop). */
+/** Exact native dimensions at 1024w (1730×909 source). */
 export const heroWidth = 1024;
-export const heroHeight = 409;
+export const heroHeight = 538;
 
 /** Responsive widths for below-fold content images. */
 export const contentWidths = [480, 960] as const;
