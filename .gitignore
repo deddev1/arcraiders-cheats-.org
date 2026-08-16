@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+*.log
+tarkov-cheats-.org/
