@@ -22,7 +22,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What actually matters in a Arc Raiders patch?",
 				paragraphs: [
-					"Official notes live on undefined. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Raiders? Does this change what loot is worth looting? Does this change which extract or map I should run tonight?",
+					"Official notes live on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Raiders? Does this change what loot is worth looting? Does this change which extract or map I should run tonight?",
 					"Ammo tables, armor classes, boss spawn rates, and vendor unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Rust Belt and underground zones. Cosmetic lines and UI polish almost never decide whether you survive underground zones.",
 					"If you also run third-party tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> or client update, check our <a href=\"/updates/\">Arc Raiders Cheats status page</a> before you blame your own aim.",
 				],
@@ -39,7 +39,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				paragraphs: [
 					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near extracts and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, boss path changes — rewrite your first three minutes on that map before you farm it for quests.",
 					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and extract camping patterns are what get you killed. For aggressive extraction timing after a meta shift, see our <a href=\"/blog/arc-raiders-extraction-run-aggressive-strategies/\">extraction run strategies</a>.",
-					"On big mornings, confirm <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.",
+					"On big mornings, confirm <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Embark Studios</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.",
 				],
 			}
 		],
@@ -57,24 +57,24 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "arc-raiders-skin-leaks-guide",
 		title: "Arc Raiders Cosmetics & Skin Leaks: What Is Worth Buying",
-		metaDescription: "Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy on the Flea Market, what to skip, and how looks affect raid readability.",
+		metaDescription: "Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy in the Raider shop, what to skip, and how looks affect raid readability.",
 		h1: "Arc Raiders Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
 		intro: "Leaks make every wipe feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.",
-		keywords: ["arc-raiders skins","arc-raiders cosmetics","flea market skins","arc raiders apparel","arc-raiders intel"],
+		keywords: ["arc-raiders skins","arc-raiders cosmetics","arc-raiders cosmetics shop","arc raiders apparel","arc-raiders intel"],
 		imageAlt: "ARC Raiders character cosmetics and gear appearance options",
 		sections: [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official apparel come from undefined. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a wipe, then realize they still need meds, ammo, and a backup kit.",
+					"Shop rotations and official apparel come from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a wipe, then realize they still need meds, ammo, and a backup kit.",
 					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Rust Belt or in dark underground corridors. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
 				h2: "A simple worth-it checklist for Arc Raiders cosmetics",
 				paragraphs: [
-					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.",
-					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Flea Market. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
+					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a credits reserve for ammo and healing before fashion.",
+					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece in the Raider shop. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
 				],
 			},
 			{
@@ -110,7 +110,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				paragraphs: [
 					"S-tier means the best expected value across a hundred surface raid fights on maps like Speranza, Rust Belt, and underground zones — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.",
 					"Shotguns still own tight interiors. Bolt-actions still punish long peeks on Rust Belt and extraction routes. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant season after season when ammo and mods are available.",
-					"Always re-check live values after patches on undefined. The hierarchy logic stays useful even when numbers nudge.",
+					"Always re-check live values after patches on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. The hierarchy logic stays useful even when numbers nudge.",
 				],
 			},
 			{
@@ -159,7 +159,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Five aggressive habits that still work",
 				paragraphs: [
 					"Pre-aim common corners on underground zones and industrial loot zones so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
-					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with undefined wipes; the geometry of first-shot advantage does not.",
+					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> wipes; the geometry of first-shot advantage does not.",
 				],
 			},
 			{
@@ -193,7 +193,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Watch competitive VODs like a coach, not a fan",
 				paragraphs: [
-					"Start with schedules and film from undefined community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-raid decision.",
+					"Start with schedules and film from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-raid decision.",
 					"Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.",
 				],
 			},
@@ -243,7 +243,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
 					"Contested edge POI: land outer loot, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.",
-					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with undefined wipes — keep the geometry, not just the landmark brand.",
+					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> wipes — keep the geometry, not just the landmark brand.",
 				],
 			},
 			{
@@ -362,7 +362,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What do people mean when they say arc raiders cheats?",
 				paragraphs: [
 					"In plain language, arc raiders cheats are third-party tools that add information or aim assistance on top of the ARC Raiders client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
-					"Searchers also say “escape from arc raiders cheats,” “eft hacks,” or “arc-raiders wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/arc-raiders-cheats/\">arc raiders cheats pillar</a> if you want the product overview without the long essay.",
+					"Searchers also say “arc raiders hacks,” “arc raiders wallhack,” or “undetected arc raiders cheats.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/arc-raiders-cheats/\">arc raiders cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
 			{
@@ -401,10 +401,10 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "arc-raiders-cheats-buyers-guide",
 		title: "ARC Raiders Cheats Buyers Guide",
-		metaDescription: "What to check before you buy escape from arc raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
+		metaDescription: "What to check before you buy ARC Raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
 		h1: "ARC Raiders Cheats: What to Check Before You Buy",
-		intro: "Buying escape from arc raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
-		keywords: ["escape from arc raiders cheats","arc raiders cheats buyers guide","buy arc raiders cheats","undetected eft cheats","arc-raiders pricing"],
+		intro: "Buying ARC Raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
+		keywords: ["arc raiders cheats buyers guide","buy arc raiders cheats","undetected arc raiders cheats","arc-raiders pricing"],
 		imageAlt: "Checklist for buying ARC Raiders cheats safely",
 		sections: [
 			{
@@ -453,7 +453,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
 					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/undetected-arc-raiders-cheats/\">undetected explainer</a> instead of empty guarantees.",
-					"<a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> and Battlestate client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
+					"<a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> and Embark Studios client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
 			{
@@ -583,7 +583,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Patch-day habits that reduce pain",
 				paragraphs: [
-					"After a Arc Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Battlestate services on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
+					"After an ARC Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Embark Studios services on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Embark Studios</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
 					"Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.",
 				],
 			},
@@ -607,12 +607,12 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "arc-raiders-cheats-vs-cheatvault-comparison",
-		title: "Arc Raiders Cheats vs Typical Budget EFT Shops",
+		title: "Arc Raiders Cheats vs Typical Budget Cheat Shops",
 		metaDescription: "How Arc Raiders Cheats compares to typical budget ARC Raiders cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
-		h1: "Arc Raiders Cheats vs Typical Budget EFT Cheat Shops",
+		h1: "Arc Raiders Cheats vs Typical Budget ARC Raiders Cheat Shops",
 		intro: "Budget ARC Raiders stores often look identical: neon banners, “undetected” badges, and a low weekly price. Arc Raiders Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
-		keywords: ["arc raiders cheats comparison","budget eft cheats","arc raiders cheats vs other shops","esp radar pricing","arc raiders cheats"],
-		imageAlt: "Comparing Arc Raiders Cheats features against budget EFT cheat shops",
+		keywords: ["arc raiders cheats comparison","budget arc raiders cheats","arc raiders cheats vs other shops","esp radar pricing","arc raiders cheats"],
+		imageAlt: "Comparing Arc Raiders Cheats features against budget ARC Raiders cheat shops",
 		sections: [
 			{
 				h2: "What budget shops usually optimize for",

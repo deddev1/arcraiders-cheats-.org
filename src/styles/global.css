@@ -430,7 +430,8 @@
 		border-left: 3px solid var(--accent-orange, var(--magenta));
 	}
 
-	.home__prose-highlight h1 {
+	.home__prose-highlight h1,
+	.home__prose-highlight h2 {
 		margin: 0 0 1rem;
 		font-family: var(--font-display);
 		font-size: clamp(1.15rem, 2.4vw, 1.45rem);

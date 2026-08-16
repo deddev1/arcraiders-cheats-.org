@@ -49,7 +49,11 @@ function htmlPathFor(urlPath) {
 
 const REDIRECT_MAP = (() => {
 	const map = new Map();
-	for (const file of ['functions/path-redirects.json', 'functions/cannibal-redirects.json']) {
+	for (const file of [
+		'functions/path-redirects.json',
+		'functions/cannibal-redirects.json',
+		'functions/escape-from-redirects.json',
+	]) {
 		try {
 			const json = JSON.parse(readFileSync(path.join(ROOT, file), 'utf8'));
 			for (const [from, to] of Object.entries(json)) map.set(from, to);
@@ -123,8 +127,8 @@ async function main() {
 			if (pageLoc.includes('www.')) fail(`${file}: www in loc ${pageLoc}`);
 
 			const p = pathFromUrl(pageLoc);
-			if (REDIRECT_MAP.has(p) || REDIRECT_MAP.has(p.replace(/\/$/, ''))) {
-				fail(`${file}: sitemap lists redirected URL ${pageLoc} → ${REDIRECT_MAP.get(p) || REDIRECT_MAP.get(p.replace(/\/$/, ''))}`);
+			if (REDIRECT_MAP.has(p)) {
+				fail(`${file}: sitemap lists redirected URL ${pageLoc} → ${REDIRECT_MAP.get(p)}`);
 			}
 
 			const htmlRel = htmlPathFor(p);
@@ -165,7 +169,7 @@ async function main() {
 			const hrefLangs = [...block.matchAll(/hreflang="([^"]+)"\s+href="([^"]+)"/g)];
 			for (const [, lang, href] of hrefLangs) {
 				const hp = pathFromUrl(href);
-				if (REDIRECT_MAP.has(hp) || REDIRECT_MAP.has(hp.replace(/\/$/, ''))) {
+				if (REDIRECT_MAP.has(hp)) {
 					hreflangIssues.push(`${pageLoc} hreflang=${lang} → redirect ${href}`);
 				}
 				if (!href.startsWith(SITE)) {

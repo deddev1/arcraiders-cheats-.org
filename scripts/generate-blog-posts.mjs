@@ -14,12 +14,12 @@ const OUT = join(__dirname, '..', 'src', 'data', 'blog', 'posts.generated.ts');
 const LOCALES = ['en'];
 
 const EXT = {
+	game:
+		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 	'arc-raiders':
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 	status:
-		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
-	eac:
-		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">Embark Studios</a>',
 	eac:
 		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
 };
@@ -87,14 +87,14 @@ const sources = [
 		slug: 'arc-raiders-skin-leaks-guide',
 		title: 'Arc Raiders Cosmetics & Skin Leaks: What Is Worth Buying',
 		metaDescription:
-			'Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy on the Flea Market, what to skip, and how looks affect raid readability.',
+			'Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy in the Raider shop, what to skip, and how looks affect raid readability.',
 		h1: 'Arc Raiders Cosmetics and Skin Leaks: Buy Smart, Not Impulsive',
 		intro:
 			'Leaks make every wipe feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.',
 		keywords: [
 			'arc-raiders skins',
 			'arc-raiders cosmetics',
-			'flea market skins',
+			'arc-raiders cosmetics shop',
 			'arc raiders apparel',
 			'arc-raiders intel',
 		],
@@ -110,8 +110,8 @@ const sources = [
 			{
 				h2: 'A simple worth-it checklist for Arc Raiders cosmetics',
 				paragraphs: [
-					'Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.',
-					'Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Flea Market. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.',
+					'Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a credits reserve for ammo and healing before fashion.',
+					'Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece in the Raider shop. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.',
 				],
 			},
 			{
@@ -427,7 +427,7 @@ const sources = [
 				h2: 'What do people mean when they say arc raiders cheats?',
 				paragraphs: [
 					'In plain language, arc raiders cheats are third-party tools that add information or aim assistance on top of the ARC Raiders client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “escape from arc raiders cheats,” “eft hacks,” or “arc-raiders wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href="/arc-raiders-cheats/">arc raiders cheats pillar</a> if you want the product overview without the long essay.',
+					'Searchers also say “arc raiders hacks,” “arc raiders wallhack,” or “undetected arc raiders cheats.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href="/arc-raiders-cheats/">arc raiders cheats pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
@@ -463,15 +463,14 @@ const sources = [
 		slug: 'arc-raiders-cheats-buyers-guide',
 		title: 'ARC Raiders Cheats Buyers Guide',
 		metaDescription:
-			'What to check before you buy escape from arc raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
+			'What to check before you buy ARC Raiders cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
 		h1: 'ARC Raiders Cheats: What to Check Before You Buy',
 		intro:
-			'Buying escape from arc raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
+			'Buying ARC Raiders cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
 		keywords: [
-			'escape from arc raiders cheats',
 			'arc raiders cheats buyers guide',
 			'buy arc raiders cheats',
-			'undetected eft cheats',
+			'undetected arc raiders cheats',
 			'arc-raiders pricing',
 		],
 		imageAlt: 'Checklist for buying ARC Raiders cheats safely',
@@ -526,7 +525,7 @@ const sources = [
 				h2: 'Why 2026 buyers care more about status pages',
 				paragraphs: [
 					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/undetected-arc-raiders-cheats/">undetected explainer</a> instead of empty guarantees.',
-					`${EXT.eac} and Battlestate client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
+					`${EXT.eac} and Embark Studios client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
 				],
 			},
 			{
@@ -668,7 +667,7 @@ const sources = [
 			{
 				h2: 'Patch-day habits that reduce pain',
 				paragraphs: [
-					`After a Arc Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Battlestate services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
+					`After an ARC Raiders or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Embark Studios services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
 					'Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.',
 				],
 			},
@@ -688,20 +687,20 @@ const sources = [
 		category: 'Comparisons',
 		featured: false,
 		slug: 'arc-raiders-cheats-vs-cheatvault-comparison',
-		title: 'Arc Raiders Cheats vs Typical Budget EFT Shops',
+		title: 'Arc Raiders Cheats vs Typical Budget Cheat Shops',
 		metaDescription:
 			'How Arc Raiders Cheats compares to typical budget ARC Raiders cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
-		h1: 'Arc Raiders Cheats vs Typical Budget EFT Cheat Shops',
+		h1: 'Arc Raiders Cheats vs Typical Budget ARC Raiders Cheat Shops',
 		intro:
 			'Budget ARC Raiders stores often look identical: neon banners, “undetected” badges, and a low weekly price. Arc Raiders Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
 			'arc raiders cheats comparison',
-			'budget eft cheats',
+			'budget arc raiders cheats',
 			'arc raiders cheats vs other shops',
 			'esp radar pricing',
 			'arc raiders cheats',
 		],
-		imageAlt: 'Comparing Arc Raiders Cheats features against budget EFT cheat shops',
+		imageAlt: 'Comparing Arc Raiders Cheats features against budget ARC Raiders cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',

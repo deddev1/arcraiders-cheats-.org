@@ -24,7 +24,7 @@ export const enPages = {
 			),
 			section(
 				'ESP wallhack, radar hack, and Aimbot in one license',
-				'Instead of stacking separate tools, Arc Raiders Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for surface raids and extraction-runs — covering both “arc raiders cheats” and “escape from arc raiders cheats” search intent.',
+				'Instead of stacking separate tools, Arc Raiders Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for surface raids and extraction-runs — covering both “arc raiders cheats” and “arc raiders hacks” search intent.',
 				'Browse the <a href="/arc-raiders-esp/">ESP</a>, <a href="/arc-raiders-aimbot/">Aimbot</a>, <a href="/arc-raiders-esp/">wallhack</a>, and <a href="/arc-raiders-radar-hack/">radar</a> pages for control details — or jump to <a href="/pricing/">Pricing</a> for monthly and lifetime options.',
 				`Before patch days, check ${EXT.status} for Embark Studios service health, then confirm our maintenance notes so you are not queueing on an outdated build.`,
 				'Ready to buy? Open <a href="/pricing/">Pricing</a>, follow <a href="/setup/">Setup</a> after delivery, and keep <a href="/faq/">FAQ</a> / <a href="/support/">Support</a> bookmarked for license questions.',
@@ -388,7 +388,7 @@ export const enPages = {
 	radar: {
 		title: 'Arc Raiders Radar Hack 2026 | 2D Threat Overlay',
 		description:
-			'Arc Raiders radar hack for flank awareness on Windows PC. Bundled with ESP boxes, soft aim, and radar in our arc raiders cheats package.',
+			'Arc Raiders radar hack for flank awareness on Windows PC. 2D threat overlay bundled with ESP boxes, soft aim, and patch updates in our arc raiders cheats package.',
 		h1: 'Arc Raiders Radar Hack — 2D Threat Awareness',
 		intro:
 			'2D radar-style overlay for Arc Raiders — directional threat cues for nearby players outside your line of sight, bundled with ESP wallhack and Aimbot.',

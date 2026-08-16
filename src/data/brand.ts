@@ -90,7 +90,7 @@ export const brand = {
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
 		reviewsDescription: 'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for ARC Raiders on Windows PC. Real feedback from license holders.',
 		blogTitle: '{game} Intel | {brand}',
-		blogDescription: 'Guides and notes for {game} — surface raid tips, ESP, aimbot, loot routes, and {antiCheat} update coverage for Windows PC players.',
+		blogDescription: 'ARC Raiders Intel from {brand} — surface raid guides, ESP and aimbot tips, loot routes, season notes, and {antiCheat} update coverage for PC.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */
