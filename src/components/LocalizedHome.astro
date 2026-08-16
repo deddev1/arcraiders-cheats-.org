@@ -183,4 +183,59 @@ const extraGraph: Record<string, unknown>[] = [
 		font-size: 1rem;
 		color: var(--ink);
 	}
+
+	.home-about {
+		padding-block: clamp(2rem, 4vw, 2.75rem) 0.25rem;
+	}
+
+	.home-about__panel {
+		position: relative;
+		padding: clamp(1.35rem, 3vw, 1.85rem) clamp(1.25rem, 3vw, 1.75rem);
+		border: 1px solid var(--line);
+		border-radius: var(--radius-lg);
+		background:
+			linear-gradient(135deg, color-mix(in srgb, var(--accent-orange, var(--magenta)) 7%, transparent), transparent 42%),
+			var(--bg-elevated);
+		box-shadow: 0 1px 0 color-mix(in srgb, var(--ink) 4%, transparent) inset;
+	}
+
+	.home-about__panel h2 {
+		margin: 0 0 0.85rem;
+		padding-left: 0.15rem;
+		font-family: var(--font-display);
+		font-size: clamp(1.25rem, 2.4vw, 1.55rem);
+		font-weight: 700;
+		letter-spacing: -0.03em;
+		line-height: 1.2;
+		color: var(--ink);
+	}
+
+	.home-about__lead {
+		margin: 0 0 0.85rem;
+		max-width: 52rem;
+		font-size: 0.9375rem;
+		line-height: 1.65;
+		color: var(--ink-muted);
+	}
+
+	.home-about__links {
+		margin: 0;
+		padding: 0.85rem 1rem;
+		border-left: 2px solid var(--accent-orange, var(--magenta));
+		border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+		background: color-mix(in srgb, var(--accent-orange, var(--magenta)) 6%, var(--bg-panel));
+		font-size: 0.9rem;
+		line-height: 1.6;
+		color: var(--ink-muted);
+	}
+
+	.home-about__panel a {
+		color: var(--accent-orange, var(--magenta-soft));
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.home-about__panel a:hover {
+		color: var(--ink);
+	}
 </style>

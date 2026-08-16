@@ -1,5 +1,5 @@
-import en from '../locales/en/translation.json';
-import es from '../locales/es/translation.json';
+import en from '../../public/locales/en/translation.json';
+import es from '../../public/locales/es/translation.json';
 
 const catalogs: Record<string, typeof en> = { en, es };
 

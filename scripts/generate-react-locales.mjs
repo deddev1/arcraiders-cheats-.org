@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generates src/locales/{locale}/translation.json for React i18n.
+ * Generates public/locales/{locale}/translation.json for React i18n.
  * Merges ui-strings (22 locales) into the English template.
  */
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -12,8 +12,8 @@ import { allUiStrings } from './i18n-data/ui-strings.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const EN_TEMPLATE = path.join(ROOT, 'src', 'locales', 'en', 'translation.json');
-const LOCALES_DIR = path.join(ROOT, 'src', 'locales');
+const EN_TEMPLATE = path.join(ROOT, 'public', 'locales', 'en', 'translation.json');
+const LOCALES_DIR = path.join(ROOT, 'public', 'locales');
 
 /** Deep-merge source into target (mutates target). */
 function deepMerge(target, source) {
