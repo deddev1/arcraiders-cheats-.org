@@ -424,35 +424,4 @@
 		height: 100%;
 		object-fit: cover;
 	}
-
-	/* L-shaped corner brackets for highlighted panels */
-	.corner-highlight {
-		position: relative;
-		isolation: isolate;
-	}
-
-	.corner-highlight::before,
-	.corner-highlight::after {
-		content: '';
-		position: absolute;
-		width: 1.25rem;
-		height: 1.25rem;
-		pointer-events: none;
-		z-index: 2;
-		opacity: 0.92;
-	}
-
-	.corner-highlight::before {
-		top: 0;
-		left: 0;
-		border-top: 2px solid var(--accent-orange, var(--magenta));
-		border-left: 2px solid var(--accent-orange, var(--magenta));
-	}
-
-	.corner-highlight::after {
-		right: 0;
-		bottom: 0;
-		border-right: 2px solid var(--accent-orange, var(--magenta));
-		border-bottom: 2px solid var(--accent-orange, var(--magenta));
-	}
 }

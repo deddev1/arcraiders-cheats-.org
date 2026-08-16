@@ -9,22 +9,20 @@ function HomeAboutInner() {
 	const { t } = useTranslation();
 
 	return (
-		<section className="shell home-about" aria-labelledby="home-about-title">
-			<div className="home-about__panel corner-highlight">
-				<h1 id="home-about-title">{t('home.aboutTitle')}</h1>
-				<p className="home-about__lead">{t('home.aboutP1')}</p>
-				<p className="home-about__links">
-					{t('home.aboutP2Before')}{' '}
-					<a href="/arc-raiders-cheats/">{t('home.aboutPillar')}</a>
-					{t('home.aboutP2Mid')}
-					<a href="/arc-raiders-esp/">{t('home.aboutEsp')}</a>
-					{t('home.aboutP2Mid')}
-					<a href="/arc-raiders-aimbot/">{t('home.aboutAimbot')}</a>
-					{t('home.aboutP2Or')}
-					<a href="/updates/">{t('home.aboutUndetected')}</a>
-					{t('home.aboutP2After')}
-				</p>
-			</div>
+		<section className="shell home__prose home__prose--en" aria-labelledby="home-about-title">
+			<h2 id="home-about-title">{t('home.aboutTitle')}</h2>
+			<p>{t('home.aboutP1')}</p>
+			<p>
+				{t('home.aboutP2Before')}{' '}
+				<a href="/arc-raiders-cheats/">{t('home.aboutPillar')}</a>
+				{t('home.aboutP2Mid')}
+				<a href="/arc-raiders-esp/">{t('home.aboutEsp')}</a>
+				{t('home.aboutP2Mid')}
+				<a href="/arc-raiders-aimbot/">{t('home.aboutAimbot')}</a>
+				{t('home.aboutP2Or')}
+				<a href="/updates/">{t('home.aboutUndetected')}</a>
+				{t('home.aboutP2After')}
+			</p>
 		</section>
 	);
 }
