@@ -56,8 +56,8 @@ function HomeSeoInner({ faqs }: Props) {
 
 	return (
 		<section className="home-seo shell" aria-labelledby="home-seo-title">
-			<header className="home-seo__head">
-				<div>
+			<header className="home-seo__head corner-highlight">
+				<div className="home-seo__head-inner">
 					<p className="home-seo__eyebrow">{t('homeSeo.eyebrow')}</p>
 					<h2 id="home-seo-title">{t('homeSeo.title')}</h2>
 					<p className="home-seo__lede">{t('homeSeo.lede')}</p>
@@ -66,7 +66,7 @@ function HomeSeoInner({ faqs }: Props) {
 
 			<div className="home-seo__cats">
 				{categories.map((cat) => (
-					<nav key={cat.titleKey} className="home-seo__cat" aria-label={t(cat.titleKey)}>
+					<nav key={cat.titleKey} className="home-seo__cat corner-highlight corner-highlight--sm" aria-label={t(cat.titleKey)}>
 						<header className="home-seo__cat-head">
 							<h3>{t(cat.titleKey)}</h3>
 							<p>{t(cat.hintKey)}</p>
@@ -85,7 +85,7 @@ function HomeSeoInner({ faqs }: Props) {
 				))}
 			</div>
 
-			<section className="home-seo__faq" aria-labelledby="home-faq-title">
+			<section className="home-seo__faq corner-highlight" aria-labelledby="home-faq-title">
 				<header className="home-seo__faq-head">
 					<div>
 						<p className="home-seo__eyebrow">{t('homeSeo.faqEyebrow')}</p>
