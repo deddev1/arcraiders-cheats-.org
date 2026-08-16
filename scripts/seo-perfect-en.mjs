@@ -13,21 +13,21 @@ const PAGES_EN = path.join(ROOT, 'scripts', 'i18n-data', 'pages-en.mjs');
 
 /** @type {Array<[RegExp|string, string]>} */
 const replacements = [
-	// Wrong publishers in prose (EXT.activision already links to escapefromtarkov.com)
-	['published by ${EXT.activision}', 'published by Battlestate Games (${EXT.tarkov})'],
-	['from ${EXT.activision}', 'from ${EXT.tarkov}'],
-	['via ${EXT.activision}', 'via ${EXT.tarkov}'],
-	['belong with ${EXT.activision}', 'belong with Battlestate Games'],
-	['${EXT.activision} terms', 'Battlestate Games terms'],
-	['${EXT.activision} season updates', '${EXT.tarkov} wipe and map updates'],
+	// Wrong publishers in prose (EXT.activision already links to escapefromarc-raiders.com)
+	['published by ${EXT.activision}', 'published by Embark Studios (${EXT.arc-raiders})'],
+	['from ${EXT.activision}', 'from ${EXT.arc-raiders}'],
+	['via ${EXT.activision}', 'via ${EXT.arc-raiders}'],
+	['belong with ${EXT.activision}', 'belong with Embark Studios'],
+	['${EXT.activision} terms', 'Embark Studios terms'],
+	['${EXT.activision} season updates', '${EXT.arc-raiders} wipe and map updates'],
 
 	['PC & Controllers', 'Windows PC'],
 	['PC & Controller Guide', 'Windows PC Guide'],
 	['PC and controller cheats', 'Windows PC cheats'],
 
-	// BR / Fortnite lexicon → Tarkov
-	['vehicles, loot', 'PMCs, Scavs, loot'],
-	['notice vehicles before they push your position', 'spot PMCs and Scavs before they push your angle'],
+	// BR / Fortnite lexicon → Arc Raiders
+	['vehicles, loot', 'Raiders, ARC drones, loot'],
+	['notice vehicles before they push your position', 'spot Raiders and ARC drones before they push your angle'],
 	['Player, vehicle, and loot', 'Player, boss, and loot'],
 	[
 		'vehicle threat cues, supply-drop awareness markers, and loot or chest pins so only BR-critical',
@@ -41,8 +41,8 @@ const replacements = [
 	['chests worth the detour', 'high-value loot worth the detour'],
 	['vehicles, and chests', 'bosses, and containers'],
 	['loot, vehicles, and chests', 'loot, bosses, and containers'],
-	['players, loot, and vehicles', 'PMCs, Scavs, and loot'],
-	['players, loot, vehicles', 'PMCs, Scavs, loot'],
+	['players, loot, and vehicles', 'Raiders, ARC drones, and loot'],
+	['players, loot, vehicles', 'Raiders, ARC drones, loot'],
 	['vehicle threat cues', 'boss threat cues'],
 	['vehicle pushes', 'flank pushes'],
 	['track vehicles and chests', 'track bosses and containers'],
@@ -62,7 +62,7 @@ const replacements = [
 	],
 	['assault rifles, SMGs, and snipers', 'ARs, SMGs, and bolt-actions'],
 	['AR / SMG / sniper', 'AR / SMG / bolt-action'],
-	['players, loot, and vehicles', 'PMCs, Scavs, and loot'],
+	['players, loot, and vehicles', 'Raiders, ARC drones, and loot'],
 	['for players, loot, and vehicles', 'for players, loot, and extracts'],
 
 	// Broken / truncated meta fragments
@@ -76,43 +76,43 @@ const replacements = [
 	['Best Hacks with ESP & ', 'ESP Soft Aim & Radar'],
 	['ESP, Soft Aim & ', 'ESP, Soft Aim & Radar'],
 	['with — learn', '— learn'],
-	['RBattlEye out for', 'Reach out for'],
-	['an BattlEye', 'a BattlEye'],
+	['REasy Anti-Cheat out for', 'Reach out for'],
+	['an Easy Anti-Cheat', 'a Easy Anti-Cheat'],
 	['After a Escape', 'After an Escape'],
 	['after a Escape', 'after an Escape'],
 
 	// Keyword stuffing / nonsense duplicates
-	['tarkov cheats & tarkov cheats', 'tarkov cheats'],
+	['arc raiders cheats & arc raiders cheats', 'arc raiders cheats'],
 	[
-		'covering both tarkov cheats and tarkov cheats search intent',
-		'covering both “tarkov cheats” and “escape from tarkov cheats” search intent',
+		'covering both arc raiders cheats and arc raiders cheats search intent',
+		'covering both “arc raiders cheats” and “escape from arc raiders cheats” search intent',
 	],
 	[
-		'also searched as tarkov cheats and tarkov cheat.',
-		'built for Escape from Tarkov on Windows PC.',
+		'also searched as arc raiders cheats and arc-raiders cheat.',
+		'built for ARC Raiders on Windows PC.',
 	],
 	[
-		'Tarkov cheats vs tarkov cheats — same stack, clear pages',
-		'How this Tarkov cheats pillar fits nearby pages',
+		'Arc Raiders cheats vs arc raiders cheats — same stack, clear pages',
+		'How this Arc Raiders cheats pillar fits nearby pages',
 	],
 	[
-		'Searchers use tarkov cheats and tarkov cheats interchangeably. This pillar focuses on hacks language; the',
+		'Searchers use arc raiders cheats and arc raiders cheats interchangeably. This pillar focuses on hacks language; the',
 		'Use this pillar for the core product overview. For year-specific buying notes, see the',
 	],
 
 	// Point cannibal URLs at canonicals
-	['/tarkov-esp-hack/', '/tarkov-esp/'],
-	['/tarkov-aimbot-hack/', '/tarkov-aimbot/'],
-	['/best-tarkov-cheats/', '/tarkov-cheats/'],
-	['best Tarkov cheats guide', 'Tarkov cheats pillar'],
-	['best Tarkov cheats checklist', 'Tarkov cheats checklist'],
-	['best Tarkov cheats', 'Tarkov cheats'],
+	['/arc-raiders-esp-hack/', '/arc-raiders-esp/'],
+	['/arc-raiders-aimbot-hack/', '/arc-raiders-aimbot/'],
+	['/best-arc-raiders-cheats/', '/arc-raiders-cheats/'],
+	['best Arc Raiders cheats guide', 'Arc Raiders cheats pillar'],
+	['best Arc Raiders cheats checklist', 'Arc Raiders cheats checklist'],
+	['best Arc Raiders cheats', 'Arc Raiders cheats'],
 	[
-		'Prefer softer tracking? Read the <a href="/tarkov-soft-aim/">soft aim guide</a>. Want the search term most players use? See <a href="/tarkov-aimbot/">aimbot hack</a>.',
-		'Prefer softer tracking? Read the <a href="/tarkov-soft-aim/">soft aim guide</a>.',
+		'Prefer softer tracking? Read the <a href="/arc-raiders-soft-aim/">soft aim guide</a>. Want the search term most players use? See <a href="/arc-raiders-aimbot/">aimbot hack</a>.',
+		'Prefer softer tracking? Read the <a href="/arc-raiders-soft-aim/">soft aim guide</a>.',
 	],
-	['Related landings: <a href="/tarkov-cheat-download/">cheat download</a>, <a href="/tarkov-mod-menu/">mod menu</a>, <a href="/tarkov-aimbot/">aimbot hack</a>, <a href="/tarkov-esp/">ESP hack</a>.',
-		'Related landings: <a href="/tarkov-cheat-download/">cheat download</a>, <a href="/tarkov-mod-menu/">mod menu</a>, <a href="/tarkov-aimbot/">aimbot</a>, <a href="/tarkov-esp/">ESP</a>.'],
+	['Related landings: <a href="/arc-raiders-cheat-download/">cheat download</a>, <a href="/arc-raiders-mod-menu/">mod menu</a>, <a href="/arc-raiders-aimbot/">aimbot hack</a>, <a href="/arc-raiders-esp/">ESP hack</a>.',
+		'Related landings: <a href="/arc-raiders-cheat-download/">cheat download</a>, <a href="/arc-raiders-mod-menu/">mod menu</a>, <a href="/arc-raiders-aimbot/">aimbot</a>, <a href="/arc-raiders-esp/">ESP</a>.'],
 ];
 
 let src = readFileSync(PAGES_EN, 'utf8');

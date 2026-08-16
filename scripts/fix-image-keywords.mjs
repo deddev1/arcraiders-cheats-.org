@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const SIMPLE =
-	"images: { hero: 'tarkov cheats', espWallhack: 'tarkov cheats wallhack', aimbotCombat: 'tarkov cheats aimbot', squadFight: 'tarkov cheats', playerEsp: 'tarkov cheats esp', headerArt: 'tarkov cheats aimbot', cheatsPackage: 'tarkov cheats radar', rebootFight: 'tarkov cheats aimbot', battleRoyale: 'tarkov cheats', battleRoyaleIsland: 'tarkov cheats esp' }";
+	"images: { hero: 'arc raiders cheats', espWallhack: 'arc raiders cheats wallhack', aimbotCombat: 'arc raiders cheats aimbot', squadFight: 'arc raiders cheats', playerEsp: 'arc raiders cheats esp', headerArt: 'arc raiders cheats aimbot', cheatsPackage: 'arc raiders cheats radar', rebootFight: 'arc raiders cheats aimbot', battleRoyale: 'arc raiders cheats', battleRoyaleIsland: 'arc raiders cheats esp' }";
 
 const re =
 	/images: \{ hero: '[^']+', espWallhack: '[^']+', aimbotCombat: '[^']+', squadFight: '[^']+', playerEsp: '[^']+', headerArt: '[^']+', cheatsPackage: '[^']+', rebootFight: '[^']+', battleRoyale: '[^']+', battleRoyaleIsland: '[^']+' \}/g;
@@ -15,30 +15,30 @@ for (const f of ['scripts/i18n-data/ui-strings-part1.mjs', 'scripts/i18n-data/ui
 }
 
 const altMap = [
-	["imageAlt: 'Tarkov ESP player tags hack'", "imageAlt: 'tarkov cheats esp'"],
-	["imageAlt: 'Tarkov ESP radar hack'", "imageAlt: 'tarkov cheats radar'"],
-	["imageAlt: 'Tarkov aimbot sniper kill'", "imageAlt: 'tarkov cheats aimbot'"],
-	["imageAlt: 'Tarkov aimbot skeleton targeting'", "imageAlt: 'tarkov cheats aimbot'"],
-	["imageAlt: 'Tarkov cheats ADS combat'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats setup PC activation'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats updates BattlEye maintenance'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats FAQ ESP aimbot'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats support license help'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Undetected tarkov cheats ESP wallhack'", "imageAlt: 'undetected tarkov cheats'"],
-	["imageAlt: 'Tarkov wallhack skeleton ESP'", "imageAlt: 'tarkov cheats wallhack'"],
-	["imageAlt: 'BattlEye bypass tarkov ESP aimbot'", "imageAlt: 'tarkov cheats battleye'"],
-	["imageAlt: 'Tarkov cheats 2026 ESP aimbot'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats combat aimbot'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheat download ESP aimbot'", "imageAlt: 'tarkov cheats download'"],
-	["imageAlt: 'Tarkov mod menu ESP aimbot'", "imageAlt: 'tarkov cheats mod menu'"],
-	["imageAlt: 'Tarkov soft aim aimbot settings'", "imageAlt: 'tarkov cheats soft aim'"],
-	["imageAlt: 'Best tarkov cheats 2026 ESP'", "imageAlt: 'best tarkov cheats'"],
-	["imageAlt: 'Tarkov aimbot hack combat'", "imageAlt: 'tarkov cheats aimbot'"],
-	["imageAlt: 'Tarkov ESP hack wallhack'", "imageAlt: 'tarkov cheats esp'"],
-	["imageAlt: 'Tarkov unlock all ESP aimbot guide'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats privacy policy'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats refund policy'", "imageAlt: 'tarkov cheats'"],
-	["imageAlt: 'Tarkov cheats terms of use'", "imageAlt: 'tarkov cheats'"],
+	["imageAlt: 'Arc Raiders ESP player tags hack'", "imageAlt: 'arc raiders cheats esp'"],
+	["imageAlt: 'Arc Raiders ESP radar hack'", "imageAlt: 'arc raiders cheats radar'"],
+	["imageAlt: 'Arc Raiders aimbot sniper kill'", "imageAlt: 'arc raiders cheats aimbot'"],
+	["imageAlt: 'Arc Raiders aimbot skeleton targeting'", "imageAlt: 'arc raiders cheats aimbot'"],
+	["imageAlt: 'Arc Raiders cheats ADS combat'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats setup PC activation'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats updates Easy Anti-Cheat maintenance'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats FAQ ESP aimbot'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats support license help'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Undetected arc raiders cheats ESP wallhack'", "imageAlt: 'undetected arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders wallhack skeleton ESP'", "imageAlt: 'arc raiders cheats wallhack'"],
+	["imageAlt: 'Easy Anti-Cheat bypass arc-raiders ESP aimbot'", "imageAlt: 'arc raiders cheats battleye'"],
+	["imageAlt: 'Arc Raiders cheats 2026 ESP aimbot'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats combat aimbot'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheat download ESP aimbot'", "imageAlt: 'arc raiders cheats download'"],
+	["imageAlt: 'Arc Raiders mod menu ESP aimbot'", "imageAlt: 'arc raiders cheats mod menu'"],
+	["imageAlt: 'Arc Raiders soft aim aimbot settings'", "imageAlt: 'arc raiders cheats soft aim'"],
+	["imageAlt: 'Best arc raiders cheats 2026 ESP'", "imageAlt: 'best arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders aimbot hack combat'", "imageAlt: 'arc raiders cheats aimbot'"],
+	["imageAlt: 'Arc Raiders ESP hack wallhack'", "imageAlt: 'arc raiders cheats esp'"],
+	["imageAlt: 'Arc Raiders unlock all ESP aimbot guide'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats privacy policy'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats refund policy'", "imageAlt: 'arc raiders cheats'"],
+	["imageAlt: 'Arc Raiders cheats terms of use'", "imageAlt: 'arc raiders cheats'"],
 ];
 
 let pages = readFileSync('scripts/i18n-data/pages-en.mjs', 'utf8');
@@ -49,13 +49,13 @@ console.log('pages-en imageAlts simplified');
 // productPage() imageAlt template in pages-i18n
 let i18n = readFileSync('scripts/i18n-data/pages-i18n.mjs', 'utf8');
 i18n = i18n
-	.split("imageAlt: `Tarkov ${meta.altKeyword}`")
-	.join("imageAlt: 'tarkov cheats'")
-	.split("galleryTitle: `Tarkov Cheats ${topicName}`")
-	.join("galleryTitle: 'tarkov cheats'")
-	.split("imageAlt: `Tarkov cheats ${kind} policy`")
-	.join("imageAlt: 'tarkov cheats'")
-	.split("galleryTitle: `Tarkov Cheats ${kind} resources`")
-	.join("galleryTitle: 'tarkov cheats'");
+	.split("imageAlt: `Arc Raiders ${meta.altKeyword}`")
+	.join("imageAlt: 'arc raiders cheats'")
+	.split("galleryTitle: `Arc Raiders Cheats ${topicName}`")
+	.join("galleryTitle: 'arc raiders cheats'")
+	.split("imageAlt: `Arc Raiders cheats ${kind} policy`")
+	.join("imageAlt: 'arc raiders cheats'")
+	.split("galleryTitle: `Arc Raiders Cheats ${kind} resources`")
+	.join("galleryTitle: 'arc raiders cheats'");
 writeFileSync('scripts/i18n-data/pages-i18n.mjs', i18n);
 console.log('pages-i18n image alts simplified');

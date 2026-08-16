@@ -1,6 +1,6 @@
 /**
- * SVG overlay generators for Tarkov cheats marketing images.
- * Composited on top of IGN Tarkov gameplay screenshots.
+ * SVG overlay generators for Arc Raiders cheats marketing images.
+ * Composited on top of IGN Arc Raiders gameplay screenshots.
  */
 
 const PURPLE = '#c084fc';

@@ -1,16 +1,16 @@
 import { siteConfig } from './site';
-import { tarkovImages } from './tarkov';
+import { arcRaidersImages } from './arc-raiders';
 import { pageIds, type PageId } from './i18n/routing';
 import { pageSitemapImageLabels } from './brand-sitemap';
 
 /** Rotating product screenshots for FAQ / review detail URLs. */
 export const crawlPhotoPool = [
-	tarkovImages.espWallhack,
-	tarkovImages.aimbotCombat,
-	tarkovImages.aimbotSkeleton,
-	tarkovImages.playerEsp,
-	tarkovImages.cheatsCombat,
-	'/images/tarkov-cheats-esp.webp',
+	arcRaidersImages.espWallhack,
+	arcRaidersImages.aimbotCombat,
+	arcRaidersImages.aimbotSkeleton,
+	arcRaidersImages.playerEsp,
+	arcRaidersImages.cheatsCombat,
+	'/images/arc-raiders-cheats-esp.webp',
 ] as const;
 
 /**
@@ -18,31 +18,31 @@ export const crawlPhotoPool = [
  * Prefer compressed WebP screenshots so Google can fetch them quickly.
  */
 export const pageImageSrcById: Record<PageId, string> = {
-	home: '/images/tarkov-cheats-hero-1024w.webp',
-	'tarkov-esp': tarkovImages.playerEsp,
-	'tarkov-aimbot': tarkovImages.aimbotCombat,
-	features: tarkovImages.aimbotSkeleton,
-	pricing: tarkovImages.cheatsCombat,
-	setup: tarkovImages.playerEsp,
-	updates: '/images/tarkov-cheats-hero-1024w.webp',
-	faq: tarkovImages.aimbotSkeleton,
-	support: tarkovImages.cheatsCombat,
-	undetected: tarkovImages.espWallhack,
-	wallhack: tarkovImages.espWallhack,
-	radar: tarkovImages.playerEsp,
-	battleye: tarkovImages.aimbotCombat,
-	'cheats-2026': '/images/tarkov-cheats-hero-1024w.webp',
-	hacks: tarkovImages.cheatsCombat,
-	'cheat-download': tarkovImages.cheatsCombat,
-	'mod-menu': tarkovImages.playerEsp,
-	'soft-aim': tarkovImages.aimbotSkeleton,
-	'best-cheats': '/images/tarkov-cheats-hero-1024w.webp',
-	'aimbot-hack': tarkovImages.aimbotSkeleton,
-	'esp-hack': tarkovImages.espWallhack,
-	'unlock-all': tarkovImages.playerEsp,
-	privacy: tarkovImages.aimbotCombat,
-	refund: tarkovImages.cheatsCombat,
-	terms: tarkovImages.aimbotSkeleton,
+	home: '/images/arc-raiders-cheats-hero-1024w.webp',
+	'arc-raiders-esp': arcRaidersImages.playerEsp,
+	'arc-raiders-aimbot': arcRaidersImages.aimbotCombat,
+	features: arcRaidersImages.aimbotSkeleton,
+	pricing: arcRaidersImages.cheatsCombat,
+	setup: arcRaidersImages.playerEsp,
+	updates: '/images/arc-raiders-cheats-hero-1024w.webp',
+	faq: arcRaidersImages.aimbotSkeleton,
+	support: arcRaidersImages.cheatsCombat,
+	undetected: arcRaidersImages.espWallhack,
+	wallhack: arcRaidersImages.espWallhack,
+	radar: arcRaidersImages.playerEsp,
+	eac: arcRaidersImages.aimbotCombat,
+	'cheats-2026': '/images/arc-raiders-cheats-hero-1024w.webp',
+	hacks: arcRaidersImages.cheatsCombat,
+	'cheat-download': arcRaidersImages.cheatsCombat,
+	'mod-menu': arcRaidersImages.playerEsp,
+	'soft-aim': arcRaidersImages.aimbotSkeleton,
+	'best-cheats': '/images/arc-raiders-cheats-hero-1024w.webp',
+	'aimbot-hack': arcRaidersImages.aimbotSkeleton,
+	'esp-hack': arcRaidersImages.espWallhack,
+	'unlock-all': arcRaidersImages.playerEsp,
+	privacy: arcRaidersImages.aimbotCombat,
+	refund: arcRaidersImages.cheatsCombat,
+	terms: arcRaidersImages.aimbotSkeleton,
 };
 
 for (const pageId of pageIds) {
