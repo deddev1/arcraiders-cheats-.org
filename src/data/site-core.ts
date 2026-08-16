@@ -124,7 +124,7 @@ export const productInfo = {
 	heroLede: fillBrandTokens(brandCopy.heroLede),
 	features: {
 		esp: [
-			'PMC and Scav ESP / wallhack',
+			'Raider and ARC drone ESP / wallhack',
 			'Player gear and threat cues',
 			'Loot and extract markers',
 			'Distance readouts',

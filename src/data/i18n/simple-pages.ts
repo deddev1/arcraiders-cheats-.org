@@ -51,9 +51,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'ESP & wallhack',
 				paragraphs: [
 					'See Raiders, ARC drones, bosses, and loot through walls with distance readouts.',
-					'Use filters so the overlay stays clear in dorms, Factory, and scav-run chaos.',
+					'Use filters so the overlay stays clear in underground zones, industrial zones, and extraction-run chaos.',
 				],
-				list: ['Player boxes & distance', 'Loot and extract markers', 'Boss and Scav filters'],
+				list: ['Player boxes & distance', 'Loot and extract markers', 'Boss and ARC drone filters'],
 			},
 			{
 				h2: 'Aimbot & soft aim',
@@ -179,7 +179,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Built for Arc Raiders raids',
 				paragraphs: [
-					'Read Raiders and ARC drones before you push, mark loot worth the risk, and stay aware near extracts. Tune soft aim per weapon class for dorms, Factory, and long-range maps.',
+					'Read Raiders and ARC drones before you push, mark loot worth the risk, and stay aware near extracts. Tune soft aim per weapon class for underground zones, industrial zones, and long-range maps.',
 				],
 				list: [
 					'<a href="/arc-raiders-esp/">ESP guide</a>',
@@ -213,11 +213,11 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'What ESP shows',
 				paragraphs: ['Boxes, distance, and filters for Raiders, ARC drones, bosses, and loot.'],
-				list: ['Player ESP', 'Loot markers', 'Boss and Scav filters'],
+				list: ['Player ESP', 'Loot markers', 'Boss and ARC drone filters'],
 			},
 			{
 				h2: 'When to use it',
-				paragraphs: ['Clear dorms, Factory, and scav runs without flooding the screen.'],
+				paragraphs: ['Clear underground zones, industrial zones, and scav runs without flooding the screen.'],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
 			},
 			{
@@ -276,7 +276,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'What it shows',
-				paragraphs: ['Nearby enemy cues with adjustable range for PMC and extraction runs.'],
+				paragraphs: ['Nearby enemy cues with adjustable range for Raider and extraction runs.'],
 				list: ['Flank awareness', 'Extract approaches', 'Adjustable range'],
 			},
 			{

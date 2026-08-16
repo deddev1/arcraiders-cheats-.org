@@ -65,9 +65,9 @@ const BLOG_PAGES_PER_LOCALE = 0; // Locale blog URLs 301 to EN; not in sitemaps
 const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
-/** Full EN HTML may still emit redirect stubs for cannibal URLs; sitemaps omit them */
-const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
-/** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
+/** Full EN HTML — 14 product + blog + reviews + FAQ (no cannibal redirect stubs) */
+const ENGLISH_HTML_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
+/** Locale HTML = product pages + blog redirect stubs (index + 17 posts) omitted from sitemaps */
 const LOCALE_BLOG_REDIRECT_PAGES = 18;
 const TOTAL_HTML_PAGES =
 	ENGLISH_HTML_PAGES + I18N_LOCALES * (PRODUCT_PAGES_PER_LOCALE + LOCALE_BLOG_REDIRECT_PAGES);
@@ -99,21 +99,13 @@ const ENGLISH_PATHS = [
 	'/updates/',
 	'/faq/',
 	'/support/',
-	'/undetected-arc-raiders-cheats/',
-	'/arc-raiders-wallhack/',
 	'/arc-raiders-radar-hack/',
-	'/eac-bypass/',
-	'/arc-raiders-cheats-2026/',
 	'/arc-raiders-cheats/',
-	'/arc-raiders-cheat-download/',
-	'/arc-raiders-mod-menu/',
-	'/arc-raiders-soft-aim/',
-	'/arc-raiders-unlock-all/',
 	'/privacy-policy/',
 	'/refund-policy/',
 	'/terms/',
 	'/blog/',
-	'/blog/arc-raiders-scav-run-aggressive-strategies/',
+	'/blog/arc-raiders-extraction-run-aggressive-strategies/',
 	'/blog/arc-raiders-loot-routes-guide/',
 	'/blog/arc-raiders-weapon-tier-list/',
 	'/blog/arc-raiders-skin-leaks-guide/',
@@ -122,11 +114,11 @@ const ENGLISH_PATHS = [
 	'/blog/arc-raiders-warmup-maps-ranked/',
 	'/blog/arc-raiders-patch-notes-guide/',
 	'/blog/arc-raiders-cheats-complete-guide-2026/',
-	'/blog/escape-from-arc-raiders-cheats-buyers-guide/',
+	'/blog/arc-raiders-cheats-buyers-guide/',
 	'/blog/arc-raiders-cheats-2026-whats-new/',
 	'/blog/arc-raiders-aimbot-settings-guide/',
 	'/blog/arc-raiders-esp-wallhack-explained/',
-	'/blog/undetected-arc-raiders-cheats-battleye/',
+	'/blog/undetected-arc-raiders-cheats-eac/',
 	'/blog/arc-raiders-cheats-vs-cheatvault-comparison/',
 	'/blog/elitefn-vs-arc-raiders-cheats-two-week-test/',
 	'/blog/arc-raiders-cheats-vs-ghostware-features-pricing/',
