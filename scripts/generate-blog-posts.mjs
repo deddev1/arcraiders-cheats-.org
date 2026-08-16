@@ -604,9 +604,9 @@ const sources = [
 		intro:
 			'“ESP” and “wallhack” get used interchangeably. In ARC Raiders they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.',
 		keywords: [
-			'arc-raiders esp',
+			'arc raiders esp',
 			'arc-raiders wallhack',
-			'eft esp',
+			'arc raiders wallhack',
 			'loot esp arc-raiders',
 			'arc raiders cheats',
 		],
@@ -741,7 +741,7 @@ const sources = [
 			'My Discord kept recommending a popular ARC Raiders cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Arc Raiders Cheats. This is what actually differed — without the usual affiliate script.',
 		keywords: [
 			'arc raiders cheats review',
-			'eft cheat comparison',
+			'arc raiders cheats comparison',
 			'arc-raiders cheat downtime',
 			'soft aim test',
 			'arc raiders cheats',

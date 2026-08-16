@@ -529,7 +529,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What arc-raiders ESP and wallhack actually show in ARC Raiders — players, loot, distance, extracts — and how to keep overlays readable in raids.",
 		h1: "Arc Raiders ESP and Wallhack Explained Clearly",
 		intro: "“ESP” and “wallhack” get used interchangeably. In ARC Raiders they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
-		keywords: ["arc-raiders esp","arc-raiders wallhack","eft esp","loot esp arc-raiders","arc raiders cheats"],
+		keywords: ["arc raiders esp","arc-raiders wallhack","arc raiders wallhack","loot esp arc-raiders","arc raiders cheats"],
 		imageAlt: "ESP wallhack overlay showing players and loot in ARC Raiders",
 		sections: [
 			{
@@ -653,7 +653,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "A two-week test of another ARC Raiders cheat before switching to Arc Raiders Cheats — ESP feel, soft aim, patch downtime, and support differences.",
 		h1: "I Tested Another Arc Raiders Cheat for Two Weeks Before Switching",
 		intro: "My Discord kept recommending a popular ARC Raiders cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Arc Raiders Cheats. This is what actually differed — without the usual affiliate script.",
-		keywords: ["arc raiders cheats review","eft cheat comparison","arc-raiders cheat downtime","soft aim test","arc raiders cheats"],
+		keywords: ["arc raiders cheats review","arc raiders cheats comparison","arc-raiders cheat downtime","soft aim test","arc raiders cheats"],
 		imageAlt: "Two week hands-on comparison between Arc Raiders cheat providers",
 		sections: [
 			{

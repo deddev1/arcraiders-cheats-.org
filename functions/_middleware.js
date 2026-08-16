@@ -8,10 +8,6 @@ const WWW_HOST = 'www.arcraiderscheats.org';
 const LEGACY_HOSTS = new Set([
 	'bestarcraiderscheats.com',
 	'www.bestarcraiderscheats.com',
-	'tarkovcheats.org',
-	'www.tarkovcheats.org',
-	'besttarkovcheats.com',
-	'www.besttarkovcheats.com',
 	'fortnitehack.net',
 	'www.fortnitehack.net',
 	'fortnitecheats.xyz',

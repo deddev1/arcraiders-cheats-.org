@@ -17,10 +17,6 @@ const WWW_HOST = `www.${CANONICAL_HOST}`;
 const LEGACY_HOSTS = new Set([
 	'bestarcraiderscheats.com',
 	'www.bestarcraiderscheats.com',
-	'tarkovcheats.org',
-	'www.tarkovcheats.org',
-	'besttarkovcheats.com',
-	'www.besttarkovcheats.com',
 ]);
 
 function redirectResponse(target: string, status = 301): Response {
