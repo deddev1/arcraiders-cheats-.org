@@ -160,12 +160,12 @@ const extraGraph: Record<string, unknown>[] = [
 		border-bottom: 1px solid var(--line-soft);
 	}
 
-	.home__prose-highlight {
+	:global(.home__prose-highlight) {
 		padding-left: 1.15rem;
 		border-left: 3px solid var(--accent-orange, var(--magenta));
 	}
 
-	.home__prose-highlight h1 {
+	:global(.home__prose-highlight h1) {
 		margin: 0 0 1rem;
 		font-family: var(--font-display);
 		font-size: clamp(1.15rem, 2.4vw, 1.45rem);
@@ -176,7 +176,7 @@ const extraGraph: Record<string, unknown>[] = [
 		color: var(--accent-orange, var(--magenta));
 	}
 
-	.home__prose-highlight p {
+	:global(.home__prose-highlight p) {
 		margin: 0 0 0.85rem;
 		max-width: 52rem;
 		font-size: 0.9375rem;
@@ -184,17 +184,17 @@ const extraGraph: Record<string, unknown>[] = [
 		color: var(--ink-muted);
 	}
 
-	.home__prose-highlight p:last-child {
+	:global(.home__prose-highlight p:last-child) {
 		margin-bottom: 0;
 	}
 
-	.home__prose-highlight a {
+	:global(.home__prose-highlight a) {
 		color: var(--accent-orange, var(--magenta-soft));
 		font-weight: 600;
 		text-decoration: none;
 	}
 
-	.home__prose-highlight a:hover {
+	:global(.home__prose-highlight a:hover) {
 		color: var(--accent-hover, var(--magenta-soft));
 	}
 
