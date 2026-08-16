@@ -71,8 +71,9 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'Arc Raiders Hacks | Aimbot, ESP & Wallhack 2026',
-		homeDescription: 'Arc Raiders hacks for PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
+		homeTitle: 'Arc Raiders Cheats | Aimbot, ESP & Wallhack 2026',
+		homeDescription:
+			'Arc Raiders Cheats for PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
 		featuresTitle: '{game} Features | {brand}',
 		featuresDescription: 'Everything in one {game} license for Windows PC — ESP, soft aim, radar, loot tools, and patch updates after {antiCheat}. See what is included.',
 		storeTitle: '{game} Store | {brand}',
