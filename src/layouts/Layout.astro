@@ -51,6 +51,7 @@ const {
 } = Astro.props;
 
 const canonicalURL = buildCanonicalUrl(canonicalPath);
+const siteRootUrl = buildCanonicalUrl('/');
 const ogImageURL = new URL(ogImage, siteConfig.url).href;
 const logoURL = new URL(siteConfig.logoRaster, siteConfig.url).href;
 const ogImageIsLogo = ogImage === siteConfig.logo;
@@ -73,7 +74,7 @@ const graph: Record<string, unknown>[] = [
 		url: canonicalURL,
 		name: title,
 		description,
-		isPartOf: { '@id': `${siteConfig.url}/#website` },
+		isPartOf: { '@id': `${siteRootUrl}#website` },
 		inLanguage: schemaLanguage,
 		primaryImageOfPage: {
 			'@type': 'ImageObject',
@@ -86,12 +87,12 @@ const graph: Record<string, unknown>[] = [
 	},
 	{
 		'@type': 'WebSite',
-		'@id': `${siteConfig.url}/#website`,
-		url: siteConfig.url,
+		'@id': `${siteRootUrl}#website`,
+		url: siteRootUrl,
 		name: siteConfig.name,
 		description: siteDescription,
 		inLanguage: schemaLanguages,
-		publisher: { '@id': `${siteConfig.url}/#organization` },
+		publisher: { '@id': `${siteRootUrl}#organization` },
 		logo: {
 			'@type': 'ImageObject',
 			url: logoURL,
@@ -101,9 +102,9 @@ const graph: Record<string, unknown>[] = [
 	},
 	{
 		'@type': 'Organization',
-		'@id': `${siteConfig.url}/#organization`,
+		'@id': `${siteRootUrl}#organization`,
 		name: siteConfig.name,
-		url: siteConfig.url,
+		url: siteRootUrl,
 		email: siteConfig.supportEmail,
 		areaServed: worldwidePlace,
 		logo: {
@@ -237,6 +238,7 @@ if (aboutNode) {
 		))}
 
 		<meta name="twitter:card" content={twitterCard} />
+		<meta name="twitter:url" content={canonicalURL} />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={ogImageURL} />

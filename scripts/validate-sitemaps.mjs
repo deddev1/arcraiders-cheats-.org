@@ -187,6 +187,30 @@ function ok(msg) {
 	console.log(`✓ ${msg}`);
 }
 
+const FORBIDDEN_DOMAIN = 'tarkovcheats.org';
+
+async function assertNoForbiddenDomains(distRoot, bump) {
+	const files = [];
+	async function walk(dir) {
+		for (const entry of await readdir(dir, { withFileTypes: true })) {
+			const full = path.join(dir, entry.name);
+			if (entry.isDirectory()) await walk(full);
+			else if (/\.(html|xml|txt)$/.test(entry.name)) files.push(full);
+		}
+	}
+	await walk(distRoot);
+	let found = false;
+	for (const file of files) {
+		const content = await readFile(file, 'utf8');
+		if (content.toLowerCase().includes(FORBIDDEN_DOMAIN)) {
+			fail(`Forbidden domain ${FORBIDDEN_DOMAIN} in ${path.relative(ROOT, file)}`);
+			bump();
+			found = true;
+		}
+	}
+	return !found;
+}
+
 async function main() {
 	console.log('Validating sitemaps…\n');
 	let errors = 0;
@@ -204,6 +228,15 @@ async function main() {
 	const sitemapI18n = await readFile(path.join(DIST, 'sitemap-i18n.xml'), 'utf8');
 	const sitemapImages = await readFile(path.join(DIST, 'sitemap-images.xml'), 'utf8');
 	const robots = await readFile(path.join(ROOT, 'public', 'robots.txt'), 'utf8');
+	if (robots.toLowerCase().includes(FORBIDDEN_DOMAIN)) {
+		fail(`Forbidden domain ${FORBIDDEN_DOMAIN} in public/robots.txt`);
+		bump();
+	} else ok(`robots.txt has no ${FORBIDDEN_DOMAIN} references`);
+
+	if (await assertNoForbiddenDomains(DIST, bump)) {
+		ok(`No ${FORBIDDEN_DOMAIN} references in dist HTML/XML/txt`);
+	}
+
 	const pathRedirects = JSON.parse(
 		await readFile(path.join(ROOT, 'functions', 'path-redirects.json'), 'utf8'),
 	);
