@@ -103,11 +103,9 @@ function HeroInner({
 			<div className="hero__veil" aria-hidden="true" />
 			<div className="shell hero__content">
 				<div className="hero__copy">
-				<div className="hero__brand-wrap corner-highlight">
 					<h1 className="hero__brand">
 						{useBrandHero ? <span data-edit="name">{title}</span> : title}
 					</h1>
-				</div>
 					<p className="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
 						{subtitle}
 					</p>
