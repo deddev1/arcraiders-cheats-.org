@@ -87,7 +87,7 @@ const faqs = homeFaqs.map((item) => ({
 		background:
 			linear-gradient(160deg, color-mix(in srgb, var(--accent-orange, var(--magenta)) 5%, transparent), transparent 48%),
 			var(--bg-panel);
-		overflow: hidden;
+		overflow: visible;
 		transition:
 			border-color 0.2s ease,
 			transform 0.2s ease,
@@ -128,6 +128,8 @@ const faqs = homeFaqs.map((item) => ({
 		list-style: none;
 		display: grid;
 		flex: 1;
+		border-radius: 0 0 var(--radius-md) var(--radius-md);
+		overflow: hidden;
 	}
 
 	.home-seo__cat a {
