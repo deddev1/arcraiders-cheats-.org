@@ -10,21 +10,21 @@ function HomeAboutInner() {
 
 	return (
 		<section className="shell home__prose home__prose--en" aria-labelledby="home-about-title">
-			<h1 id="home-about-title" className="home__prose-title">
-				{t('home.aboutTitle')}
-			</h1>
-			<p>{t('home.aboutP1')}</p>
-			<p>
-				{t('home.aboutP2Before')}{' '}
-				<a href="/arc-raiders-cheats/">{t('home.aboutPillar')}</a>
-				{t('home.aboutP2Mid')}
-				<a href="/arc-raiders-esp/">{t('home.aboutEsp')}</a>
-				{t('home.aboutP2Mid')}
-				<a href="/arc-raiders-aimbot/">{t('home.aboutAimbot')}</a>
-				{t('home.aboutP2Or')}
-				<a href="/updates/">{t('home.aboutUndetected')}</a>
-				{t('home.aboutP2After')}
-			</p>
+			<div className="home__prose-highlight">
+				<h1 id="home-about-title">{t('home.aboutTitle')}</h1>
+				<p>{t('home.aboutP1')}</p>
+				<p>
+					{t('home.aboutP2Before')}{' '}
+					<a href="/arc-raiders-cheats/">{t('home.aboutPillar')}</a>
+					{t('home.aboutP2Mid')}
+					<a href="/arc-raiders-esp/">{t('home.aboutEsp')}</a>
+					{t('home.aboutP2Mid')}
+					<a href="/arc-raiders-aimbot/">{t('home.aboutAimbot')}</a>
+					{t('home.aboutP2Or')}
+					<a href="/updates/">{t('home.aboutUndetected')}</a>
+					{t('home.aboutP2After')}
+				</p>
+			</div>
 		</section>
 	);
 }
