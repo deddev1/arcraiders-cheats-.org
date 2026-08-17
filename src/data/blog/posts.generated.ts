@@ -16,7 +16,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Learn how ARC Raiders patch notes change Raider loadouts, ammo economy, and maps. What to do after Easy Anti-Cheat and season updates in 2026.",
 		h1: "How to Read ARC Raiders Patch Notes Without Guessing",
 		intro: "When Embark Studios drops a patch, most players skim the headline and queue anyway. That is how you walk into Speranza with the wrong ammo and a gun that just lost its armor pen. Here is a calmer way to read ARC Raiders patch notes so your next raid still makes sense.",
-		keywords: ["arc raiders patch notes","arc-raiders season update","Easy Anti-Cheat patch","pmc loadout","arc-raiders intel"],
+		keywords: ["arc raiders patch notes","arc-raiders season update","Easy Anti-Cheat patch","raider loadout","arc-raiders intel"],
 		imageAlt: "Player reviewing ARC Raiders patch notes before a surface raid",
 		sections: [
 			{
@@ -187,7 +187,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What strong ARC Raiders competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal Raider queues.",
 		h1: "What Competitive Arc Raiders Players Optimize For",
 		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal ARC Raiders queues.",
-		keywords: ["arc-raiders competitive","arc-raiders tournament","arc-raiders meta","pmc habits","arc-raiders intel"],
+		keywords: ["arc-raiders competitive","arc-raiders tournament","arc-raiders meta","raider habits","arc-raiders intel"],
 		imageAlt: "Competitive ARC Raiders players reviewing raid strategy",
 		sections: [
 			{
@@ -313,7 +313,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "A short ARC Raiders warmup routine before surface raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
 		h1: "Arc Raiders Warmup Routine Before You Queue Raider",
 		intro: "Queuing cold into industrial zones or underground zones is how you donate a kit. A short ARC Raiders warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
-		keywords: ["arc-raiders warmup","arc-raiders aim practice","pmc warmup routine","arc-raiders offline practice","arc-raiders intel"],
+		keywords: ["arc-raiders warmup","arc-raiders aim practice","raider warmup routine","arc-raiders offline practice","arc-raiders intel"],
 		imageAlt: "Player warming up aim before an ARC Raiders surface raid",
 		sections: [
 			{
