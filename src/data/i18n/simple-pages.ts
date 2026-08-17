@@ -2,6 +2,12 @@ import type { PageId } from './content.generated';
 import { fillBrandTokens, seoDescription } from '../brand';
 import { brandCopy, brandSeo, seoPageTitle } from '../site-core';
 
+/** Authoritative external citation helpers (open in new tab). */
+const EXT = {
+	game: '<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
+	eac: '<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+};
+
 export type SimpleSection = {
 	h2: string;
 	paragraphs: string[];
@@ -51,7 +57,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'ESP & wallhack',
 				paragraphs: [
 					'See Raiders, ARC drones, bosses, and loot through walls with distance readouts.',
-					'Use filters so the overlay stays clear in underground zones, industrial zones, and extraction-run chaos.',
+					'Use filters so the overlay stays clear in underground zones, industrial zones, and extraction-run chaos. Map and loot rules evolve with {game} seasons — see the <a href="/arc-raiders-esp/">ESP guide</a> for category details.',
 				],
 				list: ['Player boxes & distance', 'Loot and extract markers', 'Boss and ARC drone filters'],
 			},
@@ -59,7 +65,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Aimbot & soft aim',
 				paragraphs: [
 					'Aim help you can tune to feel natural.',
-					'Set FOV, smoothness, and bone priority per weapon before you raid.',
+					'Set FOV, smoothness, and bone priority per weapon before you raid. Weapon balance shifts after patches on ' + EXT.game + ' — revisit profiles on the <a href="/arc-raiders-aimbot/">Aimbot page</a>.',
 				],
 				list: ['Smooth aim strength', 'FOV and bone priority', 'Hotkeys mid-match'],
 			},
@@ -67,15 +73,15 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Radar',
 				paragraphs: [
 					'A simple 2D radar for threats outside your view.',
-					'Spot flanks near extracts without filling the whole screen.',
+					'Spot flanks near extracts without filling the whole screen. Pair with <a href="/arc-raiders-radar-hack/">radar overlay</a> docs and <a href="/arc-raiders-esp/">ESP</a> for full awareness.',
 				],
 				list: ['Nearby enemy cues', 'Adjustable range', 'Works in Raider & extraction'],
 			},
 			{
 				h2: 'Updates & support',
 				paragraphs: [
-					'We rebuild after big {game} or {antiCheat} patches.',
-					'Check Status before you play after a patch day.',
+					'We rebuild after big {game} or {antiCheat} patches. Official seasons and client updates come from ' + EXT.game + ' and ' + EXT.eac + '.',
+					'Check Status before you play after a patch day — cross-check our <a href="/updates/">Status page</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>.',
 				],
 				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
 			},
@@ -131,8 +137,8 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of 13 Aug 2026 the package is online for ARC Raiders on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
-					'If Status is green, you can raid. If we are rebuilding, wait for the next note.',
+					'As of 13 Aug 2026 the package is online for ARC Raiders on Windows PC. We post a new note here when a game or ' + EXT.eac + ' patch needs a rebuild.',
+					'If Status is green, you can raid. If we are rebuilding, wait for the next note. On patch mornings, also check ' + EXT.game + ' for Embark Studios service health before you assume a loader issue.',
 				],
 				list: [
 					'Check this page before every raid after a patch',
@@ -143,14 +149,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'After a patch',
 				paragraphs: [
-					'Wait for our rebuild note, then launch. Do not play on an old build after a big update.',
+					'Wait for our rebuild note, then launch. Do not play on an old build after a big update. Read ' + EXT.eac + ' for how anti-cheat updates ship, then follow our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>.',
 				],
-				list: ['Read the latest status note', 'Follow setup if something fails', 'Email support with your order ID'],
+				list: ['Read the latest status note', 'Follow <a href="/setup/">setup</a> if something fails', 'Email support with your order ID'],
 			},
 			{
 				h2: 'Important',
-				paragraphs: ['No cheat is 100% safe forever. Stay updated and use safe settings.'],
-				list: ['Status first, then play', '<a href="/support/">Support</a> for license help'],
+				paragraphs: ['No cheat is 100% safe forever. Stay updated and use safe settings. Official game updates come from ' + EXT.game + '.'],
+				list: ['Status first, then play', '<a href="/support/">Support</a> for license help', '<a href="/undetected-arc-raiders-cheats/">Undetected guide</a>'],
 			},
 		],
 	}),
@@ -167,13 +173,13 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'What you get',
 				paragraphs: [
-					'One license for ARC Raiders on Windows PC — built for surface raids and extraction runs.',
+					'One license for ARC Raiders on Windows PC — built for surface raids and extraction runs. Official seasons and map updates are published on ' + EXT.game + '.',
 				],
 				list: [
 					'ESP / wallhack with distance',
 					'Soft aim & aimbot profiles',
 					'2D radar for flanks',
-					'Easy Anti-Cheat rebuilds after patches',
+					EXT.eac + ' rebuilds after patches',
 				],
 			},
 			{
@@ -185,6 +191,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'<a href="/arc-raiders-esp/">ESP guide</a>',
 					'<a href="/arc-raiders-aimbot/">Aimbot controls</a>',
 					'<a href="/arc-raiders-radar-hack/">Radar overlay</a>',
+					'<a href="/features/">All features</a>',
 					'<a href="/updates/">Live status</a>',
 				],
 			},
@@ -212,17 +219,25 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'What ESP shows',
-				paragraphs: ['Boxes, distance, and filters for Raiders, ARC drones, bosses, and loot.'],
+				paragraphs: [
+					'Boxes, distance, and filters for Raiders, ARC drones, bosses, and loot.',
+					'When POIs or loot rules shift after a ' + EXT.game + ' season update, ESP categories stay useful because they track players and containers — not a single static landmark.',
+				],
 				list: ['Player ESP', 'Loot markers', 'Boss and ARC drone filters'],
 			},
 			{
 				h2: 'When to use it',
-				paragraphs: ['Clear underground zones, industrial zones, and scav runs without flooding the screen.'],
+				paragraphs: [
+					'Clear underground zones, industrial zones, and scav runs without flooding the screen.',
+					'Pair with the <a href="/arc-raiders-radar-hack/">radar overlay</a> for flanks outside your FOV and the <a href="/arc-raiders-aimbot/">Aimbot page</a> when you push.',
+				],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
 			},
 			{
 				h2: 'Next steps',
-				paragraphs: ['ESP is included with aimbot and radar in one plan.'],
+				paragraphs: [
+					'ESP is included with aimbot and radar in one plan. Read ' + EXT.eac + ' for anti-cheat background, then check our <a href="/updates/">Status page</a> after major patches.',
+				],
 				list: [
 					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/features/">All features</a>',
@@ -244,17 +259,25 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'Controls',
-				paragraphs: ['Set FOV, smoothness, and bone priority before you raid.'],
+				paragraphs: [
+					'Set FOV, smoothness, and bone priority before you raid.',
+					'Weapon balance and season rules change via ' + EXT.game + '. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches live TTK windows.',
+				],
 				list: ['Soft aim strength', 'Bone priority', 'Hotkeys mid-match'],
 			},
 			{
 				h2: 'Play styles',
-				paragraphs: ['Keep settings subtle for longer sessions. Raise strength only when you accept more risk.'],
+				paragraphs: [
+					'Keep settings subtle for longer sessions. Raise strength only when you accept more risk.',
+					'Aimbot ships alongside <a href="/arc-raiders-esp/">ESP wallhack</a> and <a href="/arc-raiders-radar-hack/">2D radar</a> in the same license.',
+				],
 				list: ['Legit soft aim', 'Per-weapon profiles', 'Works with ESP'],
 			},
 			{
 				h2: 'Next steps',
-				paragraphs: ['Aimbot ships with ESP and radar in one license.'],
+				paragraphs: [
+					'Aimbot ships with ESP and radar in one license. Cross-check ' + EXT.eac + ' on patch days, then follow our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>.',
+				],
 				list: [
 					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/features/">All features</a>',
@@ -276,12 +299,18 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'What it shows',
-				paragraphs: ['Nearby enemy cues with adjustable range for Raider and extraction runs.'],
+				paragraphs: [
+					'Nearby enemy cues with adjustable range for Raider and extraction runs.',
+					'Mode rules and seasonal changes come from ' + EXT.game + '. Radar range stays configurable when map scale or mobility meta shifts.',
+				],
 				list: ['Flank awareness', 'Extract approaches', 'Adjustable range'],
 			},
 			{
 				h2: 'With ESP',
-				paragraphs: ['Use radar for threats you cannot see yet. Use ESP when you push.'],
+				paragraphs: [
+					'Use radar for threats you cannot see yet. Use ESP when you push.',
+					'Compare category detail on the <a href="/arc-raiders-esp/">ESP guide</a> and check <a href="/updates/">Status</a> after ' + EXT.eac + ' patches.',
+				],
 				list: [
 					'<a href="/arc-raiders-esp/">ESP guide</a>',
 					'<a href="/arc-raiders-cheats/">Full product</a>',
@@ -302,17 +331,26 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'Before you install',
-				paragraphs: ['Buy a plan first. You get a license by email.'],
+				paragraphs: [
+					'Buy a plan first. You get a license by email.',
+					'If the launcher itself fails on patch day, confirm Embark Studios service health on ' + EXT.game + ' before you blame the loader.',
+				],
 				list: ['Windows 10 / 11 PC', 'Disable conflicting overlays', 'Have your order email ready'],
 			},
 			{
 				h2: 'Install steps',
-				paragraphs: ['Run the loader as admin, paste your license, then launch {game}.'],
+				paragraphs: [
+					'Run the loader as admin, paste your license, then launch {game}.',
+					'After a game or ' + EXT.eac + ' update, wait for our <a href="/updates/">Status note</a> before queueing on an old build.',
+				],
 				list: ['Download the loader from your delivery email', 'Paste license key', 'Launch the game'],
 			},
 			{
 				h2: 'If something fails',
-				paragraphs: ['Check Status after a patch. Email {email} with your order ID.'],
+				paragraphs: [
+					'Check Status after a patch. Email {email} with your order ID.',
+					'Read ' + EXT.eac + ' for anti-cheat context and our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a> if modules need a rebuild.',
+				],
 				list: ['<a href="/updates/">Status page</a>', '<a href="/support/">Support</a>', '<a href="/faq/">FAQ</a>'],
 			},
 		],
@@ -356,12 +394,17 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 			{
 				h2: 'Setup & updates',
-				paragraphs: ['Follow Setup after you buy. Check Status after big {game} or {antiCheat} patches.'],
-				list: ['<a href="/setup/">Setup guide</a>', '<a href="/updates/">Status</a>'],
+				paragraphs: [
+					'Follow Setup after you buy. Check Status after big {game} or {antiCheat} patches.',
+					'Official seasons and anti-cheat updates come from ' + EXT.game + ' and ' + EXT.eac + '. Our rebuild notes live on the <a href="/updates/">Status page</a>.',
+				],
+				list: ['<a href="/setup/">Setup guide</a>', '<a href="/updates/">Status</a>', '<a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>'],
 			},
 			{
 				h2: 'Refunds',
-				paragraphs: ['Read the refund policy before you buy if you need details.'],
+				paragraphs: [
+					'Read the refund policy before you buy if you need details. {game} is published by Embark Studios (' + EXT.game + ') — cheats are third-party tools and may violate their rules.',
+				],
 				list: ['<a href="/refund-policy/">Refund policy</a>', '<a href="/support/">Support</a>'],
 			},
 		],
