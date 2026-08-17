@@ -452,14 +452,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Response times and scope",
 							paragraphs: [
 								"Support requests are reviewed daily. Arc Raiders Cheats support covers delivery, billing, setup, and maintenance — not in-game coaching or account recovery for Embark Studios bans.",
-								"Account and game policy questions belong with Embark Studios. We can help with license delivery and product configuration only.",
+								"Account and game policy questions belong with Embark Studios (<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>). We can help with license delivery and product configuration only.",
 								"Check the Updates page and FAQ before opening a ticket — many post-patch questions are answered there.",
 							],
 						},
 						{
 							h2: "Self-service resources",
 							paragraphs: [
-								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href=\"/updates/\">Easy Anti-Cheat page</a>.",
+								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href=\"/eac-bypass/\">Easy Anti-Cheat page</a>.",
+								"Official anti-cheat background: <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. Game updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>.",
 								"Email: support@arcraiderscheats.org",
 								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
@@ -764,7 +765,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mod menu categories for surface raids and extraction-runs",
 							paragraphs: [
 								"Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and extract holds.",
-								"Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.game} seasons change fight distances and mobility.",
+								"Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> seasons change fight distances and mobility.",
 								"Soft tracking players should start with <a href=\"/arc-raiders-aimbot/\">soft aim</a> profiles before aggressive FOV.",
 							],
 						},
@@ -1024,6 +1025,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Digital delivery and eligibility",
 							paragraphs: [
 								"Arc Raiders Cheats licenses deliver digitally after payment confirmation. Because access begins immediately, refunds are limited to cases outlined below.",
+								"<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> is a separate product from {brand}. Refund requests should reference our digital license, not Embark Studios account issues.",
 								"Submit refund requests within 24 hours of purchase with your order ID and reason.",
 							],
 						},
@@ -1065,8 +1067,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
-								"Using cheats in Arc Raiders may violate Embark Studios terms and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/arc-raiders-cheats/\">undetected status</a>.",
+								"Using cheats in Arc Raiders may violate Embark Studios terms (<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>) and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.",
+								"Read <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for anti-cheat background. You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/undetected-arc-raiders-cheats/\">undetected status</a>.",
 							],
 						},
 						{

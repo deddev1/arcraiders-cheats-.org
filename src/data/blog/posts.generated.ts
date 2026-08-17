@@ -278,7 +278,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
 					"If your frame rate collapses in Streets of Arc Raiders or underground zones interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so Raider silhouettes pop sooner in tree lines and warehouse lighting.",
-					"Test changes in training mode or a quiet ARC drone before locking them for serious surface raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
+					"Graphics and performance guidance also lives on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. Test changes in training mode or a quiet ARC drone before locking them for serious surface raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
 				],
 			},
 			{
@@ -334,7 +334,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What to do right before you ready up",
 				paragraphs: [
 					"Check stash meds and ammo, confirm your map extracts, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/arc-raiders-pro-settings-guide/\">settings</a> and <a href=\"/blog/arc-raiders-weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
-					"If the first two Raider deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.",
+					"After a <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> or client update, wait for our rebuild note before queueing. Confirm Embark Studios services on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Embark Studios</a> if the launcher itself is failing.",
 				],
 			}
 		],
@@ -411,7 +411,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Start with status, not screenshots",
 				paragraphs: [
 					"Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Arc Raiders Cheats posts rebuild notes on <a href=\"/updates/\">Updates</a> for that reason.",
-					"If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.",
+					"Read <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/eac-bypass/\">Easy Anti-Cheat maintenance guide</a>. If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.",
 				],
 			},
 			{
@@ -508,7 +508,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Pair aim settings with information tools",
 				paragraphs: [
-					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/arc-raiders-esp/\">ESP categories</a> before blaming aim. After Easy Anti-Cheat patches, confirm <a href=\"/updates/\">Updates</a> before you tune anything on an old build.",
+					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/arc-raiders-esp/\">ESP categories</a> before blaming aim.",
+					"Weapon balance shifts via <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. After <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> patches, confirm <a href=\"/updates/\">Updates</a> before you tune anything on an old build.",
 				],
 			}
 		],
@@ -549,7 +550,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a>. Season and map changes are announced on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>.",
+					"No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			}
 		],
@@ -618,7 +620,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What budget shops usually optimize for",
 				paragraphs: [
 					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.",
-					"Arc Raiders Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/updates/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
+					"Arc Raiders Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/updates/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list and <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for anti-cheat context.",
 				],
 			},
 			{
@@ -674,7 +676,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "The patch window that ended the trial",
 				paragraphs: [
 					"A Arc Raiders plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
-					"Arc Raiders Cheats won me over with written notes on <a href=\"/updates/\">Updates</a>. I still do not queue blind after patches on any tool.",
+					"Arc Raiders Cheats won me over with written notes on <a href=\"/updates/\">Updates</a>. I still cross-check <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Embark Studios</a> and <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> before queueing blind after patches on any tool.",
 				],
 			},
 			{
@@ -723,7 +725,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"Arc Raiders Cheats documents maintenance on <a href=\"/eac-bypass/\">Easy Anti-Cheat workflow</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected notes</a>.",
+					"Arc Raiders Cheats documents maintenance on <a href=\"/eac-bypass/\">Easy Anti-Cheat workflow</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected notes</a>. Official game updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>; anti-cheat background lives on <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>.",
 				],
 			},
 			{

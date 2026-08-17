@@ -308,12 +308,13 @@ export const enPages = {
 			section(
 				'Response times and scope',
 				'Support requests are reviewed daily. Arc Raiders Cheats support covers delivery, billing, setup, and maintenance — not in-game coaching or account recovery for Embark Studios bans.',
-				`Account and game policy questions belong with Embark Studios. We can help with license delivery and product configuration only.`,
+				`Account and game policy questions belong with Embark Studios (${EXT.game}). We can help with license delivery and product configuration only.`,
 				'Check the Updates page and FAQ before opening a ticket — many post-patch questions are answered there.',
 			),
 			section(
 				'Self-service resources',
-				'Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href="/updates/">Easy Anti-Cheat page</a>.',
+				'Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href="/eac-bypass/">Easy Anti-Cheat page</a>.',
+				`Official anti-cheat background: ${EXT.eac}. Game updates ship through ${EXT.game}.`,
 				'Email: support@arcraiderscheats.org',
 				'Ready to purchase or renew? Open <a href="/pricing/">Pricing</a>. Need feature detail first? See <a href="/features/">Features</a>.',
 			),
@@ -578,7 +579,7 @@ export const enPages = {
 			section(
 				'Mod menu categories for surface raids and extraction-runs',
 				'Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and extract holds.',
-				'Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.game} seasons change fight distances and mobility.',
+				'Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ' + EXT.game + ' seasons change fight distances and mobility.',
 				'Soft tracking players should start with <a href="/arc-raiders-aimbot/">soft aim</a> profiles before aggressive FOV.',
 			),
 			section(
@@ -800,6 +801,7 @@ export const enPages = {
 			section(
 				'Digital delivery and eligibility',
 				'Arc Raiders Cheats licenses deliver digitally after payment confirmation. Because access begins immediately, refunds are limited to cases outlined below.',
+				`${EXT.game} is a separate product from our cheat license. Refund requests should reference our digital license, not Embark Studios account issues.`,
 				'Submit refund requests within 24 hours of purchase with your order ID and reason.',
 			),
 			section(
@@ -833,8 +835,8 @@ export const enPages = {
 			),
 			section(
 				'Risk and anti-cheat disclaimer',
-				`Using cheats in Arc Raiders may violate Embark Studios terms and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.`,
-				'You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href="/arc-raiders-cheats/">undetected status</a>.',
+				`Using cheats in Arc Raiders may violate Embark Studios terms (${EXT.game}) and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.`,
+				`Read ${EXT.eac} for anti-cheat background. You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href="/undetected-arc-raiders-cheats/">undetected status</a>.`,
 			),
 			section(
 				'Changes and governing law',

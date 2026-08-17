@@ -115,11 +115,15 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 			{
 				h2: 'Before you buy',
-				paragraphs: ['Read the refund policy if you need it. Contact support with your order ID for help.'],
+				paragraphs: [
+					'Read the refund policy if you need it. Contact support with your order ID for help.',
+					'{game} seasons and wipe timing are announced on ' + EXT.game + '. We rebuild ESP, radar, and aimbot after ' + EXT.eac + ' patches — check <a href="/updates/">Status</a> before patch-day queues.',
+				],
 				list: [
 					'<a href="/refund-policy/">Refund policy</a>',
 					'<a href="/faq/">FAQ</a>',
 					'<a href="/support/">Support</a>',
+					'<a href="/blog/arc-raiders-cheats-buyers-guide/">Buyers guide</a>',
 				],
 			},
 		],
@@ -372,8 +376,11 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 			{
 				h2: 'Faster answers',
-				paragraphs: ['Check FAQ and Status before you write. Many setup questions are already covered.'],
-				list: ['<a href="/faq/">FAQ</a>', '<a href="/updates/">Status</a>', '<a href="/setup/">Setup</a>'],
+				paragraphs: [
+					'Check FAQ and Status before you write. Many setup questions are already covered.',
+					'If the launcher fails on patch day, confirm Embark Studios service health on ' + EXT.game + ' and read ' + EXT.eac + ' before opening a ticket.',
+				],
+				list: ['<a href="/faq/">FAQ</a>', '<a href="/updates/">Status</a>', '<a href="/setup/">Setup</a>', '<a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>'],
 			},
 		],
 	}),

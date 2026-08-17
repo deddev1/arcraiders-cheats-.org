@@ -1,7 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { EXTERNAL_GUIDES } from '../../data/external-links';
 
 type FaqItem = { slug: string; question: string; answer: string; href: string };
+
+type CategoryLink = { href: string; labelKey: string; external?: boolean };
 
 type Props = {
 	locale: string;
@@ -11,7 +14,7 @@ type Props = {
 function HomeSeoInner({ faqs }: Props) {
 	const { t } = useTranslation();
 
-	const categories = [
+	const categories: { titleKey: string; hintKey: string; links: CategoryLink[] }[] = [
 		{
 			titleKey: 'homeSeo.catFeatures',
 			hintKey: 'homeSeo.catFeaturesHint',
@@ -28,6 +31,8 @@ function HomeSeoInner({ faqs }: Props) {
 			links: [
 				{ href: '/updates/', labelKey: 'homeSeo.linkLiveStatus' },
 				{ href: '/arc-raiders-cheats/', labelKey: 'homeSeo.linkUndetected' },
+				{ href: EXTERNAL_GUIDES.arcRaiders.href, labelKey: 'homeSeo.linkOfficialGame', external: true },
+				{ href: EXTERNAL_GUIDES.eac.href, labelKey: 'homeSeo.linkEac', external: true },
 				{ href: '/setup/', labelKey: 'homeSeo.linkSetup' },
 				{ href: '/faq/', labelKey: 'homeSeo.linkFaq' },
 			],
@@ -74,7 +79,10 @@ function HomeSeoInner({ faqs }: Props) {
 						<ul>
 							{cat.links.map((link) => (
 								<li key={link.href + link.labelKey}>
-									<a href={link.href}>
+									<a
+										href={link.href}
+										{...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+									>
 										<span>{t(link.labelKey)}</span>
 										<span className="home-seo__cat-arrow" aria-hidden="true" />
 									</a>
@@ -104,7 +112,7 @@ function HomeSeoInner({ faqs }: Props) {
 								<span className="home-seo__chev" aria-hidden="true" />
 							</summary>
 							<div className="home-seo__item-body">
-								<p>{item.answer}</p>
+								<p dangerouslySetInnerHTML={{ __html: item.answer }} />
 								<a className="home-seo__item-link" href={item.href}>
 									{t('homeSeo.openFullPage')}
 								</a>

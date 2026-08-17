@@ -2,7 +2,8 @@
 import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
-import { productInfo, seoFaqs, siteConfig, type FaqItem } from '../../../data/site';
+import { productInfo, seoFaqs, siteConfig, type FaqItem, stripHtmlForSchema } from '../../../data/site';
+import { EXTERNAL_GUIDES } from '../../../data/external-links';
 import { absoluteFaqUrl, faqBasePath, getFaqCrawlImage, getFaqPath, getRelatedFaqs } from '../../../data/faq';
 import { getSelfHreflangAlternates } from '../../../data/i18n/routing';
 import { contentSrcSet, productMainSizes } from '../../../lib/responsive-images';
@@ -40,7 +41,7 @@ const extraGraph: Record<string, unknown>[] = [
 				url: canonicalURL,
 				acceptedAnswer: {
 					'@type': 'Answer',
-					text: faq.answer,
+					text: stripHtmlForSchema(faq.answer),
 				},
 			},
 		],
@@ -93,7 +94,7 @@ const extraGraph: Record<string, unknown>[] = [
 				<p class="faq-detail__eyebrow">Before you buy</p>
 				<h1 class="faq-detail__title">{faq.question}</h1>
 				<div class="faq-detail__answer">
-					<p>{faq.answer}</p>
+					<p set:html={faq.answer} />
 				</div>
 
 				<div class="faq-detail__ctas">
@@ -102,6 +103,14 @@ const extraGraph: Record<string, unknown>[] = [
 					</a>
 					<a href="/pricing/" class="faq-detail__link">Compare pricing</a>
 					<a href="/support/" class="faq-detail__link">Contact support</a>
+					<a
+						href={EXTERNAL_GUIDES.arcRaiders.href}
+						class="faq-detail__link faq-detail__link--external"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Official {EXTERNAL_GUIDES.arcRaiders.label}
+					</a>
 				</div>
 			</article>
 
