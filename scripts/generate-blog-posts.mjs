@@ -22,6 +22,10 @@ const EXT = {
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">Embark Studios</a>',
 };
 
+const CHECKOUT_URL = 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders';
+const CHECKOUT = `<a href="${CHECKOUT_URL}" rel="noopener noreferrer">Get Access</a>`;
+const CHECKOUT_STORE = `<a href="${CHECKOUT_URL}" rel="noopener noreferrer">Store</a>`;
+
 const TOPIC = {
 	status: '<a href="/updates/">Status page</a>',
 	esp: '<a href="/arc-raiders-esp/">ESP guide</a>',
@@ -456,7 +460,7 @@ const sources = [
 			{
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
-					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
+					`Compare monthly and lifetime on ${CHECKOUT_STORE}, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.`,
 					'Arc Raiders Cheats is built for Windows PC Raider and extraction play. It will not replace map knowledge — it amplifies the reads you already practice in raids.',
 				],
 			},
@@ -502,7 +506,7 @@ const sources = [
 				h2: 'Price, delivery, and support questions worth asking',
 				paragraphs: [
 					'Know whether you are paying monthly or lifetime, how the license arrives, and how fast support replies with an order ID. Read the <a href="/refund-policy/">refund policy</a> before you pay — digital tools often have narrow windows.',
-					'Our plans live on <a href="/pricing/">Pricing</a>. Setup steps are on <a href="/setup/">Setup</a>. If something fails after a patch, <a href="/support/">Support</a> needs your order details, Windows version, and what you already tried.',
+					`Our plans live on ${CHECKOUT_STORE}. Setup steps are on <a href="/setup/">Setup</a>. If something fails after a patch, <a href="/support/">Support</a> needs your order details, Windows version, and what you already tried.`,
 				],
 			},
 		],
@@ -548,7 +552,7 @@ const sources = [
 				h2: 'What we recommend you do differently this year',
 				paragraphs: [
 					'Check status before patch-day queues. Keep soft aim conservative. Use loot ESP filters so your screen stays clean. Read the <a href="/blog/arc-raiders-cheats-complete-guide-2026/">complete 2026 guide</a> if you are new to the category.',
-					'Pricing remains monthly and lifetime on <a href="/pricing/">Pricing</a> with digital delivery after payment.',
+					`Pricing remains monthly and lifetime on ${CHECKOUT_STORE} with digital delivery after payment.`,
 				],
 			},
 		],
@@ -685,7 +689,7 @@ const sources = [
 			{
 				h2: 'Where to go next',
 				paragraphs: [
-					'Read <a href="/undetected-arc-raiders-cheats/">undetected arc raiders cheats</a>, the <a href="/blog/arc-raiders-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
+					`Read <a href="/undetected-arc-raiders-cheats/">undetected arc raiders cheats</a>, the <a href="/blog/arc-raiders-cheats-complete-guide-2026/">2026 complete guide</a>, and ${CHECKOUT_STORE} if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.`,
 				],
 			},
 		],
@@ -724,7 +728,7 @@ const sources = [
 				h2: 'Price versus what you touch every raid',
 				paragraphs: [
 					'If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold extracts, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.',
-					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
+					`Our monthly and lifetime options are on ${CHECKOUT_STORE}. Read the <a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.`,
 				],
 			},
 			{
@@ -783,7 +787,7 @@ const sources = [
 			{
 				h2: 'After switching — what improved for my raids',
 				paragraphs: [
-					'Independent loot and player toggles cleaned late-raid screens. Radar helped extract holds. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href="/pricing/">Pricing</a>.',
+					`Independent loot and player toggles cleaned late-raid screens. Radar helped extract holds. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see ${CHECKOUT_STORE}.`,
 					'If you run your own test, measure patch downtime hours, not just day-one vibes. Then read <a href="/setup/">Setup</a> before you buy anything.',
 				],
 			},
@@ -823,7 +827,7 @@ const sources = [
 				h2: 'Feature and pricing reality check',
 				paragraphs: [
 					'Arc Raiders Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
-					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/arc-raiders-esp/">ESP</a>, <a href="/arc-raiders-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
+					`Our public comparison points live on <a href="/features/">Features</a>, <a href="/arc-raiders-esp/">ESP</a>, <a href="/arc-raiders-radar-hack/">radar</a>, and ${CHECKOUT_STORE}.`,
 				],
 			},
 			{

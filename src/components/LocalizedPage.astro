@@ -114,7 +114,11 @@ const storeSchema =
 const extraGraph = [faqSchema, storeSchema].filter(Boolean) as Record<string, unknown>[];
 
 const ctaSecondaryHref = ctaSecondaryPath
-	? localizeInternalHref(ctaSecondaryPath, locale)
+	? ctaSecondaryPath === '/pricing/' || ctaSecondaryPath.startsWith('http')
+		? ctaSecondaryPath.startsWith('http')
+			? ctaSecondaryPath
+			: siteConfig.checkoutUrl
+		: localizeInternalHref(ctaSecondaryPath, locale)
 	: ctaSecondaryLabel
 		? siteConfig.checkoutUrl
 		: getLocalizedPath('features', locale);

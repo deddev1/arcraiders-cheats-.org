@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../../data/external-links';
+import { siteConfig } from '../../data/site-core';
 
 type FaqItem = { slug: string; question: string; answer: string; href: string };
 
@@ -42,7 +43,7 @@ function HomeSeoInner({ faqs }: Props) {
 			titleKey: 'homeSeo.catStore',
 			hintKey: 'homeSeo.catStoreHint',
 			links: [
-				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
+				{ href: siteConfig.checkoutUrl, labelKey: 'homeSeo.linkPlans', external: true },
 				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
 				{ href: '/arc-raiders-cheats/', labelKey: 'homeSeo.linkArc RaidersCheats' },
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },

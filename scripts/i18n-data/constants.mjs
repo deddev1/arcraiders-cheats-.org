@@ -132,6 +132,11 @@ export const EXT = {
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 };
 
+/** Zadeyo checkout — all buy / get-access CTAs. */
+export const CHECKOUT_URL = 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders';
+export const CHECKOUT = `<a href="${CHECKOUT_URL}" rel="noopener noreferrer">Get Access</a>`;
+export const CHECKOUT_STORE = `<a href="${CHECKOUT_URL}" rel="noopener noreferrer">Store</a>`;
+
 /** Same-site topic guides — related pages on arcraiderscheats.org. */
 export const TOPIC = {
 	cheats: '<a href="/arc-raiders-cheats/">Arc Raiders cheats guide</a>',

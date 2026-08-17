@@ -1,4 +1,4 @@
-import { HERO_IMAGES, clampTitle, clampDesc, section, stripZadeyoFromMeta } from './constants.mjs';
+import { HERO_IMAGES, clampTitle, clampDesc, section, stripZadeyoFromMeta, CHECKOUT_URL } from './constants.mjs';
 import { phrases } from './phrases.mjs';
 import { PAGE_IMAGE_ALTS } from './image-alts.mjs';
 
@@ -616,7 +616,7 @@ const TOPIC_NAMES = {
 const CTA2_HREF = {
 	'arc-raiders-esp': '/arc-raiders-cheats/',
 	'arc-raiders-aimbot': '/arc-raiders-esp/',
-	features: '/pricing/',
+	features: CHECKOUT_URL,
 	pricing: '/setup/',
 	setup: '/support/',
 	updates: '/arc-raiders-cheats/',
@@ -631,7 +631,7 @@ const CTA2_HREF = {
 	'cheat-download': '/setup/',
 	'mod-menu': '/features/',
 	'soft-aim': '/arc-raiders-aimbot/',
-	'best-cheats': '/pricing/',
+	'best-cheats': CHECKOUT_URL,
 	'aimbot-hack': '/arc-raiders-aimbot/',
 	'esp-hack': '/arc-raiders-esp/',
 	'unlock-all': '/features/',

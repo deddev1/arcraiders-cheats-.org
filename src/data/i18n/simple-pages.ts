@@ -1,6 +1,9 @@
 import type { PageId } from './content.generated';
 import { fillBrandTokens, seoDescription } from '../brand';
-import { brandCopy, brandSeo, seoPageTitle } from '../site-core';
+import { brandCopy, brandSeo, seoPageTitle, siteConfig } from '../site-core';
+
+const buyLink = (label: string) =>
+	`<a href="${siteConfig.checkoutUrl}" rel="noopener noreferrer">${label}</a>`;
 
 /** External game source + same-site topic guides. */
 const EXT = {
@@ -58,8 +61,8 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Features',
 		intro: brandCopy.featuresIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'View store',
-		ctaSecondaryHref: '/pricing/',
+		ctaSecondary: 'Get Access',
+		ctaSecondaryHref: siteConfig.checkoutUrl,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -212,7 +215,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'How to start',
 				paragraphs: ['Buy a plan, get your license by email, then follow setup. Check Status after every major patch.'],
 				list: [
-					'<a href="/pricing/">Open store</a>',
+					buyLink('Open store'),
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Check status</a>',
 				],
@@ -254,7 +257,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/features/">All features</a>',
-					'<a href="/pricing/">Store</a>',
+					buyLink('Store'),
 				],
 			},
 		],
@@ -294,7 +297,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/arc-raiders-cheats/">Full product</a>',
 					'<a href="/features/">All features</a>',
-					'<a href="/pricing/">Store</a>',
+					buyLink('Store'),
 				],
 			},
 		],
@@ -327,7 +330,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/arc-raiders-esp/">ESP guide</a>',
 					'<a href="/arc-raiders-cheats/">Full product</a>',
-					'<a href="/pricing/">Store</a>',
+					buyLink('Store'),
 				],
 			},
 		],
