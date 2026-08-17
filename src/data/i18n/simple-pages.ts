@@ -2,10 +2,19 @@ import type { PageId } from './content.generated';
 import { fillBrandTokens, seoDescription } from '../brand';
 import { brandCopy, brandSeo, seoPageTitle } from '../site-core';
 
-/** Authoritative external citation helpers (open in new tab). */
+/** External game source + same-site topic guides. */
 const EXT = {
 	game: '<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
-	eac: '<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+};
+const TOPIC = {
+	status: '<a href="/updates/">Status page</a>',
+	esp: '<a href="/arc-raiders-esp/">ESP guide</a>',
+	aimbot: '<a href="/arc-raiders-aimbot/">Aimbot guide</a>',
+	undetected: '<a href="/undetected-arc-raiders-cheats/">undetected guide</a>',
+	patchNotes: '<a href="/blog/arc-raiders-patch-notes-guide/">patch notes guide</a>',
+	buyersGuide: '<a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a>',
+	features: '<a href="/features/">Features</a>',
+	setup: '<a href="/setup/">Setup guide</a>',
 };
 
 export type SimpleSection = {
@@ -80,8 +89,8 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Updates & support',
 				paragraphs: [
-					'We rebuild after big {game} or {antiCheat} patches. Official seasons and client updates come from ' + EXT.game + ' and ' + EXT.eac + '.',
-					'Check Status before you play after a patch day — cross-check our <a href="/updates/">Status page</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>.',
+					'We rebuild after big {game} or {antiCheat} patches. Official seasons and client updates come from ' + EXT.game + '.',
+					'Check Status before you play after a patch day — cross-check our ' + TOPIC.status + ' and ' + TOPIC.undetected + '.',
 				],
 				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
 			},
@@ -117,7 +126,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Before you buy',
 				paragraphs: [
 					'Read the refund policy if you need it. Contact support with your order ID for help.',
-					'{game} seasons and wipe timing are announced on ' + EXT.game + '. We rebuild ESP, radar, and aimbot after ' + EXT.eac + ' patches — check <a href="/updates/">Status</a> before patch-day queues.',
+					'{game} seasons and wipe timing are announced on ' + EXT.game + '. We rebuild ESP, radar, and aimbot after patches — check ' + TOPIC.status + ' before patch-day queues.',
 				],
 				list: [
 					'<a href="/refund-policy/">Refund policy</a>',
@@ -141,7 +150,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of 13 Aug 2026 the package is online for ARC Raiders on Windows PC. We post a new note here when a game or ' + EXT.eac + ' patch needs a rebuild.',
+					'As of 13 Aug 2026 the package is online for ARC Raiders on Windows PC. We post a new note here when a game or {antiCheat} patch needs a rebuild.',
 					'If Status is green, you can raid. If we are rebuilding, wait for the next note. On patch mornings, also check ' + EXT.game + ' for Embark Studios service health before you assume a loader issue.',
 				],
 				list: [
@@ -153,7 +162,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'After a patch',
 				paragraphs: [
-					'Wait for our rebuild note, then launch. Do not play on an old build after a big update. Read ' + EXT.eac + ' for how anti-cheat updates ship, then follow our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>.',
+					'Wait for our rebuild note, then launch. Do not play on an old build after a big update. Read our ' + TOPIC.patchNotes + ', then follow ' + TOPIC.undetected + '.',
 				],
 				list: ['Read the latest status note', 'Follow <a href="/setup/">setup</a> if something fails', 'Email support with your order ID'],
 			},
@@ -183,7 +192,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'ESP / wallhack with distance',
 					'Soft aim & aimbot profiles',
 					'2D radar for flanks',
-					EXT.eac + ' rebuilds after patches',
+					'Easy Anti-Cheat rebuilds after patches',
 				],
 			},
 			{
@@ -240,7 +249,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Next steps',
 				paragraphs: [
-					'ESP is included with aimbot and radar in one plan. Read ' + EXT.eac + ' for anti-cheat background, then check our <a href="/updates/">Status page</a> after major patches.',
+					'ESP is included with aimbot and radar in one plan. Check our ' + TOPIC.status + ' after major patches and read the ' + TOPIC.esp + '.',
 				],
 				list: [
 					'<a href="/arc-raiders-cheats/">Full product</a>',
@@ -280,7 +289,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Next steps',
 				paragraphs: [
-					'Aimbot ships with ESP and radar in one license. Cross-check ' + EXT.eac + ' on patch days, then follow our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>.',
+					'Aimbot ships with ESP and radar in one license. On patch days, confirm ' + TOPIC.status + ' before you tune profiles.',
 				],
 				list: [
 					'<a href="/arc-raiders-cheats/">Full product</a>',
@@ -313,7 +322,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'With ESP',
 				paragraphs: [
 					'Use radar for threats you cannot see yet. Use ESP when you push.',
-					'Compare category detail on the <a href="/arc-raiders-esp/">ESP guide</a> and check <a href="/updates/">Status</a> after ' + EXT.eac + ' patches.',
+					'Compare category detail on the ' + TOPIC.esp + ' and check ' + TOPIC.status + ' after patches.',
 				],
 				list: [
 					'<a href="/arc-raiders-esp/">ESP guide</a>',
@@ -345,15 +354,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Install steps',
 				paragraphs: [
 					'Run the loader as admin, paste your license, then launch {game}.',
-					'After a game or ' + EXT.eac + ' update, wait for our <a href="/updates/">Status note</a> before queueing on an old build.',
+					'After a game or {antiCheat} update, wait for our ' + TOPIC.status + ' note before queueing on an old build.',
 				],
 				list: ['Download the loader from your delivery email', 'Paste license key', 'Launch the game'],
 			},
 			{
 				h2: 'If something fails',
 				paragraphs: [
-					'Check Status after a patch. Email {email} with your order ID.',
-					'Read ' + EXT.eac + ' for anti-cheat context and our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a> if modules need a rebuild.',
+					'Check ' + TOPIC.status + ' after a patch. Email {email} with your order ID. See ' + TOPIC.setup + ' and ' + TOPIC.undetected + ' if modules need a rebuild.',
 				],
 				list: ['<a href="/updates/">Status page</a>', '<a href="/support/">Support</a>', '<a href="/faq/">FAQ</a>'],
 			},
@@ -378,9 +386,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Faster answers',
 				paragraphs: [
 					'Check FAQ and Status before you write. Many setup questions are already covered.',
-					'If the launcher fails on patch day, confirm Embark Studios service health on ' + EXT.game + ' and read ' + EXT.eac + ' before opening a ticket.',
+					'If the launcher fails on patch day, confirm Embark Studios service health on ' + EXT.game + ' before opening a ticket.',
 				],
-				list: ['<a href="/faq/">FAQ</a>', '<a href="/updates/">Status</a>', '<a href="/setup/">Setup</a>', '<a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>'],
+				list: ['<a href="/faq/">FAQ</a>', TOPIC.status, TOPIC.setup, TOPIC.undetected],
 			},
 		],
 	}),
@@ -403,9 +411,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Setup & updates',
 				paragraphs: [
 					'Follow Setup after you buy. Check Status after big {game} or {antiCheat} patches.',
-					'Official seasons and anti-cheat updates come from ' + EXT.game + ' and ' + EXT.eac + '. Our rebuild notes live on the <a href="/updates/">Status page</a>.',
+					'Official seasons and game updates come from ' + EXT.game + '. Our rebuild notes live on the ' + TOPIC.status + '.',
 				],
-				list: ['<a href="/setup/">Setup guide</a>', '<a href="/updates/">Status</a>', '<a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>'],
+				list: [TOPIC.setup, TOPIC.status, TOPIC.patchNotes],
 			},
 			{
 				h2: 'Refunds',

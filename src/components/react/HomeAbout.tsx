@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
-import { EXTERNAL_GUIDES } from '../../data/external-links';
+import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../../data/external-links';
 
 type Props = {
 	locale: string;
@@ -20,9 +20,7 @@ function HomeAboutInner() {
 						{EXTERNAL_GUIDES.arcRaiders.label}
 					</a>
 					{t('home.aboutSourcesMid')}{' '}
-					<a href={EXTERNAL_GUIDES.eac.href} target="_blank" rel="noopener noreferrer">
-						{EXTERNAL_GUIDES.eac.label}
-					</a>
+					<a href={TOPIC_GUIDES.patchNotes.href}>{TOPIC_GUIDES.patchNotes.label}</a>
 					{t('home.aboutSourcesAfter')}
 				</p>
 				<p>

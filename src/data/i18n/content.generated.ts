@@ -118,7 +118,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Why players choose Arc Raiders cheats in 2026",
 							paragraphs: [
 								"Arc Raiders rewards map awareness. Arc Raiders Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, extraction-run, and competitive lobbies.",
-								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> and <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
+								"Official seasons and patch notes come from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on <a href=\"/updates/\">Status page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Easy Anti-Cheat maintenance rebuilds when anti-cheat or game patches require updates.",
 								"Start with the <a href=\"/arc-raiders-cheats/\">Arc Raiders cheats pillar</a>, <a href=\"/arc-raiders-esp/\">ESP guide</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot controls</a>, and <a href=\"/arc-raiders-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
 							],
@@ -172,7 +172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected ESP with Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"Arc Raiders Cheats ESP wallhack is maintained for Arc Raiders with rebuilds after Easy Anti-Cheat patches. Check the <a href=\"/updates/\">Updates page</a> before you queue — no cheat guarantees permanent undetected status.",
-								"Read <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/updates/\">Easy Anti-Cheat bypass maintenance guide</a> after major patches.",
+								"Cross-check our <a href=\"/blog/arc-raiders-patch-notes-guide/\">patch notes guide</a> after major patches, then confirm rebuild notes on <a href=\"/updates/\">Status page</a>.",
 								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/setup/\">Setup guide</a> and tune overlays before your first raid.",
 							],
 						},
@@ -224,7 +224,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Easy Anti-Cheat maintenance for undetected Aimbot",
 							paragraphs: [
 								"Arc Raiders Cheats rebuilds Aimbot behavior when Easy Anti-Cheat or major Arc Raiders patches land. Maintenance notes appear on the <a href=\"/updates/\">Updates page</a> so you know when a new build is live.",
-								"Cross-check service health on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> and anti-cheat context on <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>, then follow our <a href=\"/updates/\">Easy Anti-Cheat maintenance guide</a> before queueing on patch day.",
+								"Cross-check service health on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>, then follow our <a href=\"/updates/\">Status page</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> before queueing on patch day.",
 								"Responsible settings matter — undetected status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.",
 							],
 						},
@@ -346,7 +346,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After Arc Raiders or Easy Anti-Cheat patches",
 							paragraphs: [
 								"When Embark Studios ships a major Arc Raiders update or Easy Anti-Cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/updates/\">Easy Anti-Cheat bypass page</a> and <a href=\"/arc-raiders-cheats/\">undetected guide</a>.",
+								"Our practical maintenance workflow is documented on <a href=\"/updates/\">Status page</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a>. Official game updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
@@ -460,7 +460,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Self-service resources",
 							paragraphs: [
 								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href=\"/eac-bypass/\">Easy Anti-Cheat page</a>.",
-								"Official anti-cheat background: <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. Game updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>.",
+								"Game updates and service health are published on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. For product rebuild timing, check <a href=\"/updates/\">Status page</a> first.",
 								"Email: support@arcraiderscheats.org",
 								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
@@ -484,7 +484,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Undetected Arc Raiders Cheats means the package is actively maintained against Easy Anti-Cheat and major Arc Raiders patches — not that detection is impossible forever.",
 								"Rebuilds target ESP wallhack overlays, radar behavior, and Aimbot signatures after Easy Anti-Cheat security updates.",
-								"Anti-cheat technology is documented by <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>; Arc Raiders client updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. Undetected status is an ongoing process tied to those releases.",
+								"Undetected status is an ongoing process tied to <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> client updates. Follow <a href=\"/updates/\">Status page</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> on patch days.",
 							],
 						},
 						{
@@ -596,7 +596,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Easy Anti-Cheat overview",
 							paragraphs: [
-								"Easy Anti-Cheat is Embark Studios' anti-cheat for Arc Raiders on PC (see <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>). Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds for undetected packages.",
+								"Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds. Follow <a href=\"/updates/\">Status page</a> and read our <a href=\"/blog/arc-raiders-cheats-complete-guide-2026/\">complete cheats guide</a> for the full workflow.",
 								"Arc Raiders Cheats monitors Easy Anti-Cheat patch notes and Arc Raiders seasonal updates from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> to schedule module reviews.",
 								"“Easy Anti-Cheat bypass” in our wording means timely maintenance — not a permanent free pass around anti-cheat.",
 							],
@@ -697,7 +697,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected Arc Raiders cheats with Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"Undetected Arc Raiders cheats require rebuilds after Easy Anti-Cheat and major Arc Raiders patches. Check Updates before queueing — maintenance notes confirm when a new build is live. No package can promise permanent undetected status.",
-								"See <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for anti-cheat background and our <a href=\"/updates/\">Easy Anti-Cheat bypass guide</a> for the practical workflow. Pair with <a href=\"/arc-raiders-cheats/\">undetected Arc Raiders cheats</a> for status language buyers expect.",
+								"See <a href=\"/blog/arc-raiders-cheats-buyers-guide/\">buyers guide</a> before you compare shops, then pair with <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> and <a href=\"/updates/\">Status page</a> for the workflow buyers expect.",
 								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/setup/\">Setup</a> and keep <a href=\"/support/\">Support</a> ready with your order ID.",
 							],
 						},
@@ -1025,7 +1025,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Digital delivery and eligibility",
 							paragraphs: [
 								"Arc Raiders Cheats licenses deliver digitally after payment confirmation. Because access begins immediately, refunds are limited to cases outlined below.",
-								"<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> is a separate product from {brand}. Refund requests should reference our digital license, not Embark Studios account issues.",
+								"<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> is a separate product from our cheat license. Refund requests should reference our digital license, not Embark Studios account issues.",
 								"Submit refund requests within 24 hours of purchase with your order ID and reason.",
 							],
 						},
@@ -1068,7 +1068,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
 								"Using cheats in Arc Raiders may violate Embark Studios terms (<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>) and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"Read <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for anti-cheat background. You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/undetected-arc-raiders-cheats/\">undetected status</a>.",
+								"Read <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> for honest risk expectations. You assume all risk. We are not liable for bans, data loss, or damages arising from product use.",
 							],
 						},
 						{

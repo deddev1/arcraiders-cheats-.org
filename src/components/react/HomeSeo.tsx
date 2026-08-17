@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
-import { EXTERNAL_GUIDES } from '../../data/external-links';
+import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../../data/external-links';
 
 type FaqItem = { slug: string; question: string; answer: string; href: string };
 
@@ -32,7 +32,8 @@ function HomeSeoInner({ faqs }: Props) {
 				{ href: '/updates/', labelKey: 'homeSeo.linkLiveStatus' },
 				{ href: '/arc-raiders-cheats/', labelKey: 'homeSeo.linkUndetected' },
 				{ href: EXTERNAL_GUIDES.arcRaiders.href, labelKey: 'homeSeo.linkOfficialGame', external: true },
-				{ href: EXTERNAL_GUIDES.eac.href, labelKey: 'homeSeo.linkEac', external: true },
+				{ href: TOPIC_GUIDES.patchNotes.href, labelKey: 'homeSeo.linkPatchNotes' },
+				{ href: TOPIC_GUIDES.esp.href, labelKey: 'homeSeo.linkEspGuide' },
 				{ href: '/setup/', labelKey: 'homeSeo.linkSetup' },
 				{ href: '/faq/', labelKey: 'homeSeo.linkFaq' },
 			],

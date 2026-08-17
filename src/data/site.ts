@@ -12,10 +12,12 @@ export {
 } from './site-core';
 
 import { fillBrandTokens } from './brand';
-import { externalGuideHtml, stripHtmlForSchema } from './external-links';
+import { externalGuideHtml, topicGuideHtml, stripHtmlForSchema } from './external-links';
 
-const EXT_GAME = externalGuideHtml('arcRaiders');
-const EXT_EAC = externalGuideHtml('eac');
+const EXT_GAME = externalGuideHtml();
+const TOPIC_STATUS = topicGuideHtml('status');
+const TOPIC_UNDETECTED = topicGuideHtml('undetected');
+const TOPIC_PATCH = topicGuideHtml('patchNotes');
 
 export { stripHtmlForSchema };
 
@@ -115,9 +117,11 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'Are {primaryKeyword} undetected in 2026?',
 		answer:
-			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Read ' +
-			EXT_EAC +
-			' for how anti-cheat updates ship, then check the <a href="/updates/">Status page</a> before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
+			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Read our ' +
+			TOPIC_PATCH +
+			' after major updates, then check the ' +
+			TOPIC_STATUS +
+			' before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
 		slug: 'are-arc-raiders-cheats-undetected-in-2026',
 		seoTitle: 'Are {brand} Undetected in 2026? | FAQ',
 		seoDescription:
@@ -153,10 +157,12 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'Where do I check updates after an ARC Raiders or {antiCheat} patch?',
 		answer:
-			'Maintenance notes are posted on the <a href="/updates/">Status page</a> when a {game} or {antiCheat} update affects the package. Cross-check official sources on ' +
+			'Maintenance notes are posted on the ' +
+			TOPIC_STATUS +
+			' when a {game} or {antiCheat} update affects the package. Cross-check official patch notes on ' +
 			EXT_GAME +
-			' and ' +
-			EXT_EAC +
+			' and our ' +
+			TOPIC_PATCH +
 			' on patch days.',
 		slug: 'where-to-check-updates',
 		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
@@ -197,9 +203,11 @@ export const seoFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'How does {antiCheat} affect {primaryKeyword}?',
 		answer:
-			'{antiCheat} monitors {game} on Windows PC — see ' +
-			EXT_EAC +
-			' for background. {brand} posts maintenance notes after patches that may need a rebuild. Check <a href="/updates/">Status</a> before you raid.',
+			'{antiCheat} monitors {game} on Windows PC. {brand} posts maintenance notes after patches that may need a rebuild. Check ' +
+			TOPIC_STATUS +
+			' and our ' +
+			TOPIC_UNDETECTED +
+			' before you raid.',
 		slug: 'eac-anti-cheat-and-arc-raiders-cheats',
 		seoTitle: 'How {antiCheat} Affects {brand} | FAQ',
 		seoDescription:

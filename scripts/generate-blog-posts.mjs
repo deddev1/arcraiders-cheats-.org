@@ -20,8 +20,17 @@ const EXT = {
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 	status:
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">Embark Studios</a>',
-	eac:
-		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+};
+
+const TOPIC = {
+	status: '<a href="/updates/">Status page</a>',
+	esp: '<a href="/arc-raiders-esp/">ESP guide</a>',
+	aimbot: '<a href="/arc-raiders-aimbot/">Aimbot guide</a>',
+	undetected: '<a href="/undetected-arc-raiders-cheats/">undetected guide</a>',
+	patchNotes: '<a href="/blog/arc-raiders-patch-notes-guide/">patch notes guide</a>',
+	buyersGuide: '<a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a>',
+	completeGuide: '<a href="/blog/arc-raiders-cheats-complete-guide-2026/">complete cheats guide</a>',
+	features: '<a href="/features/">Features</a>',
 };
 
 /** @typedef {{ h2: string, paragraphs: string[] }} Section */
@@ -57,7 +66,7 @@ const sources = [
 				paragraphs: [
 					`Official notes live on ${EXT.game}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Raiders? Does this change what loot is worth looting? Does this change which extract or map I should run tonight?`,
 					'Ammo tables, armor classes, boss spawn rates, and vendor unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Rust Belt and underground zones. Cosmetic lines and UI polish almost never decide whether you survive underground zones.',
-					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Arc Raiders Cheats status page</a> before you blame your own aim.`,
+					`If you also run third-party tools, separate game balance from product maintenance. After a client update, check our ${TOPIC.status} before you blame your own aim.`,
 				],
 			},
 			{
@@ -395,7 +404,7 @@ const sources = [
 				h2: 'What to do right before you ready up',
 				paragraphs: [
 					'Check stash meds and ammo, confirm your map extracts, and skim <a href="/updates/">cheat status</a> if you use overlays after a patch. Pair warmup with <a href="/blog/arc-raiders-pro-settings-guide/">settings</a> and <a href="/blog/arc-raiders-weapon-tier-list/">weapon tiers</a> so you are not reinventing the kit every night.',
-					`After a ${EXT.eac} or client update, wait for our rebuild note before queueing. Confirm Embark Studios services on ${EXT.status} if the launcher itself is failing.`,
+					`After a client update, wait for our rebuild note on ${TOPIC.status} before queueing. Confirm Embark Studios services on ${EXT.status} if the launcher itself is failing.`,
 				],
 			},
 		],
@@ -440,7 +449,7 @@ const sources = [
 			{
 				h2: 'Easy Anti-Cheat, “undetected,” and honest expectations',
 				paragraphs: [
-					`${EXT.eac} protects ARC Raiders. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/undetected-arc-raiders-cheats/">undetected arc raiders cheats</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
+					`No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on ${TOPIC.undetected} and ${TOPIC.completeGuide}.`,
 					'Before every patch-day queue, read <a href="/updates/">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.',
 				],
 			},
@@ -479,7 +488,7 @@ const sources = [
 				h2: 'Start with status, not screenshots',
 				paragraphs: [
 					'Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Arc Raiders Cheats posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
-					`Read ${EXT.eac} for how anti-cheat updates ship, then cross-check our <a href="/eac-bypass/">Easy Anti-Cheat maintenance guide</a>. If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.`,
+					`Read our ${TOPIC.patchNotes} after major patches, then cross-check ${TOPIC.status}. If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.`,
 				],
 			},
 			{
@@ -525,7 +534,7 @@ const sources = [
 				h2: 'Why 2026 buyers care more about status pages',
 				paragraphs: [
 					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/undetected-arc-raiders-cheats/">undetected explainer</a> instead of empty guarantees.',
-					`${EXT.eac} and Embark Studios client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
+					`${EXT.game} and Embark Studios client updates still force rebuilds. The shops that survive are the ones that communicate on ${TOPIC.status} during those windows.`,
 				],
 			},
 			{
@@ -585,7 +594,7 @@ const sources = [
 				h2: 'Pair aim settings with information tools',
 				paragraphs: [
 					'Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href="/arc-raiders-esp/">ESP categories</a> before blaming aim.',
-					`Weapon balance shifts via ${EXT.game}. After ${EXT.eac} patches, confirm <a href="/updates/">Updates</a> before you tune anything on an old build.`,
+					`Weapon balance shifts via ${EXT.game}. After patches, confirm ${TOPIC.status} before you tune anything on an old build.`,
 				],
 			},
 		],
@@ -630,7 +639,7 @@ const sources = [
 			{
 				h2: 'Maintenance and responsible use',
 				paragraphs: [
-					`ESP modules rebuild after ${EXT.eac} patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/undetected-arc-raiders-cheats/">undetected guide</a>. Season and map changes are announced on ${EXT.game}.`,
+					`ESP modules rebuild after game patches like everything else. Check ${TOPIC.status} and ${TOPIC.undetected}. Season and map changes are announced on ${EXT.game}.`,
 					'No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
 				],
 			},
@@ -662,7 +671,7 @@ const sources = [
 			{
 				h2: 'What undetected can honestly mean',
 				paragraphs: [
-					`Easy Anti-Cheat is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Arc Raiders Cheats does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
+					`Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Arc Raiders Cheats does that on ${TOPIC.status} and explains the workflow in ${TOPIC.completeGuide}.`,
 					'If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.',
 				],
 			},
@@ -708,7 +717,7 @@ const sources = [
 				h2: 'What budget shops usually optimize for',
 				paragraphs: [
 					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.',
-					`Arc Raiders Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list and ${EXT.eac} for anti-cheat context.`,
+					`Arc Raiders Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public ${TOPIC.status}. See ${TOPIC.features} for the list and ${TOPIC.buyersGuide} before you compare shops.`,
 				],
 			},
 			{
@@ -768,7 +777,7 @@ const sources = [
 				h2: 'The patch window that ended the trial',
 				paragraphs: [
 					'A Arc Raiders plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
-					`Arc Raiders Cheats won me over with written notes on <a href="/updates/">Updates</a>. I still cross-check ${EXT.status} and ${EXT.eac} before queueing blind after patches on any tool.`,
+					`Arc Raiders Cheats won me over with written notes on ${TOPIC.status}. I still cross-check ${EXT.status} and our ${TOPIC.patchNotes} before queueing blind after patches on any tool.`,
 				],
 			},
 			{
@@ -821,7 +830,7 @@ const sources = [
 				h2: 'Detection talk without fairy tales',
 				paragraphs: [
 					'Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.',
-					`Arc Raiders Cheats documents maintenance on <a href="/eac-bypass/">Easy Anti-Cheat workflow</a> and <a href="/undetected-arc-raiders-cheats/">undetected notes</a>. Official game updates ship through ${EXT.game}; anti-cheat background lives on ${EXT.eac}.`,
+					`Arc Raiders Cheats documents maintenance on ${TOPIC.undetected} and ${TOPIC.completeGuide}. Official game updates ship through ${EXT.game}.`,
 				],
 			},
 			{

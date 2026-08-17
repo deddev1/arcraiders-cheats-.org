@@ -130,8 +130,19 @@ export const EXT = {
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
 	status:
 		'<a href="https://www.arcraiders.com/" target="_blank" rel="noopener noreferrer">ARC Raiders</a>',
-	eac:
-		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
-	battleye:
-		'<a href="https://www.easyanticheat.dev/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+};
+
+/** Same-site topic guides — related pages on arcraiderscheats.org. */
+export const TOPIC = {
+	cheats: '<a href="/arc-raiders-cheats/">Arc Raiders cheats guide</a>',
+	esp: '<a href="/arc-raiders-esp/">ESP guide</a>',
+	aimbot: '<a href="/arc-raiders-aimbot/">Aimbot guide</a>',
+	radar: '<a href="/arc-raiders-radar-hack/">Radar guide</a>',
+	features: '<a href="/features/">Features</a>',
+	status: '<a href="/updates/">Status page</a>',
+	setup: '<a href="/setup/">Setup guide</a>',
+	undetected: '<a href="/undetected-arc-raiders-cheats/">undetected guide</a>',
+	patchNotes: '<a href="/blog/arc-raiders-patch-notes-guide/">patch notes guide</a>',
+	buyersGuide: '<a href="/blog/arc-raiders-cheats-buyers-guide/">buyers guide</a>',
+	completeGuide: '<a href="/blog/arc-raiders-cheats-complete-guide-2026/">complete cheats guide</a>',
 };

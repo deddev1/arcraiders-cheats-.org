@@ -11,7 +11,7 @@ import {
 } from '../data/blog/helpers';
 import type { ResolvedBlogPost } from '../data/blog/types';
 import { blogLabel, siteConfig } from '../data/site';
-import { EXTERNAL_GUIDES } from '../data/external-links';
+import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../data/external-links';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 
 interface Props {
@@ -133,9 +133,9 @@ function pageTitle(headline: string): string {
 			}
 		</article>
 
-		<section class="post__resources" aria-label="Official resources">
-			<h2>Official resources</h2>
-			<p>Cross-check game balance, patch notes, and anti-cheat updates from authoritative sources:</p>
+		<section class="post__resources" aria-label="Related guides">
+			<h2>Related guides</h2>
+			<p>More on Arc Raiders cheats, gameplay topics, and official game updates:</p>
 			<ul class="post__resources-list">
 				<li>
 					<a href={EXTERNAL_GUIDES.arcRaiders.href} target="_blank" rel="noopener noreferrer">
@@ -143,15 +143,16 @@ function pageTitle(headline: string): string {
 					</a>
 				</li>
 				<li>
-					<a href={EXTERNAL_GUIDES.eac.href} target="_blank" rel="noopener noreferrer">
-						{EXTERNAL_GUIDES.eac.label} documentation
-					</a>
+					<a href={localizeInternalHref(TOPIC_GUIDES.cheats.href, locale)}>{TOPIC_GUIDES.cheats.label}</a>
 				</li>
 				<li>
-					<a href={localizeInternalHref('/updates/', locale)}>Arc Raiders Cheats status</a>
+					<a href={localizeInternalHref(TOPIC_GUIDES.esp.href, locale)}>{TOPIC_GUIDES.esp.label}</a>
 				</li>
 				<li>
-					<a href={localizeInternalHref('/eac-bypass/', locale)}>Easy Anti-Cheat maintenance guide</a>
+					<a href={localizeInternalHref(TOPIC_GUIDES.status.href, locale)}>{TOPIC_GUIDES.status.label}</a>
+				</li>
+				<li>
+					<a href={localizeInternalHref(TOPIC_GUIDES.patchNotes.href, locale)}>{TOPIC_GUIDES.patchNotes.label}</a>
 				</li>
 			</ul>
 		</section>
