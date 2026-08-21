@@ -118,7 +118,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Why players choose Arc Raiders cheats in 2026",
 							paragraphs: [
 								"Arc Raiders rewards map awareness. Arc Raiders Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, extraction-run, and competitive lobbies.",
-								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> and <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
+								"Official seasons and patch notes come from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on <a href=\"/updates/\">Status page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Easy Anti-Cheat maintenance rebuilds when anti-cheat or game patches require updates.",
 								"Start with the <a href=\"/arc-raiders-cheats/\">Arc Raiders cheats pillar</a>, <a href=\"/arc-raiders-esp/\">ESP guide</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot controls</a>, and <a href=\"/arc-raiders-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
 							],
@@ -127,9 +127,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP wallhack, radar hack, and Aimbot in one license",
 							paragraphs: [
 								"Instead of stacking separate tools, Arc Raiders Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for surface raids and extraction-runs — covering both “arc raiders cheats” and “arc raiders hacks” search intent.",
-								"Browse the <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot</a>, <a href=\"/arc-raiders-esp/\">wallhack</a>, and <a href=\"/arc-raiders-radar-hack/\">radar</a> pages for control details — or jump to <a href=\"/pricing/\">Pricing</a> for monthly and lifetime options.",
+								"Browse the <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot</a>, <a href=\"/arc-raiders-esp/\">wallhack</a>, and <a href=\"/arc-raiders-radar-hack/\">radar</a> pages for control details — or jump to <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> for monthly and lifetime options.",
 								"Before patch days, check <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> for Embark Studios service health, then confirm our maintenance notes so you are not queueing on an outdated build.",
-								"Ready to buy? Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a> after delivery, and keep <a href=\"/faq/\">FAQ</a> / <a href=\"/support/\">Support</a> bookmarked for license questions.",
+								"Ready to buy? Open <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>, follow <a href=\"/setup/\">Setup</a> after delivery, and keep <a href=\"/faq/\">FAQ</a> / <a href=\"/support/\">Support</a> bookmarked for license questions.",
 							],
 						},
 					],
@@ -172,7 +172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected ESP with Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"Arc Raiders Cheats ESP wallhack is maintained for Arc Raiders with rebuilds after Easy Anti-Cheat patches. Check the <a href=\"/updates/\">Updates page</a> before you queue — no cheat guarantees permanent undetected status.",
-								"Read <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/updates/\">Easy Anti-Cheat bypass maintenance guide</a> after major patches.",
+								"Cross-check our <a href=\"/blog/arc-raiders-patch-notes-guide/\">patch notes guide</a> after major patches, then confirm rebuild notes on <a href=\"/updates/\">Status page</a>.",
 								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/setup/\">Setup guide</a> and tune overlays before your first raid.",
 							],
 						},
@@ -180,7 +180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP next steps — Aimbot, pricing, and support",
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the firefight. Review <a href=\"/arc-raiders-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
-								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
+								"Compare monthly ($35) and lifetime ($150) on <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
 								"Still researching? The <a href=\"/arc-raiders-cheats/\">Arc Raiders cheats pillar</a> and <a href=\"/arc-raiders-cheats/\">2026 buyer guide</a> summarize the full stack.",
 							],
 						},
@@ -202,7 +202,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot tuned for Arc Raiders combat pace",
 							paragraphs: [
 								"Arc Raiders mixes long-range AR fights with close-quarters SMG pushes. Arc Raiders Cheats Aimbot includes smoothness, FOV, and sensitivity controls tuned for that pace — with hotkey toggles mid-match.",
-								"Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range scav fights.",
+								"Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range ARC drone fights.",
 								"Weapon balance and season rules change via <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.",
 							],
 						},
@@ -224,14 +224,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Easy Anti-Cheat maintenance for undetected Aimbot",
 							paragraphs: [
 								"Arc Raiders Cheats rebuilds Aimbot behavior when Easy Anti-Cheat or major Arc Raiders patches land. Maintenance notes appear on the <a href=\"/updates/\">Updates page</a> so you know when a new build is live.",
-								"Cross-check service health on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> and anti-cheat context on <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>, then follow our <a href=\"/updates/\">Easy Anti-Cheat maintenance guide</a> before queueing on patch day.",
+								"Cross-check service health on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>, then follow our <a href=\"/updates/\">Status page</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> before queueing on patch day.",
 								"Responsible settings matter — undetected status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.",
 							],
 						},
 						{
 							h2: "Buy Aimbot with ESP — pricing and setup",
 							paragraphs: [
-								"Every plan includes Aimbot plus ESP and radar. Compare options on <a href=\"/pricing/\">Pricing</a>, then activate with the <a href=\"/setup/\">Setup guide</a>.",
+								"Every plan includes Aimbot plus ESP and radar. Compare options on <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>, then activate with the <a href=\"/setup/\">Setup guide</a>.",
 								"Questions about delivery or profiles? Use <a href=\"/faq/\">FAQ</a> or email <a href=\"/support/\">Support</a> with your order ID.",
 								"Want the full control list first? Open <a href=\"/features/\">Features</a> before checkout.",
 							],
@@ -247,15 +247,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "Arc Raiders Cheats features — ESP, soft aim, and radar screenshots",
 					galleryTitle: "Arc Raiders Cheats feature gallery",
 					ctaPrimary: "Buy Arc Raiders Cheats",
-					ctaSecondary: "View pricing",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondary: "Get Access",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "ESP wallhack and visibility features",
 							paragraphs: [
 								"Enemy player ESP wallhack, boss and extract awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.",
 								"Team and enemy colour coding supports surface raids and extraction-runs. Deep-dive the <a href=\"/arc-raiders-esp/\">ESP page</a> and <a href=\"/arc-raiders-esp/\">wallhack guide</a> for category-level detail.",
-								"Map and loot systems evolve with <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> wipe and map updates — toggleable ESP categories keep overlays useful when POIs rotate.",
+								"Map and loot systems evolve with <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> season and map updates — toggleable ESP categories keep overlays useful when POIs rotate.",
 							],
 						},
 						{
@@ -271,7 +271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Easy Anti-Cheat maintenance rebuilds publish on the <a href=\"/updates/\">Updates page</a> after anti-cheat or game patches.",
 								"Monitor <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@arcraiderscheats.org.",
-								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/arc-raiders-cheats/\">how undetected maintenance works</a>.",
+								"Next step: compare plans on <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> or read <a href=\"/arc-raiders-cheats/\">how undetected maintenance works</a>.",
 							],
 						},
 					],
@@ -346,7 +346,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After Arc Raiders or Easy Anti-Cheat patches",
 							paragraphs: [
 								"When Embark Studios ships a major Arc Raiders update or Easy Anti-Cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/updates/\">Easy Anti-Cheat bypass page</a> and <a href=\"/arc-raiders-cheats/\">undetected guide</a>.",
+								"Our practical maintenance workflow is documented on <a href=\"/updates/\">Status page</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a>. Official game updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
@@ -376,7 +376,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What maintenance entries cover",
 							paragraphs: [
 								"Entries note Easy Anti-Cheat compatibility status, rebuilt ESP wallhack overlays, radar range fixes, Aimbot tuning after weapon balance changes, and digital delivery of new builds to active licenses.",
-								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/pricing/\">Pricing</a> if you need to renew.",
+								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> if you need to renew.",
 								"For context on why rebuilds happen, read the <a href=\"/updates/\">Easy Anti-Cheat bypass guide</a> and <a href=\"/arc-raiders-cheats/\">undetected Arc Raiders cheats</a> explainer.",
 							],
 						},
@@ -421,7 +421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Delivery, pricing, and support",
 							paragraphs: [
-								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"/pricing/\">Pricing</a>.",
+								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Contact support@arcraiderscheats.org or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
 								"Refund eligibility is covered in the <a href=\"/refund-policy/\">Refund Policy</a>.",
 							],
@@ -452,16 +452,17 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Response times and scope",
 							paragraphs: [
 								"Support requests are reviewed daily. Arc Raiders Cheats support covers delivery, billing, setup, and maintenance — not in-game coaching or account recovery for Embark Studios bans.",
-								"Account and game policy questions belong with Embark Studios. We can help with license delivery and product configuration only.",
+								"Account and game policy questions belong with Embark Studios (<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>). We can help with license delivery and product configuration only.",
 								"Check the Updates page and FAQ before opening a ticket — many post-patch questions are answered there.",
 							],
 						},
 						{
 							h2: "Self-service resources",
 							paragraphs: [
-								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href=\"/updates/\">Easy Anti-Cheat page</a>.",
+								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href=\"/eac-bypass/\">Easy Anti-Cheat page</a>.",
+								"Game updates and service health are published on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. For product rebuild timing, check <a href=\"/updates/\">Status page</a> first.",
 								"Email: support@arcraiderscheats.org",
-								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
+								"Ready to purchase or renew? Open <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
 						},
 					],
@@ -483,7 +484,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Undetected Arc Raiders Cheats means the package is actively maintained against Easy Anti-Cheat and major Arc Raiders patches — not that detection is impossible forever.",
 								"Rebuilds target ESP wallhack overlays, radar behavior, and Aimbot signatures after Easy Anti-Cheat security updates.",
-								"Anti-cheat technology is documented by <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>; Arc Raiders client updates ship through <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>. Undetected status is an ongoing process tied to those releases.",
+								"Undetected status is an ongoing process tied to <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> client updates. Follow <a href=\"/updates/\">Status page</a> and <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> on patch days.",
 							],
 						},
 						{
@@ -498,7 +499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Responsible use and next steps",
 							paragraphs: [
 								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
-								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
+								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"New buyers should also read <a href=\"/arc-raiders-cheats/\">Arc Raiders cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
@@ -537,7 +538,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP wallhack modules rebuild after Easy Anti-Cheat patches. Follow the <a href=\"/updates/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
 								"Learn the full maintenance story on <a href=\"/arc-raiders-cheats/\">undetected Arc Raiders cheats</a> and <a href=\"/updates/\">Easy Anti-Cheat bypass</a>.",
-								"Ready to buy? Compare <a href=\"/pricing/\">Pricing</a> or continue to the <a href=\"/arc-raiders-esp/\">ESP hack</a> landing for alternate search wording.",
+								"Ready to buy? Compare <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> or continue to the <a href=\"/arc-raiders-esp/\">ESP hack</a> landing for alternate search wording.",
 							],
 						},
 					],
@@ -573,7 +574,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Maintenance and licensing",
 							paragraphs: [
-								"Radar hack modules receive Easy Anti-Cheat maintenance rebuilds with the full Arc Raiders Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"/pricing/\">Pricing</a>.",
+								"Radar hack modules receive Easy Anti-Cheat maintenance rebuilds with the full Arc Raiders Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Check <a href=\"/updates/\">Updates</a> after major Arc Raiders patches before relying on previous radar configs.",
 								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/arc-raiders-cheats/\">undetected status</a>.",
 							],
@@ -595,7 +596,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Easy Anti-Cheat overview",
 							paragraphs: [
-								"Easy Anti-Cheat is Embark Studios' anti-cheat for Arc Raiders on PC (see <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>). Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds for undetected packages.",
+								"Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds. Follow <a href=\"/updates/\">Status page</a> and read our <a href=\"/blog/arc-raiders-cheats-complete-guide-2026/\">complete cheats guide</a> for the full workflow.",
 								"Arc Raiders Cheats monitors Easy Anti-Cheat patch notes and Arc Raiders seasonal updates from <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> to schedule module reviews.",
 								"“Easy Anti-Cheat bypass” in our wording means timely maintenance — not a permanent free pass around anti-cheat.",
 							],
@@ -613,7 +614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Easy Anti-Cheat bypass in practice means timely maintenance. Read the undetected guide, <a href=\"/faq/\">FAQ</a>, and Updates log before every session.",
 								"Contact <a href=\"/support/\">Support</a> if activation fails immediately after a posted rebuild.",
-								"Buying for the first time? Compare <a href=\"/pricing/\">Pricing</a> and finish <a href=\"/setup/\">Setup</a> only after Updates shows a live build.",
+								"Buying for the first time? Compare <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> and finish <a href=\"/setup/\">Setup</a> only after Updates shows a live build.",
 							],
 						},
 					],
@@ -635,7 +636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"2026 seasons bring new maps, weapons, and Easy Anti-Cheat updates. Arc Raiders Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.",
 								"Track official season messaging on <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>, then use our <a href=\"/updates/\">Updates log</a> for product rebuild timing.",
-								"Monthly ($35) and lifetime ($150) plans cover raid and extraction-run loops — see <a href=\"/pricing/\">Pricing</a>.",
+								"Monthly ($35) and lifetime ($150) plans cover raid and extraction-run loops — see <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 							],
 						},
 						{
@@ -688,7 +689,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Arc Raiders cheats vs single-feature tools",
 							paragraphs: [
 								"Standalone hacks often cover only wallhack or only aim assist. Arc Raiders Cheats maps the full raid loop: read enemy squads, track bosses and containers, spot flanks on radar, and tune Aimbot per weapon class.",
-								"Compare the <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"/pricing/\">Pricing</a> for monthly and lifetime licenses.",
+								"Compare the <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> for monthly and lifetime licenses.",
 								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/arc-raiders-cheats/\">mod menu</a>, <a href=\"/arc-raiders-aimbot/\">aimbot</a>, <a href=\"/arc-raiders-esp/\">ESP</a>.",
 							],
 						},
@@ -696,7 +697,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected Arc Raiders cheats with Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"Undetected Arc Raiders cheats require rebuilds after Easy Anti-Cheat and major Arc Raiders patches. Check Updates before queueing — maintenance notes confirm when a new build is live. No package can promise permanent undetected status.",
-								"See <a href=\"https://www.easyanticheat.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> for anti-cheat background and our <a href=\"/updates/\">Easy Anti-Cheat bypass guide</a> for the practical workflow. Pair with <a href=\"/arc-raiders-cheats/\">undetected Arc Raiders cheats</a> for status language buyers expect.",
+								"See <a href=\"/blog/arc-raiders-cheats-buyers-guide/\">buyers guide</a> before you compare shops, then pair with <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> and <a href=\"/updates/\">Status page</a> for the workflow buyers expect.",
 								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/setup/\">Setup</a> and keep <a href=\"/support/\">Support</a> ready with your order ID.",
 							],
 						},
@@ -726,7 +727,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What your download unlocks",
 							paragraphs: [
 								"Every Arc Raiders cheat download includes player ESP wallhack, loot and container markers, 2D radar overlays, Aimbot profiles, and in-client toggles for surface raids and extraction-runs.",
-								"Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href=\"/pricing/\">Pricing page</a>.",
+								"Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Feature detail: <a href=\"/features/\">Features</a>. Module pages: <a href=\"/arc-raiders-esp/\">ESP</a>, <a href=\"/arc-raiders-aimbot/\">Aimbot</a>.",
 							],
 						},
@@ -764,7 +765,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mod menu categories for surface raids and extraction-runs",
 							paragraphs: [
 								"Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and extract holds.",
-								"Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.game} seasons change fight distances and mobility.",
+								"Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when <a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> seasons change fight distances and mobility.",
 								"Soft tracking players should start with <a href=\"/arc-raiders-aimbot/\">soft aim</a> profiles before aggressive FOV.",
 							],
 						},
@@ -772,7 +773,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Maintained mod menu after Easy Anti-Cheat patches",
 							paragraphs: [
 								"Arc Raiders mod menu behavior is rebuilt when Easy Anti-Cheat or major Arc Raiders updates land. Follow the <a href=\"/updates/\">Updates page</a> and <a href=\"/updates/\">Easy Anti-Cheat bypass guide</a> before queueing on patch days.",
-								"Checkout with instant digital delivery for monthly and lifetime licenses — see <a href=\"/pricing/\">Pricing</a>.",
+								"Checkout with instant digital delivery for monthly and lifetime licenses — see <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Need install steps? Open <a href=\"/setup/\">Setup</a> after your license email arrives.",
 							],
 						},
@@ -810,7 +811,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected soft aim with Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"Aimbot modules rebuild after Easy Anti-Cheat patches. Check the <a href=\"/updates/\">Updates page</a> before queueing — responsible settings and maintenance awareness matter for undetected play.",
-								"Monthly and lifetime licenses checkout with digital delivery on Windows PC — <a href=\"/pricing/\">Pricing</a>.",
+								"Monthly and lifetime licenses checkout with digital delivery on Windows PC — <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Activation help: <a href=\"/setup/\">Setup</a> · status questions: <a href=\"/support/\">Support</a>.",
 							],
 						},
@@ -825,8 +826,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "Arc Raiders Cheats overview for ARC Raiders on PC",
 					galleryTitle: "Best Arc Raiders cheats gallery",
 					ctaPrimary: "Buy Arc Raiders Cheats",
-					ctaSecondary: "Compare pricing",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondary: "Get Access",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "What makes the Arc Raiders cheats in 2026",
@@ -886,7 +887,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected aimbot hack maintenance",
 							paragraphs: [
 								"Aimbot hack signatures rebuild after Easy Anti-Cheat updates. Follow the <a href=\"/updates/\">Updates page</a> and <a href=\"/updates/\">Easy Anti-Cheat bypass guide</a> before queueing after patch days.",
-								"Checkout with instant digital delivery for Windows 10 and 11 — <a href=\"/pricing/\">Pricing</a>.",
+								"Checkout with instant digital delivery for Windows 10 and 11 — <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Pair with <a href=\"/arc-raiders-esp/\">ESP</a> for the full information + assist loop.",
 							],
 						},
@@ -924,7 +925,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected ESP hack with Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"ESP hack modules rebuild after Easy Anti-Cheat and Arc Raiders patches. Check the <a href=\"/updates/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/arc-raiders-radar-hack/\">radar hack</a> for flank reads.",
-								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
+								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/arc-raiders-cheats/\">undetected guide</a>.",
 							],
 						},
@@ -961,7 +962,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Buying Arc Raiders Cheats for the right reasons",
 							paragraphs: [
-								"If you need undetected ESP wallhack, radar hack, and Aimbot for Arc Raiders on Windows PC, compare <a href=\"/pricing/\">Pricing</a> and read the <a href=\"/setup/\">Setup guide</a> before checkout.",
+								"If you need undetected ESP wallhack, radar hack, and Aimbot for Arc Raiders on Windows PC, compare <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a> and read the <a href=\"/setup/\">Setup guide</a> before checkout.",
 								"Check the <a href=\"/updates/\">Updates page</a> after Easy Anti-Cheat patches — maintenance rebuilds publish for active licenses.",
 								"Questions? <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a> cover delivery and configuration — not cosmetic unlocks.",
 							],
@@ -1024,6 +1025,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Digital delivery and eligibility",
 							paragraphs: [
 								"Arc Raiders Cheats licenses deliver digitally after payment confirmation. Because access begins immediately, refunds are limited to cases outlined below.",
+								"<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a> is a separate product from our cheat license. Refund requests should reference our digital license, not Embark Studios account issues.",
 								"Submit refund requests within 24 hours of purchase with your order ID and reason.",
 							],
 						},
@@ -1038,7 +1040,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "How to request a refund",
 							paragraphs: [
 								"Email support@arcraiderscheats.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
-								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/pricing/\">Pricing</a>.",
+								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders\" rel=\"noopener noreferrer\">Store</a>.",
 							],
 						},
 					],
@@ -1065,8 +1067,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
-								"Using cheats in Arc Raiders may violate Embark Studios terms and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/arc-raiders-cheats/\">undetected status</a>.",
+								"Using cheats in Arc Raiders may violate Embark Studios terms (<a href=\"https://www.arcraiders.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ARC Raiders</a>) and result in account penalties. Arc Raiders Cheats provides maintenance but does not guarantee undetected status or account safety.",
+								"Read <a href=\"/undetected-arc-raiders-cheats/\">undetected guide</a> for honest risk expectations. You assume all risk. We are not liable for bans, data loss, or damages arising from product use.",
 							],
 						},
 						{
@@ -1262,7 +1264,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Comprar Arc Raiders Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Funciones",
@@ -1787,7 +1789,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Comprar Arc Raiders Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Mejores trucos Arc Raiders",
@@ -2205,7 +2207,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Acheter Arc Raiders Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Fonctions",
@@ -2730,7 +2732,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Acheter Arc Raiders Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Meilleures triches Arc Raiders",
@@ -3148,7 +3150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Arc Raiders Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Features",
@@ -3673,7 +3675,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Arc Raiders Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Beste Arc Raiders Cheats",
@@ -4091,7 +4093,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Comprar Arc Raiders Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Recursos",
@@ -4616,7 +4618,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Comprar Arc Raiders Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Melhores cheats Arc Raiders",
@@ -5034,7 +5036,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Acquista Arc Raiders Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Funzioni",
@@ -5559,7 +5561,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Acquista Arc Raiders Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Migliori cheat Arc Raiders",
@@ -5977,7 +5979,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Arc Raiders Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Functies",
@@ -6502,7 +6504,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Arc Raiders Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Beste Arc Raiders Cheats",
@@ -6920,7 +6922,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Kup Arc Raiders Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Funkcje",
@@ -7445,7 +7447,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Kup Arc Raiders Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Najlepsze cheaty Arc Raiders",
@@ -7863,7 +7865,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Купить Arc Raiders Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Функции",
@@ -8388,7 +8390,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Купить Arc Raiders Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Лучшие читы Arc Raiders",
@@ -8806,7 +8808,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Arc Raiders Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Özellikler",
@@ -9331,7 +9333,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Arc Raiders Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "En İyi Arc Raiders Hileleri",
@@ -9749,7 +9751,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "اشترِ Arc Raiders Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "الميزات",
@@ -10274,7 +10276,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "اشترِ Arc Raiders Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "أفضل غش Arc Raiders",
@@ -10692,7 +10694,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Arc Raiders Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "機能",
@@ -11217,7 +11219,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Arc Raiders Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "最強Arc Raidersチート",
@@ -11635,7 +11637,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Arc Raiders Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "기능",
@@ -12160,7 +12162,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Arc Raiders Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "최고의 Arc Raiders 치트",
@@ -12578,7 +12580,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "购买 Arc Raiders Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "功能",
@@ -13103,7 +13105,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "购买 Arc Raiders Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "最佳Arc Raiders作弊",
@@ -13521,7 +13523,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Arc Raiders Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "फ़ीचर्स",
@@ -14046,7 +14048,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Arc Raiders Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "सर्वश्रेष्ठ Arc Raiders Cheats",
@@ -14464,7 +14466,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Beli Arc Raiders Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Fitur",
@@ -14989,7 +14991,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Beli Arc Raiders Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Cheat Arc Raiders terbaik",
@@ -15407,7 +15409,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "ซื้อ Arc Raiders Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "ฟีเจอร์",
@@ -15932,7 +15934,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Arc Raiders Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Cheat Arc Raiders ที่ดีที่สุด",
@@ -16350,7 +16352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Mua Arc Raiders Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Tính năng",
@@ -16875,7 +16877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Mua Arc Raiders Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Cheat Arc Raiders tốt nhất",
@@ -17293,7 +17295,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Купити Arc Raiders Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Функції",
@@ -17818,7 +17820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Купити Arc Raiders Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Найкращі чіти Arc Raiders",
@@ -18236,7 +18238,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Koupit Arc Raiders Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Funkce",
@@ -18761,7 +18763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Koupit Arc Raiders Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Nejlepší Arc Raiders cheaty",
@@ -19179,7 +19181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Cumpără Arc Raiders Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Funcții",
@@ -19704,7 +19706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Cumpără Arc Raiders Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Cele mai bune cheats Arc Raiders",
@@ -20122,7 +20124,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-aimbot-view.webp",
 					ctaPrimary: "Köp Arc Raiders Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Funktioner",
@@ -20647,7 +20649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/arc-raiders-cheats-esp.webp",
 					ctaPrimary: "Köp Arc Raiders Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/pricing/",
+					ctaSecondaryHref: "https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders",
 					sections: [
 						{
 							h2: "Bästa Arc Raiders Cheats",

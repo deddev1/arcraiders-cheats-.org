@@ -12,6 +12,14 @@ export {
 } from './site-core';
 
 import { fillBrandTokens } from './brand';
+import { externalGuideHtml, topicGuideHtml, stripHtmlForSchema } from './external-links';
+
+const EXT_GAME = externalGuideHtml();
+const TOPIC_STATUS = topicGuideHtml('status');
+const TOPIC_UNDETECTED = topicGuideHtml('undetected');
+const TOPIC_PATCH = topicGuideHtml('patchNotes');
+
+export { stripHtmlForSchema };
 
 function faq<T extends { question: string; answer: string; seoTitle: string; seoDescription: string }>(item: T): T {
 	return {
@@ -98,7 +106,9 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is {brand}?',
 		answer:
-			'{brand} is an undetected {primaryKeyword} package for ARC Raiders on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with {antiCheat} maintenance and setup support.',
+			'{brand} is an undetected {primaryKeyword} package for {game} on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with {antiCheat} maintenance and setup support. {game} is published by Embark Studios (' +
+			EXT_GAME +
+			').',
 		slug: 'what-are-arc-raiders-cheats',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
@@ -107,7 +117,11 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'Are {primaryKeyword} undetected in 2026?',
 		answer:
-			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Check the Status page before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
+			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Read our ' +
+			TOPIC_PATCH +
+			' after major updates, then check the ' +
+			TOPIC_STATUS +
+			' before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
 		slug: 'are-arc-raiders-cheats-undetected-in-2026',
 		seoTitle: 'Are {brand} Undetected in 2026? | FAQ',
 		seoDescription:
@@ -143,7 +157,13 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'Where do I check updates after an ARC Raiders or {antiCheat} patch?',
 		answer:
-			'Maintenance notes are posted on the Status page when an ARC Raiders or {antiCheat} update affects the package. That is the fastest place to confirm whether a new {brand} build is live.',
+			'Maintenance notes are posted on the ' +
+			TOPIC_STATUS +
+			' when a {game} or {antiCheat} update affects the package. Cross-check official patch notes on ' +
+			EXT_GAME +
+			' and our ' +
+			TOPIC_PATCH +
+			' on patch days.',
 		slug: 'where-to-check-updates',
 		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
 		seoDescription:
@@ -183,7 +203,11 @@ export const seoFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'How does {antiCheat} affect {primaryKeyword}?',
 		answer:
-			'{antiCheat} monitors {game} on Windows PC. {brand} posts maintenance notes after patches that may need a rebuild. Check Status before you raid.',
+			'{antiCheat} monitors {game} on Windows PC. {brand} posts maintenance notes after patches that may need a rebuild. Check ' +
+			TOPIC_STATUS +
+			' and our ' +
+			TOPIC_UNDETECTED +
+			' before you raid.',
 		slug: 'eac-anti-cheat-and-arc-raiders-cheats',
 		seoTitle: 'How {antiCheat} Affects {brand} | FAQ',
 		seoDescription:
