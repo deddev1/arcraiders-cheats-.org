@@ -52,6 +52,11 @@ const articleSchema = {
 		'@id': `${articleUrl}#webpage`,
 	},
 	isPartOf: { '@id': `${siteConfig.url}/#website` },
+	about: {
+		'@type': 'VideoGame',
+		name: 'ARC Raiders',
+		url: 'https://www.arcraiders.com/',
+	},
 	keywords: t.keywords.join(', '),
 	articleSection: post.category,
 };

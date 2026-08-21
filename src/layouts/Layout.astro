@@ -93,6 +93,11 @@ const graph: Record<string, unknown>[] = [
 		description: siteDescription,
 		inLanguage: schemaLanguages,
 		publisher: { '@id': `${siteRootUrl}#organization` },
+		about: {
+			'@type': 'VideoGame',
+			name: siteConfig.game,
+			url: 'https://www.arcraiders.com/',
+		},
 		logo: {
 			'@type': 'ImageObject',
 			url: logoURL,
@@ -107,6 +112,11 @@ const graph: Record<string, unknown>[] = [
 		url: siteRootUrl,
 		email: siteConfig.supportEmail,
 		areaServed: worldwidePlace,
+		about: {
+			'@type': 'VideoGame',
+			name: siteConfig.game,
+			url: 'https://www.arcraiders.com/',
+		},
 		logo: {
 			'@type': 'ImageObject',
 			url: logoURL,

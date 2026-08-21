@@ -92,7 +92,7 @@ export const enPages = {
 			section(
 				'Aimbot tuned for Arc Raiders combat pace',
 				'Arc Raiders mixes long-range AR fights with close-quarters SMG pushes. Arc Raiders Cheats Aimbot includes smoothness, FOV, and sensitivity controls tuned for that pace — with hotkey toggles mid-match.',
-				'Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range scav fights.',
+				'Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range ARC drone fights.',
 				`Weapon balance and season rules change via ${EXT.game}. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.`,
 			),
 			section(
@@ -138,7 +138,7 @@ export const enPages = {
 				'ESP wallhack and visibility features',
 				'Enemy player ESP wallhack, boss and extract awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.',
 				'Team and enemy colour coding supports surface raids and extraction-runs. Deep-dive the <a href="/arc-raiders-esp/">ESP page</a> and <a href="/arc-raiders-esp/">wallhack guide</a> for category-level detail.',
-				`Map and loot systems evolve with ${EXT.game} wipe and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
+				`Map and loot systems evolve with ${EXT.game} season and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
 			),
 			section(
 				'Radar hack and Aimbot controls',

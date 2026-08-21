@@ -46,7 +46,7 @@ const sources = [
 		id: 'patch-notes-breakdown',
 		imageKey: 'squadFight',
 		published: '2026-07-29',
-		updated: '2026-08-13',
+		updated: '2026-08-21',
 		category: 'Patch Notes',
 		featured: false,
 		slug: 'arc-raiders-patch-notes-guide',
@@ -103,7 +103,7 @@ const sources = [
 			'Sensible advice on ARC Raiders cosmetics and skin leaks — what to buy in the Raider shop, what to skip, and how looks affect raid readability.',
 		h1: 'Arc Raiders Cosmetics and Skin Leaks: Buy Smart, Not Impulsive',
 		intro:
-			'Leaks make every wipe feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.',
+			'Leaks make every season feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play ARC Raiders — or just looks cool in a screenshot.',
 		keywords: [
 			'arc-raiders skins',
 			'arc-raiders cosmetics',
@@ -116,7 +116,7 @@ const sources = [
 			{
 				h2: 'Why most impulse cosmetic buys feel bad after a week',
 				paragraphs: [
-					`Shop rotations and official apparel come from ${EXT.game}. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a wipe, then realize they still need meds, ammo, and a backup kit.`,
+					`Shop rotations and official apparel come from ${EXT.game}. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a season reset, then realize they still need meds, ammo, and a backup kit.`,
 					'Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Rust Belt or in dark underground corridors. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.',
 				],
 			},
@@ -198,9 +198,9 @@ const sources = [
 		intro:
 			'Passive ARC drone players wait behind a bush while two Raider teams erase each other, then spray into the mess and die. Strong extraction runs manufacture a short advantage, grab what matters, and extract before the map collapses on you.',
 		keywords: [
-			'arc-raiders scav run',
-			'scav strategies',
-			'arc raiders scav',
+			'arc-raiders extraction run',
+			'extraction strategies',
+			'arc raiders extraction',
 			'arc-raiders extracts',
 			'arc-raiders esp',
 		],
@@ -217,7 +217,7 @@ const sources = [
 				h2: 'Five aggressive habits that still work',
 				paragraphs: [
 					'Pre-aim common corners on underground zones and industrial loot zones so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.',
-					`Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with ${EXT.game} wipes; the geometry of first-shot advantage does not.`,
+					`Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near extracts when players are silhouetted and greedy. Mode rules evolve with ${EXT.game} seasons; the geometry of first-shot advantage does not.`,
 				],
 			},
 			{
@@ -291,8 +291,8 @@ const sources = [
 			'Winning in ARC Raiders starts before the first gunfight. Random looting gets you killed with a pistol and no meds. These route habits consistently convert a spawn into a kit you can actually fight with.',
 		keywords: [
 			'arc-raiders loot routes',
-			'customs loot path',
-			'interchange loot',
+			'rust belt loot path',
+			'speranza loot routes',
 			'arc-raiders spawn guide',
 			'arc-raiders esp',
 		],
@@ -309,7 +309,7 @@ const sources = [
 				h2: 'Three route archetypes that keep printing gear',
 				paragraphs: [
 					'Contested edge POI: land outer loot, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.',
-					`Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with ${EXT.game} wipes — keep the geometry, not just the landmark brand.`,
+					`Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with ${EXT.game} seasons — keep the geometry, not just the landmark brand.`,
 				],
 			},
 			{
@@ -361,7 +361,7 @@ const sources = [
 			{
 				h2: 'Audio cues that win extracts',
 				paragraphs: [
-					'Footsteps, magazine reloads, and extract buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a scav AI shuffle and a player Raider push.',
+					'Footsteps, magazine reloads, and extract buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between an ARC drone patrol shuffle and a player Raider push.',
 					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/arc-raiders-loot-routes-guide/">loot routes</a> article so you know where those sounds are coming from.',
 				],
 			},
@@ -524,12 +524,12 @@ const sources = [
 			'What changed for arc raiders cheats in 2026 — season cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Arc Raiders Cheats adapted for ARC Raiders.',
 		h1: 'What Changed for Arc Raiders Cheats in 2026',
 		intro:
-			'2026 did not invent cheating in ARC Raiders — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious arc raiders cheats packages need to operate.',
+			'2026 did not invent cheating in ARC Raiders — it raised the bar for maintenance. Season updates, Easy Anti-Cheat pushes, and map changes punish stale builds. Here is what changed in how serious arc raiders cheats packages need to operate.',
 		keywords: [
 			'arc raiders cheats 2026',
 			'arc raiders cheats 2026',
 			'Easy Anti-Cheat 2026',
-			'arc-raiders wipe',
+			'arc-raiders season',
 			'arc raiders cheats updates',
 		],
 		imageAlt: '2026 updates for Arc Raiders Cheats on ARC Raiders',

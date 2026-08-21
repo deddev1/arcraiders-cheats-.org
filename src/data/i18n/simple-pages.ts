@@ -129,7 +129,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Before you buy',
 				paragraphs: [
 					'Read the refund policy if you need it. Contact support with your order ID for help.',
-					'{game} seasons and wipe timing are announced on ' + EXT.game + '. We rebuild ESP, radar, and aimbot after patches — check ' + TOPIC.status + ' before patch-day queues.',
+					'{game} seasons and update timing are announced on ' + EXT.game + '. We rebuild ESP, radar, and aimbot after patches — check ' + TOPIC.status + ' before patch-day queues.',
 				],
 				list: [
 					'<a href="/refund-policy/">Refund policy</a>',
@@ -244,7 +244,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'When to use it',
 				paragraphs: [
-					'Clear underground zones, industrial zones, and scav runs without flooding the screen.',
+					'Clear underground zones, industrial zones, and extraction runs without flooding the screen.',
 					'Pair with the <a href="/arc-raiders-radar-hack/">radar overlay</a> for flanks outside your FOV and the <a href="/arc-raiders-aimbot/">Aimbot page</a> when you push.',
 				],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
