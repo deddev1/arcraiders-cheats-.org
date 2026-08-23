@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from './Navbar.astro';
 import SiteFooter from './SiteFooter.astro';
-import { blogUi, defaultLocale, type LocaleCode } from '../data/i18n/locales';
+import { blogUi, type LocaleCode } from '../data/i18n/locales';
 import {
 	absoluteBlogUrl,
 	getAllPostsForLocale,
@@ -22,12 +22,12 @@ const { locale, post } = Astro.props;
 const ui = blogUi[locale];
 const t = post.translation;
 const homeHref = getLocalizedPath('home', locale);
-const blogHref = getBlogBasePath(defaultLocale);
-const related = getAllPostsForLocale(defaultLocale)
+const blogHref = getBlogBasePath(locale);
+const related = getAllPostsForLocale(locale)
 	.filter((p) => p.id !== post.id)
 	.slice(0, 3);
 
-const articleUrl = absoluteBlogUrl(defaultLocale, post.translations[defaultLocale]?.slug ?? t.slug);
+const articleUrl = absoluteBlogUrl(locale, post.translation.slug);
 const hreflangAlternates = getBlogPostHreflangAlternates(post, locale);
 const articleSchema = {
 	'@type': 'Article',

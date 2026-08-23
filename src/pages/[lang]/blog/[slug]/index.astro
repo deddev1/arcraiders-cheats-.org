@@ -1,9 +1,6 @@
 ---
-/**
- * Locale blog posts are English clones — 301 to the EN slug.
- * Avoids fake hreflang clusters and duplicate content.
- */
-import { blogPosts, findPostBySlug, getBlogPostPath } from '../../../../data/blog/helpers';
+import BlogPostPage from '../../../../components/BlogPostPage.astro';
+import { blogPosts, getPostBySlug } from '../../../../data/blog/helpers';
 import { defaultLocale, isLocaleCode, localeCodes, type LocaleCode } from '../../../../data/i18n/locales';
 
 export function getStaticPaths() {
@@ -15,9 +12,8 @@ export function getStaticPaths() {
 	for (const locale of localeCodes) {
 		if (locale === defaultLocale) continue;
 		for (const post of blogPosts) {
-			const slug = post.translations[locale].slug;
 			paths.push({
-				params: { lang: locale, slug },
+				params: { lang: locale, slug: post.translations[locale].slug },
 				props: { locale },
 			});
 		}
@@ -33,11 +29,10 @@ if (!isLocaleCode(Astro.params.lang ?? '')) {
 	return Astro.redirect('/blog/', 301);
 }
 
-const post = findPostBySlug(slug, locale) ?? findPostBySlug(slug);
-const enSlug = post?.translations[defaultLocale].slug;
-if (!enSlug) {
+const post = getPostBySlug(locale, slug);
+if (!post) {
 	return Astro.redirect('/blog/', 301);
 }
-
-return Astro.redirect(getBlogPostPath(defaultLocale, enSlug), 301);
 ---
+
+<BlogPostPage locale={locale} post={post} />

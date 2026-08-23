@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { localizedHref } from '../../lib/localized-href';
+import type { LocaleCode } from '../../data/i18n/locales';
 
 type FaqItem = { slug: string; question: string; answer: string; href: string };
 
@@ -8,7 +10,7 @@ type Props = {
 	faqs: FaqItem[];
 };
 
-function HomeSeoInner({ faqs }: Props) {
+function HomeSeoInner({ faqs, locale }: Props & { locale: LocaleCode }) {
 	const { t } = useTranslation();
 
 	const categories = [
@@ -74,7 +76,7 @@ function HomeSeoInner({ faqs }: Props) {
 						<ul>
 							{cat.links.map((link) => (
 								<li key={link.href + link.labelKey}>
-									<a href={link.href}>
+									<a href={localizedHref(link.href, locale)}>
 										<span>{t(link.labelKey)}</span>
 										<span className="home-seo__cat-arrow" aria-hidden="true" />
 									</a>
@@ -92,7 +94,7 @@ function HomeSeoInner({ faqs }: Props) {
 						<h3 id="home-faq-title">{t('homeSeo.faqTitle')}</h3>
 						<p className="home-seo__faq-lede">{t('homeSeo.faqLede')}</p>
 					</div>
-					<a className="home-seo__faq-link" href="/faq/">
+					<a className="home-seo__faq-link" href={localizedHref('/faq/', locale)}>
 						{t('homeSeo.allAnswers')}
 					</a>
 				</header>
@@ -118,9 +120,10 @@ function HomeSeoInner({ faqs }: Props) {
 }
 
 export default function HomeSeoApp(props: Props) {
+	const locale = props.locale as LocaleCode;
 	return (
 		<I18nProvider locale={props.locale}>
-			<HomeSeoInner {...props} />
+			<HomeSeoInner {...props} locale={locale} />
 		</I18nProvider>
 	);
 }
