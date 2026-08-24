@@ -1,4 +1,4 @@
-import { brand, fillBrandTokens, seoDescription, seoTitle } from './brand';
+import { brand, CHECKOUT_URL, fillBrandTokens, seoDescription, seoTitle } from './brand';
 
 /**
  * Title clamp lives here — NOT in brand.ts.
@@ -10,7 +10,7 @@ export function seoPageTitle(template: string): string {
 	return text.length <= 60 ? text : `${text.slice(0, 57).trim()}…`;
 }
 
-export { brand, fillBrandTokens, seoDescription, seoTitle };
+export { brand, CHECKOUT_URL, fillBrandTokens, seoDescription, seoTitle };
 
 const copyDefaults = {
 	tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',

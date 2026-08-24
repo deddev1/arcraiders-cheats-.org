@@ -3,6 +3,11 @@
  * Employees: use Brand Studio at http://localhost:4321/brand-studio/ during `astro dev`.
  * Do not scatter brand strings across components.
  */
+
+/** Zadeyo checkout — all Buy / Get Access buttons use this via siteConfig.checkoutUrl */
+export const CHECKOUT_URL =
+	'https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders' as const;
+
 export const brand = {
 	/** Public brand name (nav, footer, H1 hero, schema Organization) */
 	name: 'Arc Raiders Cheats',
@@ -13,7 +18,7 @@ export const brand = {
 	locale: 'en',
 	market: 'Worldwide',
 	supportEmail: 'support@arcraiderscheats.org',
-	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Farc-raiders',
+	checkoutUrl: CHECKOUT_URL,
 
 	/** Game this template instance targets */
 	game: 'ARC Raiders',
