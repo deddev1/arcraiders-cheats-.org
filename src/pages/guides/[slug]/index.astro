@@ -1,0 +1,15 @@
+---
+import ExternalArticlePage from '../../../components/ExternalArticlePage.astro';
+import { externalArticles, resolveExternalArticle } from '../../../data/external-articles/helpers';
+
+export function getStaticPaths() {
+	return externalArticles.map((article) => ({
+		params: { slug: article.slug },
+		props: { article: resolveExternalArticle(article) },
+	}));
+}
+
+const { article } = Astro.props;
+---
+
+<ExternalArticlePage article={article} />

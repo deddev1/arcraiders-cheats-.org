@@ -1,0 +1,214 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from './Navbar.astro';
+import SiteFooter from './SiteFooter.astro';
+import { getAllPostsForLocale } from '../data/blog/helpers';
+import { getAllExternalArticles } from '../data/external-articles/helpers';
+import { defaultLocale } from '../data/i18n/locales';
+import { seoPageTitle, siteConfig } from '../data/site';
+import { seoTitle } from '../data/brand';
+
+const locale = defaultLocale;
+const blogGuides = getAllPostsForLocale(locale);
+const externalGuides = getAllExternalArticles();
+const canonicalPath = '/guides/';
+const pageTitle = seoPageTitle(seoTitle('Guides'));
+const pageDescription =
+	'Game guides for ARC Raiders and more — raid tips, loadouts, and strategy articles for Windows PC players.';
+---
+
+<Layout
+	title={pageTitle}
+	description={pageDescription}
+	canonicalPath={canonicalPath}
+	locale={locale}
+	ogImage={siteConfig.defaultOgImage}
+	ogImageAlt="Game guides"
+	breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Guides' }]}
+>
+	<Navbar locale={locale} />
+	<main class="guides">
+		<div class="shell guides__inner">
+			<header class="guides__hero">
+				<p class="guides__eyebrow">Guides</p>
+				<h1>Guides</h1>
+				<p class="guides__intro">Strategy articles and game guides — starting with our own ARC Raiders intel, then more titles below.</p>
+			</header>
+
+			<section class="guides__section" aria-labelledby="site-guides-title">
+				<h2 id="site-guides-title">ARC Raiders guides</h2>
+				<p class="guides__section-intro">Tips, loadouts, and raid intel from our blog.</p>
+				<div class="guides__list">
+					{
+						blogGuides.map((post) => (
+							<article class="guides__card">
+								<a href={post.canonicalPath}>
+									<img
+										src={post.imageSrc}
+										alt={post.translation.imageAlt}
+										width="480"
+										height="270"
+										loading="lazy"
+										decoding="async"
+									/>
+									<span class="guides__cat">{post.category}</span>
+									<h3>{post.translation.title}</h3>
+									<p>{post.translation.intro}</p>
+									<span class="guides__meta">Updated {post.updated}</span>
+								</a>
+							</article>
+						))
+					}
+				</div>
+			</section>
+
+			<section class="guides__section guides__section--more" aria-labelledby="more-guides-title">
+				<h2 id="more-guides-title">More game guides</h2>
+				<p class="guides__section-intro">Scroll for guides on other games — Fortnite, Tarkov, Valorant, and more.</p>
+				<div class="guides__list">
+					{
+						externalGuides.map((guide) => (
+							<article class="guides__card">
+								<a href={guide.canonicalPath}>
+									<img
+										src={guide.imageSrc}
+										alt={guide.imageAlt}
+										width="480"
+										height="270"
+										loading="lazy"
+										decoding="async"
+									/>
+									<span class="guides__cat">{guide.game}</span>
+									<h3>{guide.title}</h3>
+									<p>{guide.intro}</p>
+									<span class="guides__meta">{guide.category}</span>
+								</a>
+							</article>
+						))
+					}
+				</div>
+			</section>
+		</div>
+	</main>
+	<SiteFooter locale={locale} />
+</Layout>
+
+<style>
+	.guides {
+		padding: 2.5rem 0 4rem;
+	}
+
+	.guides__inner {
+		display: grid;
+		gap: 0;
+	}
+
+	.guides__hero {
+		margin-bottom: 2.5rem;
+	}
+
+	.guides__eyebrow {
+		margin: 0 0 0.5rem;
+		color: var(--magenta-soft);
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		font-size: 0.75rem;
+	}
+
+	.guides__hero h1 {
+		margin: 0 0 0.75rem;
+		font-size: clamp(2.2rem, 5vw, 3.4rem);
+		line-height: 1.05;
+	}
+
+	.guides__intro {
+		max-width: 42rem;
+		color: rgba(255, 255, 255, 0.72);
+		font-size: 1.05rem;
+	}
+
+	.guides__section {
+		margin-bottom: 3rem;
+	}
+
+	.guides__section--more {
+		padding-top: 2.5rem;
+		border-top: 1px solid var(--line);
+	}
+
+	.guides__section h2 {
+		margin: 0 0 0.5rem;
+		font-size: 1.5rem;
+	}
+
+	.guides__section-intro {
+		margin: 0 0 1.5rem;
+		color: rgba(255, 255, 255, 0.65);
+		font-size: 0.95rem;
+	}
+
+	.guides__list {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+		gap: 1.25rem;
+	}
+
+	.guides__card a {
+		display: block;
+		height: 100%;
+		padding: 0.85rem;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		background: var(--bg-panel);
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.guides__card img {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		object-fit: cover;
+		margin-bottom: 0.75rem;
+	}
+
+	.guides__card h3 {
+		margin: 0.35rem 0 0.5rem;
+		font-size: 1.05rem;
+		line-height: 1.25;
+	}
+
+	.guides__card p {
+		margin: 0;
+		color: rgba(255, 255, 255, 0.68);
+		font-size: 0.92rem;
+	}
+
+	.guides__cat {
+		display: inline-block;
+		color: var(--magenta-soft);
+		font-size: 0.72rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+	}
+
+	.guides__meta {
+		display: inline-block;
+		margin-top: 0.75rem;
+		color: rgba(255, 255, 255, 0.55);
+		font-size: 0.8rem;
+		font-weight: 600;
+	}
+
+	@media (max-width: 760px) {
+		.guides__list {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+
+		.guides__card a {
+			padding: 0.75rem;
+		}
+	}
+</style>
