@@ -1,6 +1,7 @@
 export {
 	brand,
 	blogLabel,
+	CHECKOUT_URL,
 	fillBrandTokens,
 	homeSeo,
 	seoDescription,
