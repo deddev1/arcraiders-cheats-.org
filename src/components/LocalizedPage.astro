@@ -58,7 +58,7 @@ const pageUrl = new URL(getLocalizedPath(pageId, locale), siteConfig.url).href;
 const priceValidUntil = '2027-12-31';
 
 const faqSchema =
-	pageId === 'faq' && locale === 'en'
+	pageId === 'faq'
 		? {
 				'@type': 'FAQPage',
 				'@id': `${pageUrl}#faq`,
@@ -120,13 +120,13 @@ const ctaSecondaryHref = ctaSecondaryPath
 
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];
-const showStorePlans = pageId === 'pricing' && locale === 'en';
+const showStorePlans = pageId === 'pricing';
 
 const eyebrowByPage: Partial<Record<PageId, string>> = {
 	features: ui.nav.features,
 	pricing: ui.nav.pricing,
 	updates: ui.nav.updates,
-	hacks: locale === 'en' ? t('nav.preview') : ui.nav.hacks,
+	hacks: t('nav.preview'),
 	'arc-raiders-esp': ui.nav.esp,
 	'arc-raiders-aimbot': ui.nav.aimbot,
 	radar: 'Radar',
@@ -198,7 +198,7 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	}
 
 	{
-		pageId === 'faq' && locale === 'en' && (
+		pageId === 'faq' && (
 			<section class="card-panel faq-index">
 				<h2>{t('common.allQuestions')}</h2>
 				<p>{t('common.openAnyQuestion')}</p>

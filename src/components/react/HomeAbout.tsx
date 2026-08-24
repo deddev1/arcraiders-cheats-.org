@@ -1,11 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { localizedHref } from '../../lib/localized-href';
+import type { LocaleCode } from '../../data/i18n/locales';
 
 type Props = {
 	locale: string;
 };
 
-function HomeAboutInner() {
+function HomeAboutInner({ locale }: { locale: LocaleCode }) {
 	const { t } = useTranslation();
 
 	return (
@@ -15,13 +17,13 @@ function HomeAboutInner() {
 				<p>{t('home.aboutP1')}</p>
 				<p>
 					{t('home.aboutP2Before')}{' '}
-					<a href="/arc-raiders-cheats/">{t('home.aboutPillar')}</a>
+					<a href={localizedHref('/arc-raiders-cheats/', locale)}>{t('home.aboutPillar')}</a>
 					{t('home.aboutP2Mid')}
-					<a href="/arc-raiders-esp/">{t('home.aboutEsp')}</a>
+					<a href={localizedHref('/arc-raiders-esp/', locale)}>{t('home.aboutEsp')}</a>
 					{t('home.aboutP2Mid')}
-					<a href="/arc-raiders-aimbot/">{t('home.aboutAimbot')}</a>
+					<a href={localizedHref('/arc-raiders-aimbot/', locale)}>{t('home.aboutAimbot')}</a>
 					{t('home.aboutP2Or')}
-					<a href="/updates/">{t('home.aboutUndetected')}</a>
+					<a href={localizedHref('/updates/', locale)}>{t('home.aboutUndetected')}</a>
 					{t('home.aboutP2After')}
 				</p>
 			</div>
@@ -30,9 +32,10 @@ function HomeAboutInner() {
 }
 
 export default function HomeAboutApp(props: Props) {
+	const locale = props.locale as LocaleCode;
 	return (
 		<I18nProvider locale={props.locale}>
-			<HomeAboutInner />
+			<HomeAboutInner locale={locale} />
 		</I18nProvider>
 	);
 }

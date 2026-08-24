@@ -97,7 +97,7 @@ const extraGraph: Record<string, unknown>[] = [
 	locale={locale}
 	pageId="home"
 	breadcrumbs={[{ label: ui.nav.home }]}
-	extraGraph={locale === 'en' ? extraGraph : extraGraph.filter((n) => n['@type'] !== 'FAQPage')}
+	extraGraph={extraGraph}
 	lcpImage={heroPreloadSrc}
 	lcpImageSrcSet={heroSrcSet}
 	lcpImageSizes={heroSizes}
@@ -107,29 +107,8 @@ const extraGraph: Record<string, unknown>[] = [
 		<Hero locale={locale} />
 		<HomeReviews locale={locale} />
 		<div class="home__seo">
-			{
-				locale === 'en' ? (
-					<>
-						<HomeAboutApp client:visible locale={locale} />
-						<HomeSeo locale={locale} />
-					</>
-				) : (
-					<div class="shell home__prose">
-						<h2>{home.h1}</h2>
-						<p>{home.intro}</p>
-						{
-							home.sections.map((section) => (
-								<div>
-									<h3>{section.h2}</h3>
-									{section.paragraphs.map((p) => (
-										<p set:html={p} />
-									))}
-								</div>
-							))
-						}
-					</div>
-				)
-			}
+			<HomeAboutApp client:visible locale={locale} />
+			<HomeSeo locale={locale} />
 		</div>
 		<SiteFooter locale={locale} />
 	</main>
