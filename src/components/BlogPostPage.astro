@@ -11,6 +11,7 @@ import {
 } from '../data/blog/helpers';
 import type { ResolvedBlogPost } from '../data/blog/types';
 import { blogLabel, siteConfig } from '../data/site';
+import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../data/external-links';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 
 interface Props {
@@ -132,6 +133,30 @@ function pageTitle(headline: string): string {
 			}
 		</article>
 
+		<section class="post__resources" aria-label="Related guides">
+			<h2>Related guides</h2>
+			<p>More on Arc Raiders cheats, gameplay topics, and official game updates:</p>
+			<ul class="post__resources-list">
+				<li>
+					<a href={EXTERNAL_GUIDES.arcRaiders.href} target="_blank" rel="noopener noreferrer">
+						{EXTERNAL_GUIDES.arcRaiders.label} — official site
+					</a>
+				</li>
+				<li>
+					<a href={localizeInternalHref(TOPIC_GUIDES.cheats.href, locale)}>{TOPIC_GUIDES.cheats.label}</a>
+				</li>
+				<li>
+					<a href={localizeInternalHref(TOPIC_GUIDES.esp.href, locale)}>{TOPIC_GUIDES.esp.label}</a>
+				</li>
+				<li>
+					<a href={localizeInternalHref(TOPIC_GUIDES.status.href, locale)}>{TOPIC_GUIDES.status.label}</a>
+				</li>
+				<li>
+					<a href={localizeInternalHref(TOPIC_GUIDES.patchNotes.href, locale)}>{TOPIC_GUIDES.patchNotes.label}</a>
+				</li>
+			</ul>
+		</section>
+
 		{
 			related.length > 0 && (
 				<section class="post__related" aria-label={ui.relatedPosts}>
@@ -220,6 +245,38 @@ function pageTitle(headline: string): string {
 		margin-top: 3rem;
 		padding-top: 1.5rem;
 		border-top: 1px solid rgba(255, 255, 255, 0.1);
+	}
+	.post__resources {
+		margin-top: 2rem;
+		padding: 1.25rem 1.35rem;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		border-radius: var(--radius-md, 0.75rem);
+		background: color-mix(in srgb, var(--bg-panel) 92%, transparent);
+	}
+	.post__resources h2 {
+		margin: 0 0 0.5rem;
+		font-size: 1.05rem;
+	}
+	.post__resources p {
+		margin: 0 0 0.85rem;
+		color: rgba(255, 255, 255, 0.72);
+		font-size: 0.95rem;
+		line-height: 1.6;
+	}
+	.post__resources-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.45rem;
+	}
+	.post__resources-list a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+	}
+	.post__resources-list a:hover {
+		text-decoration: underline;
 	}
 	.post__related h2 {
 		margin: 0 0 0.75rem;

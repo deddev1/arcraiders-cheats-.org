@@ -115,11 +115,16 @@
   "footer": {
     "explore": "Explore",
     "help": "Help & legal",
+    "officialGame": "Official ARC Raiders",
+    "espGuide": "ESP guide",
     "tagline": "Undetected Arc Raiders cheats for PC.\nESP, wallhack, radar & aimbot."
   },
   "home": {
     "aboutTitle": "Undetected arc raiders cheats for ARC Raiders",
     "aboutP1": "Arc Raiders Cheats is an undetected ARC Raiders cheat package for Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with Easy Anti-Cheat rebuilds after game patches. Compare plans on Store, then check Status before you raid.",
+    "aboutSourcesBefore": "For official seasons, patch notes, and launcher health, check",
+    "aboutSourcesMid": "and our",
+    "aboutSourcesAfter": " on this site.",
     "aboutP2Before": "Start with the",
     "aboutPillar": "arc raiders cheats pillar",
     "aboutEsp": "ESP guide",
@@ -132,7 +137,7 @@
   "homeSeo": {
     "eyebrow": "Guides",
     "title": "Browse by category",
-    "lede": "Short links for features, status, store, and help.",
+    "lede": "Short links for features, status, official game sources, store, and help.",
     "catFeatures": "Features",
     "catFeaturesHint": "What is included",
     "catStatus": "Status",
@@ -147,7 +152,9 @@
     "linkRadar": "Radar",
     "linkLiveStatus": "Live status",
     "linkUndetected": "Undetected",
-    "linkEasy Anti-Cheat": "Easy Anti-Cheat",
+    "linkOfficialGame": "Official ARC Raiders",
+    "linkPatchNotes": "Patch notes guide",
+    "linkEspGuide": "ESP guide",
     "linkSetup": "Setup",
     "linkPlans": "Plans",
     "linkReviews": "Reviews",

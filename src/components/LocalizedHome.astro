@@ -9,7 +9,7 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { getLocaleContent, getPageContent } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
-import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats, stripHtmlForSchema } from '../data/site';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
 
@@ -77,7 +77,7 @@ const extraGraph: Record<string, unknown>[] = [
 			url: `${siteConfig.url}/faq/${item.slug}/`,
 			acceptedAnswer: {
 				'@type': 'Answer',
-				text: item.answer,
+				text: stripHtmlForSchema(item.answer),
 			},
 		})),
 	},

@@ -3,6 +3,7 @@ import SiteFooterApp from './react/SiteFooter';
 import { getLocalizedPath } from '../data/i18n/routing';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { getBlogBasePath } from '../data/blog/helpers';
+import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../data/external-links';
 import { siteConfig } from '../data/site';
 
 interface Props {
@@ -25,6 +26,8 @@ const explore = [
 const help = [
 	{ labelKey: 'nav.setup', href: getLocalizedPath('setup', locale) },
 	{ labelKey: 'nav.updates', href: getLocalizedPath('updates', locale) },
+	{ labelKey: 'footer.officialGame', href: EXTERNAL_GUIDES.arcRaiders.href, external: true },
+	{ labelKey: 'footer.espGuide', href: TOPIC_GUIDES.esp.href },
 	{ labelKey: 'common.buyerReviewsNav', href: '/reviews/' },
 	{ labelKey: 'common.support', href: getLocalizedPath('support', locale) },
 	{ labelKey: 'common.privacy', href: getLocalizedPath('privacy', locale) },

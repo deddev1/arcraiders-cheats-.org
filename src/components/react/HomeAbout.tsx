@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { EXTERNAL_GUIDES, TOPIC_GUIDES } from '../../data/external-links';
 
 type Props = {
 	locale: string;
@@ -13,6 +14,15 @@ function HomeAboutInner() {
 			<div className="home__prose-highlight">
 				<h2 id="home-about-title">{t('home.aboutTitle')}</h2>
 				<p>{t('home.aboutP1')}</p>
+				<p>
+					{t('home.aboutSourcesBefore')}{' '}
+					<a href={EXTERNAL_GUIDES.arcRaiders.href} target="_blank" rel="noopener noreferrer">
+						{EXTERNAL_GUIDES.arcRaiders.label}
+					</a>
+					{t('home.aboutSourcesMid')}{' '}
+					<a href={TOPIC_GUIDES.patchNotes.href}>{TOPIC_GUIDES.patchNotes.label}</a>
+					{t('home.aboutSourcesAfter')}
+				</p>
 				<p>
 					{t('home.aboutP2Before')}{' '}
 					<a href="/arc-raiders-cheats/">{t('home.aboutPillar')}</a>

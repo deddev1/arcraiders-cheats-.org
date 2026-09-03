@@ -5,6 +5,7 @@ import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
 import { productInfo, seoFaqs, siteConfig, customerReviewStats } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
+import { stripHtmlForSchema } from '../data/external-links';
 import { arcRaidersImages } from '../data/arc-raiders';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
@@ -66,7 +67,7 @@ const faqSchema =
 					'@type': 'Question',
 					name: item.question,
 					url: absoluteFaqUrl(item.slug),
-					acceptedAnswer: { '@type': 'Answer', text: item.answer },
+					acceptedAnswer: { '@type': 'Answer', text: stripHtmlForSchema(item.answer) },
 				})),
 			}
 		: null;
@@ -113,7 +114,11 @@ const storeSchema =
 const extraGraph = [faqSchema, storeSchema].filter(Boolean) as Record<string, unknown>[];
 
 const ctaSecondaryHref = ctaSecondaryPath
-	? localizeInternalHref(ctaSecondaryPath, locale)
+	? ctaSecondaryPath === '/pricing/' || ctaSecondaryPath.startsWith('http')
+		? ctaSecondaryPath.startsWith('http')
+			? ctaSecondaryPath
+			: siteConfig.checkoutUrl
+		: localizeInternalHref(ctaSecondaryPath, locale)
 	: ctaSecondaryLabel
 		? siteConfig.checkoutUrl
 		: getLocalizedPath('features', locale);
